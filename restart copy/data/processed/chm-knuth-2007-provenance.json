@@ -1,0 +1,12 @@
+{
+  "source_id": "chm-knuth-2007",
+  "url": "https://archive.computerhistory.org/resources/text/Oral_History/Knuth_Don_1/Knuth_Don.oral_history.2007.102658053_all.pdf",
+  "format": "pdf",
+  "selection_method": "curated_catalog",
+  "raw_file": "data/raw/chm-knuth-2007.pdf",
+  "sha256": "b672378d228e31d716aaaa909ce7f9c16db0897b473aae2d008fd1125db14d5b",
+  "processed_at": "2026-10-04T02:59:40.754496+00:00",
+  "empty_pdf_pages": [],
+  "extraction_options": {},
+  "warnings": []
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "source_id": "ieee-liskov-1991",
+    "jev_noul": 0.98,
+    "percent_true": 98.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/ieee-liskov-1991.mfd"
+  },
+  {
+    "source_id": "chm-knuth-2007",
+    "jev_noul": 0.96,
+    "percent_true": 96.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/chm-knuth-2007.mfd"
+  },
+  {
+    "source_id": "chm-hamilton-2017",
+    "jev_noul": 0.94,
+    "percent_true": 94.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/chm-hamilton-2017.mfd"
+  },
+  {
+    "source_id": "chm-reddy-2021",
+    "jev_noul": 0.86,
+    "percent_true": 86.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/chm-reddy-2021.mfd"
+  },
+  {
+    "source_id": "w3c-berners-lee-proposal-1989",
+    "jev_noul": 0.94,
+    "percent_true": 94.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/w3c-berners-lee-proposal-1989.mfd"
+  },
+  {
+    "source_id": "stanford-mccarthy-lisp-1960",
+    "jev_noul": 0.84,
+    "percent_true": 84.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage explain the intended role of the author's proposed computing formalism?",
+    "status": "complete",
+    "record": "output/medford/stanford-mccarthy-lisp-1960.mfd"
+  },
+  {
+    "source_id": "utexas-dijkstra-humble-1972",
+    "jev_noul": 0.96,
+    "percent_true": 96.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage identify a programming abstraction that the author considers historically important?",
+    "status": "complete",
+    "record": "output/medford/utexas-dijkstra-humble-1972.mfd"
+  }
+]

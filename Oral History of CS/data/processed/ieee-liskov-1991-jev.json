@@ -1,0 +1,20 @@
+{
+  "source_id": "ieee-liskov-1991",
+  "speaker": "Barbara Liskov",
+  "quote": "The work that I did in the 1970s, starting at around about 1973, was concerned with programming language support for a concept called data abstraction. This work was concerned with how to make programmers more productive, and how to help them produce programs that were more robust and easier to modify.",
+  "question": "Does this passage describe the speaker's own contribution to computing?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 362,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.98
+      }
+    }
+  }
+}

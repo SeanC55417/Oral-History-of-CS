@@ -1,0 +1,32 @@
+@MEDFORD Oral History of Donald Knuth
+@MEDFORD-Version 2.0
+
+@Contributor Donald Knuth
+@Contributor-Role Interviewee
+
+@Contributor Edward Feigenbaum
+@Contributor-Role Interviewer
+
+@Date 2007-03-14
+@Date-Note Interview conducted
+
+@Date 2007-03-21
+@Date-Note Interview conducted
+
+@Data_Ref Oral History of Donald Knuth
+@Data_Ref-Type pdf
+@Data_Ref-URI https://archive.computerhistory.org/resources/text/Oral_History/Knuth_Don_1/Knuth_Don.oral_history.2007.102658053_all.pdf
+@Data_Ref-Note Source ID: chm-knuth-2007; kind: interview transcript
+
+@Passage P1
+@Passage-SourceID chm-knuth-2007
+@Passage-Speaker Donald Knuth
+@Passage-Section MIX and the compiler book
+@Passage-Text One of the things I knew I had to have in the book was an artificial machine, because I'm writing a compiler book but machines are changing faster than I can write books. I have to have a machine that I'm totally in control of. I invented this machine called MIX, which was typical of the computers of 1962. In 1963 I wrote a simulator for MIX so that I could write sample programs for it, and I taught a class at Caltech on how to write programs in assembly language for this hypothetical computer
+@Passage-Context We were talking about sort of the.. You talked about the embryo of The Art of Computing. The compiler book morphed into The Art of Computer Programming, which became a seven-volume plan.
+@Passage-ReviewStatus accepted
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.96
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 16

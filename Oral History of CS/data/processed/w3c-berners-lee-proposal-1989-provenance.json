@@ -1,0 +1,18 @@
+{
+  "source_id": "w3c-berners-lee-proposal-1989",
+  "url": "https://www.w3.org/History/1989/proposal.html",
+  "format": "html",
+  "selection_method": "curated_catalog",
+  "raw_file": "data/raw/w3c-berners-lee-proposal-1989.html",
+  "sha256": "d74149d3e170535ab9f33d35c94a9f92812e4b31bf89b4611bc75bcf730c64ac",
+  "processed_at": "2026-10-04T03:59:36.973345+00:00",
+  "empty_pdf_pages": [],
+  "retrieval": {
+    "retrieved_at": "2026-10-04T02:39:36.785736+00:00",
+    "requested_url": "https://www.w3.org/History/1989/proposal.html",
+    "resolved_url": "https://www.w3.org/History/1989/proposal.html",
+    "content_type": "text/html; charset=iso-8859-1"
+  },
+  "extraction_options": {},
+  "warnings": []
+}

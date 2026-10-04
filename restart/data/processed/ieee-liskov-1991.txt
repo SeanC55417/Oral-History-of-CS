@@ -1,0 +1,202 @@
+Contents
+1
+About Barbara Liskov
+2
+About the Interview
+3
+Copyright Statement
+4
+Interview
+4.1
+Funding from NSF and DARPA
+4.2
+Data Abstraction and CLU
+4.3
+Distributed Computing and Argus
+4.4
+Mercury, Thor and Harp Projects
+4.5
+Parallel Projects by Other Researchers
+4.6
+Strengths & Weaknesses of NSF Grants
+About Barbara Liskov
+A pioneer in object-oriented programming,
+Dr. Barbara H. Liskov
+is perhaps best known for her seminal work on data abstraction, a fundamental tool for organizing programs. Her research in the early 1970s led to the design and implementation of CLU, the first programming language to support data abstraction. Since 1975, every important programming language, including Java, has borrowed ideas from CLU. Dr. Liskov's other extraordinary contributions include the Venus operating system, the Argus distributed programming language and system and the Thor system for robust replicated storage of persistent objects. Argus was a groundbreaking high-level programming language used to support implementation of distributed programs that run on computers connected by a network, such as the Internet.
+Dr. Liskov is the Ford Professor of Engineering at the Massachusetts Institute of Technology in Cambridge, Massachusetts, where she has taught since 1972. In the 1960s, Professor Liskov held positions at the
+MITRE Corporation
+in Bedford, Massachusetts, Harvard University in Cambridge, Massachusetts, and Stanford University in Palo Alto, California.
+The interview concentrates on NSF funding for her projects at MIT. She compares NSF to DARPA funding; describes the CLU, Argus, Mercury, Thor and Harp projects; and explores the strengths and weaknesses of NSF funding.
+About the Interview
+BARBARA LISKOV: An Interview Conducted by William Aspray, IEEE History Center, August 6, 1991
+Interview #127 for the IEEE History Center, The Institute of Electrical and Electronics Engineers, Inc.
+Copyright Statement
+This manuscript is being made available for research purposes only. All literary rights in the manuscript, including the right to publish, are reserved to the IEEE History Center. No part of the manuscript may be quoted for publication without the written permission of the Director of IEEE History Center.
+Request for permission to quote for publication should be addressed to the IEEE History Center Oral History Program, IEEE History Center, 445 Hoes Lane, Piscataway, NJ 08854 USA or
+[email protected]
+. It should include identification of the specific passages to be quoted, anticipated use of the passages, and identification of the user.
+It is recommended that this oral history be cited as follows:
+Barbara Liskov, an oral history conducted in 1991 by William Aspray, IEEE History Center, Piscataway, NJ, USA.
+Interview
+INTERVIEW: Barbara Liskov
+INTERVIEWER: William Aspray
+DATE: August 6, 1991
+PLACE: Telephone Interview
+Funding from NSF and DARPA
+Aspray:
+Could you begin by telling me what support you have had from the National Science Foundation in the computing area?
+Liskov:
+I have had NSF grants since around 1973, I think, or possibly early 1974. These grants have supported the research I have done, which has changed focus over the years. Are you looking for a description of what the research was like?
+Aspray:
+Yes, I will be.
+Liskov:
+What do you want now?
+Aspray:
+Why don’t you give me an overview first of how frequently you have had grants, and just the general area, and then we will come back and talk in detail about what they were.
+Liskov:
+The grants that I have had have usually been 3-year grants. I have always applied for the new one more or less at the appropriate time in order to get funding when the old one ran out. I think there have been a couple of periods when there has been a hiatus between the end of one and the beginning of another. Sometimes it has been my fault because I did not get the grant in soon enough, and sometimes it has been the NSF’s fault. They were not fast enough to get the feedback from the referees or something, some kind of foot dragging was going on.
+Aspray:
+Sometimes getting referees’ comments back is difficult?
+Liskov:
+Difficult, right.
+Aspray:
+Has most of your support over the years been from the NSF as opposed to from the Defense Advanced Research Projects Administration, the National Institute of Health, or the Atomic Energy Commission?
+Liskov:
+No. Most of my support has actually been from DARPA, because I do systems work and the NSF does not provide enough funding to support that kind of work. The NSF support has always been for a fraction of what I do, maybe 20 percent. I never sort of thought about it in those terms.
+Aspray:
+Is there any way of differentiating between what is supported by DARPA and what is supported by NSF?
+Liskov:
+The NSF has never cared, and so I have never really made much of a point of trying to distinguish that. Their attitude, as I understand it, has been you put in a certain amount of money and you get a lot more out of it because there is other funding involved.
+Aspray:
+And the funding that you receive from DARPA, are those proposals that you are a PI on, are they laboratory grants, or are there other PIs?
+Liskov:
+They used to be laboratory grants, in which my part was a couple of pages describing what I was doing. DARPA has changed now, and so now they are actually grants that have my name on as a PI.
+Aspray:
+Let’s talk, then, for a few minutes about exactly what you have been supported for, whether it is DARPA or NSF support, since it is hard to distinguish between the two.
+Liskov:
+DARPA has changed, but in the past they were very interested in theoretical work. I would often take my more theoretical work and say that was the NSF stuff. But that was done more because of DARPA, and it was more what I did not put in the DARPA grant than what I claimed for the NSF.
+Data Abstraction and CLU
+Aspray:
+That is entirely in keeping with what we hear from lots of other people. Could you tell me something about the research you have done? Give me some sense of what projects you worked on, what were the problems?
+Liskov:
+The work that I did in the 1970s, starting at around about 1973, was concerned with programming language support for a concept called data abstraction. This work was concerned with how to make programmers more productive, and how to help them produce programs that were more robust and easier to modify. I worked on that program from a programming language perspective. I designed and implemented a new programming language that contained this concept as a key feature. In addition to the work on programming languages, I also did quite a bit of work on how you describe the modules of a program in an implementation-independent way, so that you can substitute one implementation for another without causing the rest of the program to misbehave. I did some work on how you verify a reason about the correctness of a module, and I was also very interested in the programming methodology itself, how you go about figuring out how to design a system and sort of carry it through to conclusion. That work went on up to around 1979. I had support from both DARPA and the NSF to do that work for that period.
+Aspray:
+Why did it end at that point?
+Liskov:
+Because the language was completed, and I decided it was time to go on and look at new stuff.
+Aspray:
+What was the final product?
+Liskov:
+The final product was a language called CLU. Ultimately, I wrote a book about the programming methodology, and there were a whole bunch of papers describing how you do specifications and so forth,
+Aspray:
+What was the title of the book?
+Liskov:
+The book is called
+Abstraction and Specification in Program Development
+.
+Aspray:
+In your opinion did this work end satisfactorily? Was the programming language a success?
+Liskov:
+The programming language was a success in the terms that I had thought about it at the time. I sort of thought about it as a research vehicle that was developed primarily to firm up ideas and get them out so other people could see them. In retrospect, I probably should have spent some time after 1979 on it, but it would not really have been research work. It would have been more technology transfer. Sort of making the language, the implementation, a little bit more transportable and trying to find an industrial partner who would have taken over the language so that perhaps it could have spread more than it did. It is still used at MIT and it has been used at other places, but it has never caught on as a language that people really use. I think that is too bad, and I think that if I had spent a couple of years at the end of the 1970s in providing more of a production level compiler and pushing it, that might have made a difference. Now, at that time I do not think that I was aware that there was any funding for that kind of work; maybe there was and maybe there was not. If I had done that, of course, I could not have gone on to the next research project that I did. I could not have my cake and eat it too.
+Aspray:
+Do you think that today there is that kind of support, if you wanted it?
+Liskov:
+It appears to me that there is, although, I have never tried to get it myself. Now DARPA has become more and more applied, and so the problem with DARPA today is that there is too much of a push, I think, on products. You can get a grant from NSF to finish up this kind of work at the end of a project, though whether it would be sufficient is another matter. The kind of work I am talking about probably requires programming staff, and takes a lot of effort with very little in the way of any sort of research advances.
+Aspray:
+How would you evaluate the impact that this had on the field overall? I mean you have talked about the fact that it was only picked up and used in a small number of institutions. But the ideas in it, showing a direction in the field, was it influential in those respects?
+Liskov:
+Yes, it was extremely influential.
+Aspray:
+Can you give me some information that elaborates on that?
+Liskov:
+The idea of data abstraction sort of caught fire and today there is a large community of people who think about how to organize programs in that way. So it has gone out into the field and become one of the building blocks that everybody thinks of when they build programs. In some sense it has become so diffuse, it is one of the basic tools of the trade.
+Distributed Computing and Argus
+Aspray:
+Can you now take your story on beyond that, past 1979?
+Liskov:
+Audio File
+MP3 Audio
+(
+127_-_liskov_-_clip_1.mp3
+)
+One of the things I did when I was developing CLU was, in order to make progress on the stuff I was working on, I sort of narrowed the problem. One of the things I decided not to look at was concurrency. In 1979, when the work on CLU was finishing and I was thinking about what to do next, I decided to work on distributed computing. Distributed computing at that point was an area that was just in its infancy. There were people who sort of knew how to put the hardware together to make a distributed system, but they did not really understand very much about how to build the software. So I decided to look at the question of "How do you build software on a distributed network?"
+Ultimately, that ended up being a language project too. I designed and implemented a second language called Argus, whose goal was to make it easy for people to write distributed implementations of various applications. Earlier I mentioned the concurrency work and how that was left out of CLU. Concurrency is a very important part of what goes on in distributed systems, since there are many computers and obviously you want to have them doing things in parallel. In some sense I picked that work up again in Argus, but in a different form than I would have done it in CLU, because in CLU I would have been thinking only about a single machine.
+Aspray:
+Okay.
+Liskov:
+The other issue that arises in a distributed system is the question of [inaudible word] tolerance, because once you have a program that is dependent on many pieces of equipment, if it is built in a simple-minded way where the failure of any single component could make the program fail, it will not be a very satisfactory product. So a big concern when you build a distributed system is "How can I write a program that will continue to be able to provide service even when components are not functioning?" And how do I build a program that, if it is running a computation that is a failure — in the middle of that computation how do I guarantee that the system ends up in a reasonable state? These are the kinds of problems that I was dealing with in developing this programming language.
+Aspray:
+To what degree did this succeed?
+Liskov:
+Well, again, I have on my hands a language that has not been widely used. But, again, the ideas have certainly spread throughout the community. One of the ideas in Argus is that you build programs out of things called atomic transactions, and these are computations that either succeed, in which case everything that they were supposed to have done happened and happened indivisibly with respect to every other computation, or if it is not possible to complete them then they fail completely and it is as if they never ran at all. Now atomic transactions are not an idea that I invented. I took them out of work in database systems. But in Argus I put them into a more general framework. And there has been a lot of controversy in the field about whether every distributed system ought to be built out of atomic transactions or whether you can use something that is not quite so—I am not sure what the right word is—something a little weaker. But the point is, because of the work on Argus, this notion of atomic transactions as a way of building distributed systems became something that people think about in that region, in that area of programming.
+Aspray:
+I understand that the idea transcends the language in this case, but where did the language get picked up and used?
+Liskov:
+The language has really only been used at the Massachusetts Institute of Technology, because this language is really not very easily transportable, and it has to run on equipment someplace else that is pretty much the same as what we have at MIT. There have been very few people who have had exactly that equipment. We have had a few guests who have come in and used our system from elsewhere, but we have not actually sent it out, unlike CLU, where we sent it off to some 200 sites. With Argus, it is a much more difficult problem to transport it, because, unfortunately, the way we implement it depends on the actual hardware, but even if we had solved that problem, it also depends on the operating system and the network, and there are a lot of dependencies that we never got out of there. So it makes it very difficult to transport.
+Aspray:
+Is this work that is still continuing?
+Liskov:
+No. Argus is still running, and we are using it, for example, in some current work that I am doing, but, again, I stopped that work when I felt the language was complete and we had completed our investigation, and moved on to other stuff.
+Aspray:
+What date was that approximately?
+Liskov:
+Let’s see. That was probably around 1988, something like that.
+Mercury, Thor and Harp Projects
+Aspray:
+What have you moved to since then?
+Liskov:
+Another thing that I worked on at the time I was working on Argus, and this work has continued, is replication algorithms. I have been very interested in the question of how can I build fault tolerant systems by keeping multiple copies of information at different places in a network, and, in particular, how do I do that efficiently and what kind of cost do you have to pay for replication? And then, in addition to that, I worked on a project called Mercury, which was concerned with heterogeneous computing in a distributed network. How can I build a program with components that are written in different programming languages running on different machines and so on? At the present time I am working on a project that is a sort of heterogeneous object oriented database. In some sense Mercury addresses one part of a sharing problem in a heterogeneous distributed world. How can one program use another program even though that second program is written in a different programming language? And the project I’m working on now, which is called Thor, is concerned with the other sharing problems: How can I have programs in a distributed heterogeneous world sharing objects in sort of a harmonious way?
+Aspray:
+What is the status of these several projects that you have been working on?
+Liskov:
+On Mercury we have done two prototypes, and the second prototype is completed. There are some staff people that have been working on that. And we are working on various sorts of technology transfer options. This was work that was primarily supported by DARPA. I would say in this period the NSF supported some of the Argus work and they supported the replication work, but I do not think I ever wrote up anything about Mercury in any of my proposals to them. But DARPA is putting more and more pressure on technology transfer and cooperation among the DARPA communities and so forth. So there has been quite a lot of work by the people working on the Mercury project to interact with other people in the DARPA community, to try and get either Mercury itself or the ideas of Mercury into some other parts of the DARPA research community.
+Aspray:
+Okay.
+Liskov:
+I have not been personally working on Mercury. I supervised that work for the last couple of years. I have been focusing on the work on Thor. And Thor is still in the early stages, so that is a very ambitious project where I have spent the first year just thinking about what it is that Thor might do. Then the second year I have been working on implementation strategies, and right now we are doing a very simple sort of pre-prototype implementation using Argus. But we are planning to do a full-fledged prototype using probably C. And at the same time that I have been working on Thor, I have also been working on a replicated file system. This is a project called Harp.
+One of the motivations for undertaking it was simply that we had in mind a particular replication algorithm for Thor. I did not mention that Thor, the objects that you store in Thor are supposed to be highly available, namely, with high probability; whenever you want to use an object in Thor you should be able to use it. To support that we have to replicate the storage for objects. I undertook the work on Harp partly to evaluate the replication algorithm we had in mind to see whether it would be an adequate one to serve as a basis for Thor. But that project has taken a life of its own, and I imagine that the implementation will be complete sometime around the end of the year. And we are trying to sort of hand that over to some industrial partner so that it will actually become a tool that people can use.
+Aspray:
+Have you had any chief partners, other faculty members for example, who have worked with you on any of these projects you have described to me?
+Liskov:
+Professor William Wile, who is at MIT. I mostly worked in a mode with students, so I have typically worked with my students. I have always had, or since around 1979, a couple of staff people working with me also. Professor Wile was one of my students and did a lot of work on the Argus project as a student. Then, when he came on board the faculty, he collaborated on the work on Mercury.
+Parallel Projects by Other Researchers
+Aspray:
+To what degree were the projects you were working on being worked on perhaps in different ways at other centers of research around the country?
+Liskov:
+The projects were not being worked on. There certainly was concurrent work on similar ideas going on elsewhere. For example, when I was working on CLU, there were people, such as Mary Shaw, at Carnegie Mellon working on a similar project called Alphard. I do not know if there was anybody working on a project like Argus at the time that I started doing that work, but that work spawned other work that came along in the future. For instance, the Camelot project at Carnegie, where Al Spector was looking at how to support distributed computations at a somewhat lower level. In other words, rather than providing a programming language, let’s provide some primitives in a system. This was strongly influenced by the work on Argus.
+Later than that there was work at Carnegie on the Avalon project, which was really taking the ideas of Argus and putting them into C++. In addition there was the work of Greg Andrews on — I forget the name of his programming language — a kind of a lower level language, but again it was heavily influenced by Argus. I think the work on the Eden project the University of Washington also. What I am saying is, I do not think there was anything that came along just when Argus did, but if you look at the work that developed in the distributed systems community, what you see are projects that came along a little later than Argus where Argus was clearly a strong influence in what went on in those projects, even though they were not working on exactly the same problem.
+Strengths & Weaknesses of NSF Grants
+Aspray:
+Let me turn to a rather different kind of question. Talk about your relationship with NSF. Have they in any sense played a proactive role in your own career or the careers you see of other people in terms of pushing research topics or enabling research programs?
+Liskov:
+They certainly have not in my case. At MIT we have always had adequate funding, so it is not clear that the NSF has had that much of an impact on us. In fact, many of my colleagues do not even bother to get NSF grants. So I cannot answer that question from firsthand experience. My impression is that the NSF equipment program has had an impact at other universities. One of the nice things about the NSF is that they have not tried to dictate the areas that people ought to work on. As opposed to DARPA, where they sort of have their ideas. I think that is actually both a strength and a weakness, on both sides. One of the problems with NSF, and one of the strengths, is the peer review system, which has a way of, on the one hand, weeding out not very good ideas. But it also has a tendency to emphasize the status quo.
+Aspray:
+Yes.
+Liskov:
+DARPA is a little more open to doing something strange that maybe your peers do not quite get the idea of. But on the other hand it certainly is an in-group that perpetuates itself.
+Aspray:
+Given that there has been adequate funding at MIT, why did you bother to go to the NSF for support?
+Liskov:
+It always seemed to me that it was the right thing to do. Maybe it was partly for independence, since the DARPA grants in the early days were always big blanket grants and the NSF money was clearly my own. But I also think it does represent a sort of a stamp of approval by the community, which the DARPA grants never did. The fact that these proposals went through peer review and were funded. I am not sure that I understand my motive. I think it was more just that it seemed like the thing to do.
+Aspray:
+Are there other comments that you would like to make? Observations about the NSF and its role? Perhaps in your own work or in others that you have seen.
+Liskov:
+I do feel that there is a problem at the NSF now. I think there always has been a problem and it is getting worse. Their grants are not big enough. This is not something that hits me terribly hard, but it does hit people who do not have the DARPA funding that I do and who want to do systems work. For example, to do systems work you need professional staff. At one time I was actually able to get part funding for professional staff from the NSF, but I am not able to do that anymore.
+Aspray:
+They just rule that out?
+Liskov:
+They certainly have not allowed it in my grants. Now I think that the program officer I worked with, Tom Keenan, who is not there anymore, his attitude was, “Well, you are at MIT, you really do not need this funding.” To some extent I think that was justified. But on the other hand, the stories that I hear from people confirm my belief that what you can get out of the NSF is one or maybe two graduate students, if you are extremely lucky, and maybe some summer funding for yourself, and that is about it. And you certainly cannot do systems work on that kind of support. It is not even clear you can really do theory work on that kind of support. So what I see is a kind of proliferation of grant writing, where people have to go to multiple funding agencies in order to support their work, and a lot of energy goes into writing grants and so forth. I think that is not very productive. A lot of time is being wasted in this activity.
+Aspray:
+Do you see any positive signs of, positive effect of the NSF in terms of fellowship support or conference support, that sort of thing? Has it made any difference to you?
+Liskov:
+No, it has not.
+Aspray:
+Anything else?
+Liskov:
+I just want to reiterate that my position is a little bit unusual, and so people who work at universities that have not got this DARPA funding to fall back on may have quite a different story to tell.
+Aspray:
+Certainly. We understand that well, and that is why we are talking to people at 15 different institutions around the country. But, well thank you very much. This has been most helpful to us.
+Liskov:
+Okay.
+Aspray:
+Bye now.

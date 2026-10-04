@@ -1,0 +1,20 @@
+{
+  "source_id": "utexas-dijkstra-humble-1972",
+  "speaker": "Edsger W. Dijkstra",
+  "quote": "We should recognise the closed subroutines as one of the greatest software inventions;",
+  "question": "Does this passage identify a programming abstraction that the author considers historically important?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 319,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.96
+      }
+    }
+  }
+}

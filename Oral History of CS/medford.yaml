@@ -1,0 +1,8 @@
+Passage-Text:
+  type: text
+
+Passage-Speaker:
+  type: text
+
+Passage-Context:
+  type: text

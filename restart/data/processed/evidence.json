@@ -1,0 +1,57 @@
+[
+  {
+    "source_id": "ieee-liskov-1991",
+    "speaker": "Barbara Liskov",
+    "quote": "The work that I did in the 1970s, starting at around about 1973, was concerned with programming language support for a concept called data abstraction. This work was concerned with how to make programmers more productive, and how to help them produce programs that were more robust and easier to modify.",
+    "section": "Data Abstraction and CLU",
+    "context": "Could you tell me something about the research you have done? Give me some sense of what projects you worked on, what were the problems?"
+  },
+  {
+    "source_id": "chm-knuth-2007",
+    "speaker": "Donald Knuth",
+    "quote": "One of the things I knew I had to have in the book was an artificial machine, because I'm writing a compiler book but machines are changing faster than I can write books. I have to have a machine that I'm totally in control of. I invented this machine called MIX, which was typical of the computers of 1962. In 1963 I wrote a simulator for MIX so that I could write sample programs for it, and I taught a class at Caltech on how to write programs in assembly language for this hypothetical computer",
+    "section": "MIX and the compiler book",
+    "context": "We were talking about sort of the.. You talked about the embryo of The Art of Computing. The compiler book morphed into The Art of Computer Programming, which became a seven-volume plan.",
+    "pdf_page": 16
+  },
+  {
+    "source_id": "chm-hamilton-2017",
+    "speaker": "Margaret Hamilton",
+    "quote": "the priority displays, that was the part I had personally written",
+    "section": "Apollo 11 priority displays",
+    "context": "Summary: Hamilton recalls her priority-display software during the Apollo 11 landing.",
+    "pdf_page": 32
+  },
+  {
+    "source_id": "chm-reddy-2021",
+    "speaker": "Raj Reddy",
+    "quote": "the model we created for Hearsay system was what’s called blackboard model.",
+    "section": "Hearsay and the blackboard model",
+    "context": "Summary: Reddy describes the Hearsay team's blackboard architecture.",
+    "pdf_page": 21
+  },
+  {
+    "source_id": "w3c-berners-lee-proposal-1989",
+    "speaker": "Tim Berners-Lee",
+    "quote": "In 1980, I wrote a program for keeping track of software with which I was involved in the PS control system.",
+    "section": "A solution: Hypertext / Personal Experience with Hypertext",
+    "context": "Summary: Berners-Lee recalls Enquire, a precursor to his Web proposal."
+  },
+  {
+    "source_id": "stanford-mccarthy-lisp-1960",
+    "speaker": "John McCarthy",
+    "quote": "We believe this formalism has advantages both as a programming language and as a vehicle for developing a theory of computation.",
+    "section": "1 Introduction (continued)",
+    "context": "Summary: McCarthy introduces his proposed recursive-function formalism.",
+    "pdf_page": 2,
+    "question": "Does this passage explain the intended role of the author's proposed computing formalism?"
+  },
+  {
+    "source_id": "utexas-dijkstra-humble-1972",
+    "speaker": "Edsger W. Dijkstra",
+    "quote": "We should recognise the closed subroutines as one of the greatest software inventions;",
+    "section": "Discussion of EDSAC and closed subroutines",
+    "context": "Summary: Dijkstra assesses subroutines' importance; he does not claim their invention.",
+    "question": "Does this passage identify a programming abstraction that the author considers historically important?"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "source_id": "stanford-mccarthy-lisp-1960",
+  "speaker": "John McCarthy",
+  "quote": "We believe this formalism has advantages both as a programming language and as a vehicle for developing a theory of computation.",
+  "question": "Does this passage explain the intended role of the author's proposed computing formalism?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 326,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.84
+      }
+    }
+  }
+}

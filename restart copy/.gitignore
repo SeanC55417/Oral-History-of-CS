@@ -1,0 +1,25 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+data/cache/
+.browser-profile/
+/docs
+/tests
+/submission
+/schema
+download_pdf.py
+extract_pdf.py
+export_record.py
+oral_history/discover.py
+data/README.md
+.gitkeep
+README.md
+requirements-video.txt
+
+# Keep source metadata, selected evidence, and final records trackable.

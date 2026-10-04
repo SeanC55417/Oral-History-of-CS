@@ -1,0 +1,28 @@
+@MEDFORD Oral History of Raj Reddy
+@MEDFORD-Version 2.0
+
+@Contributor Raj Reddy
+@Contributor-Role Interviewee
+
+@Contributor Hansen Hsu
+@Contributor-Role Interviewer
+
+@Date 2021-04-14
+@Date-Note Interview conducted
+
+@Data_Ref Oral History of Raj Reddy
+@Data_Ref-Type pdf
+@Data_Ref-URI https://archive.computerhistory.org/resources/access/text/2021/06/102792182-05-01-acc.pdf
+@Data_Ref-Note Source ID: chm-reddy-2021; kind: interview transcript
+
+@Passage P1
+@Passage-SourceID chm-reddy-2021
+@Passage-Speaker Raj Reddy
+@Passage-Section Hearsay and the blackboard model
+@Passage-Text the model we created for Hearsay system was what’s called blackboard model.
+@Passage-Context Summary: Reddy describes the Hearsay team's blackboard architecture.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.86
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 21

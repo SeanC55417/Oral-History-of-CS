@@ -1,0 +1,24 @@
+@MEDFORD Information Management: A Proposal
+@MEDFORD-Version 2.0
+
+@Contributor Tim Berners-Lee
+@Contributor-Role Author
+
+@Date 1989-03
+@Date-Note Published
+
+@Data_Ref Information Management: A Proposal
+@Data_Ref-Type html
+@Data_Ref-URI https://www.w3.org/History/1989/proposal.html
+@Data_Ref-Note Source ID: w3c-berners-lee-proposal-1989; kind: technical proposal (historical HTML transcription)
+
+@Passage P1
+@Passage-SourceID w3c-berners-lee-proposal-1989
+@Passage-Speaker Tim Berners-Lee
+@Passage-Section A solution: Hypertext / Personal Experience with Hypertext
+@Passage-Text In 1980, I wrote a program for keeping track of software with which I was involved in the PS control system.
+@Passage-Context Summary: Berners-Lee recalls Enquire, a precursor to his Web proposal.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.94
+@Passage-JevMethod typesafe_api

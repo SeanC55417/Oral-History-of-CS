@@ -1,0 +1,18 @@
+{
+  "source_id": "utexas-dijkstra-humble-1972",
+  "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html",
+  "format": "html",
+  "selection_method": "curated_catalog",
+  "raw_file": "data/raw/utexas-dijkstra-humble-1972.html",
+  "sha256": "320abd9a7bf81feb99577b1e582b6b0a53f11045f95a0d33a81b8731095a392d",
+  "processed_at": "2026-10-04T02:59:47.179598+00:00",
+  "empty_pdf_pages": [],
+  "retrieval": {
+    "retrieved_at": "2026-10-04T02:39:39.176118+00:00",
+    "requested_url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html",
+    "resolved_url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html",
+    "content_type": "text/html"
+  },
+  "extraction_options": {},
+  "warnings": []
+}

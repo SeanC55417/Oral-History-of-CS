@@ -1,0 +1,25 @@
+@MEDFORD Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I
+@MEDFORD-Version 2.0
+
+@Contributor John McCarthy
+@Contributor-Role Author
+
+@Date 1960-04
+@Date-Note Published
+
+@Data_Ref Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I
+@Data_Ref-Type pdf
+@Data_Ref-URI https://www-formal.stanford.edu/jmc/recursive.html
+@Data_Ref-Note Source ID: stanford-mccarthy-lisp-1960; kind: research paper (author-hosted re-typeset copy)
+
+@Passage P1
+@Passage-SourceID stanford-mccarthy-lisp-1960
+@Passage-Speaker John McCarthy
+@Passage-Section 1 Introduction (continued)
+@Passage-Text We believe this formalism has advantages both as a programming language and as a vehicle for developing a theory of computation.
+@Passage-Context Summary: McCarthy introduces his proposed recursive-function formalism.
+@Passage-JevQuestion Does this passage explain the intended role of the author's proposed computing formalism?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.84
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 2

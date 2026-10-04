@@ -1,0 +1,6 @@
+beautifulsoup4
+typesafe-sdk
+medford @ git+https://github.com/TuftsBCB/medford.git@b8c380373f8cefcb344084f16cc0ca456ca25d87
+jev-ultrafast @ git+https://github.com/browser-use/jev-ultrafast.git
+pypdf
+fonttools
