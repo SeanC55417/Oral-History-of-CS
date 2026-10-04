@@ -7,7 +7,6 @@ FORMATS = {"html", "pdf"}
 
 
 def validate_source(source):
-    """Check required metadata, filename-safe IDs, URLs, and supported formats."""
     for field in ("id", "title", "url", "format"):
         if not isinstance(source.get(field), str) or not source[field].strip():
             raise ValueError(f"Source needs a nonempty {field}.")
@@ -23,7 +22,6 @@ def validate_source(source):
 
 
 def load_sources(path):
-    """Read and validate the catalog, rejecting IDs that would overwrite one another."""
     sources = json.loads(Path(path).read_text(encoding="utf-8"))
     seen = set()
     for source in sources:

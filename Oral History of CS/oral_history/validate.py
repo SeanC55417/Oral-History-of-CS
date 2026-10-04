@@ -8,7 +8,6 @@ def validate_record(path):
     project_root = Path(__file__).resolve().parents[1]
     record_path = Path(path).resolve()
 
-    # Use this environment's Python and the project directory containing medford.yaml.
     result = subprocess.run(
         [
             sys.executable,
@@ -25,7 +24,6 @@ def validate_record(path):
 
     output = result.stdout + "\n" + result.stderr
 
-    # Some validator failures still exit with code 0, so also inspect its messages.
     failed = (
         result.returncode != 0
         or "All validations passed!" not in result.stdout

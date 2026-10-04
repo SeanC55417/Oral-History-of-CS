@@ -1,13 +1,12 @@
 from pathlib import Path
 
 def clean(value):
-    """Flatten whitespace so a field fits on one MEDFORD line."""
     # Keep source text on one line so it cannot become a new MEDFORD tag.
     return " ".join(str(value).split())
 
 
 def format_source(source):
-    """Build the source metadata tags, including contributors, dates, and URL."""
+    # Sets the source metadata tags, contributors, dates, and URL
     lines = [f"@MEDFORD {clean(source['title'])}", "@MEDFORD-Version 2.0", ""]
     contributors = []
     for author in source.get("authors", []):
@@ -42,7 +41,7 @@ def format_source(source):
     return "\n".join(lines)
 
 def format_passage(evidence, jev_record):
-    """Build quotation tags and attach the matching saved JEV answer."""
+    # Sets quotation tags and attach the matching saved JEV answer
     if (evidence["source_id"] != jev_record["source_id"] or evidence["quote"] != jev_record["quote"]):
         raise ValueError("The JEV result belongs to different evidence.")
 
@@ -82,7 +81,6 @@ def format_passage(evidence, jev_record):
     return "\n".join(lines)
 
 def write_record(source, evidence, jev_record, output_directory):
-    """Write source and passage blocks together and return the resulting path."""
     if source["id"] != evidence["source_id"]:
         raise ValueError("The evidence belongs to a different source.")
 

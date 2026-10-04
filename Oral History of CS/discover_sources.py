@@ -7,7 +7,8 @@ from jev_ultrafast import Agent
 
 
 def main():
-    """Use the optional JEV browser agent to navigate to the Liskov interview."""
+    # Uses the JEV browser agent to navigate to the Liskov interview. 
+    # It's a little finicky with chrome but works if you set the debugging port
     os.environ["TYPESAFE_API_KEY"] = getpass(
         "Paste your TypeSafe API key: "
     ).strip()

@@ -113,7 +113,7 @@ def main(argv=None):
             if source.get("speaker") and source["speaker"] != evidence["speaker"]:
                 raise ValueError("The evidence speaker does not match the source.")
             
-            # Ignore line breaks and repeated spaces, but keep the original wording.
+            # Ignores line breaks and repeated spaces, but keep the original wording.
             quote = " ".join(evidence["quote"].split())
             if not quote or quote not in " ".join(text.split()):
                 raise ValueError("The quotation does not match the source text.")
