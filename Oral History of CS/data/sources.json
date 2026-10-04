@@ -93,5 +93,290 @@
     "publisher": "University of Texas at Austin, E. W. Dijkstra Archive",
     "publication_date": "1972",
     "notes": "Historical lecture transcription. Selected evidence concerns his assessment of software abstraction, not a claim that he invented subroutines."
+  },
+  {
+    "id": "chm-mccarthy-2007",
+    "title": "Oral History of John McCarthy",
+    "url": "https://archive.computerhistory.org/resources/access/text/2012/10/102658149-05-01-acc.pdf",
+    "speaker": "John McCarthy",
+    "source_type": "interview transcript",
+    "format": "pdf",
+    "publisher": "Computer History Museum",
+    "interviewer": "Nils Nilsson",
+    "interview_dates": [
+      "2007-09-12"
+    ]
+  },
+  {
+    "id": "chm-kleinrock-2011",
+    "title": "Oral History of Leonard Kleinrock",
+    "url": "https://archive.computerhistory.org/resources/access/text/2022/10/102745980-05-01-acc.pdf",
+    "speaker": "Leonard Kleinrock",
+    "source_type": "interview transcript",
+    "format": "pdf",
+    "publisher": "Computer History Museum",
+    "interviewer": "Marc Weber",
+    "interview_dates": [
+      "2011-09-28"
+    ],
+    "notes": "The PDF cover lists September 28, 2011, while the interviewer's opening says September 23; the date should be reconciled with the museum catalog."
+  },
+  {
+    "id": "chm-allen-2008",
+    "title": "Oral History of Fran Allen",
+    "url": "https://archive.computerhistory.org/resources/access/text/2020/08/102701969-05-01-acc.pdf",
+    "speaker": "Fran Allen",
+    "source_type": "interview transcript",
+    "format": "pdf",
+    "publisher": "Computer History Museum",
+    "interviewer": "Al Kossow",
+    "interview_dates": [
+      "2008-09-11"
+    ]
+  },
+  {
+    "id": "chm-goldberg-2010",
+    "title": "Oral History of Adele Goldberg",
+    "url": "https://archive.computerhistory.org/resources/access/text/2013/05/102701984-05-01-acc.pdf",
+    "speaker": "Adele Goldberg",
+    "source_type": "interview transcript",
+    "format": "pdf",
+    "publisher": "Computer History Museum",
+    "interviewer": "John Mashey",
+    "interview_dates": [
+      "2010-05-10"
+    ]
+  },
+  {
+    "id": "chm-feinler-2009",
+    "title": "Oral History of Elizabeth (Jake) Feinler",
+    "url": "https://archive.computerhistory.org/resources/access/text/2013/05/102702199-05-01-acc.pdf",
+    "speaker": "Elizabeth (Jake) Feinler",
+    "source_type": "interview transcript",
+    "format": "pdf",
+    "publisher": "Computer History Museum",
+    "interviewer": "Marc Weber",
+    "interview_dates": [
+      "2009-09-10"
+    ],
+    "notes": "The transcript includes editorial additions in square brackets; preserve them when quoting the extracted text."
+  },
+  {
+    "id": "bitcointalk-finney-bitcoin-and-me-2013",
+    "title": "Bitcoin and me (Hal Finney)",
+    "url": "https://bitcointalk.org/index.php?topic=155054.msg1643833",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "first-person forum post",
+    "format": "html",
+    "publisher": "Bitcoin Forum (Bitcointalk)",
+    "publication_date": "2013-03-19",
+    "message_id": 1643833,
+    "forum_author_id": 2436,
+    "notes": "Post last edited March 25, 2013; wording reflects the current edited post."
+  },
+  {
+    "id": "cypherpunks-finney-remailers-1993",
+    "title": "Why Remailers II",
+    "url": "https://nakamotoinstitute.org/library/why-remailers-ii/",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "cypherpunks mailing-list post (archival transcription)",
+    "format": "html",
+    "publisher": "Satoshi Nakamoto Institute archive",
+    "publication_date": "1993-02-24",
+    "notes": "Archive of Finney’s post; page links to a preserved copy of his original personal-site text."
+  },
+  {
+    "id": "metzdowd-finney-rpow-2004",
+    "title": "RPOW - Reusable Proofs of Work",
+    "url": "https://www.metzdowd.com/pipermail/cryptography/2004-August/007362.html",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "forwarded mailing-list announcement",
+    "format": "html",
+    "publisher": "Cryptography Mailing List archive",
+    "publication_date": "2004-08-15",
+    "notes": "R. A. Hettinga forwarded Finney’s Cypherpunks announcement. The quoted passage is inside the forwarded text attributed to Finney."
+  },
+  {
+    "id": "metzdowd-finney-bitcoin-feedback-2008",
+    "title": "Bitcoin P2P e-cash paper (Hal Finney reply)",
+    "url": "https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "mailing-list technical feedback",
+    "format": "html",
+    "publisher": "Cryptography Mailing List archive",
+    "publication_date": "2008-11-07"
+  },
+  {
+    "id": "x-finney-running-bitcoin-2009",
+    "title": "Running bitcoin",
+    "url": "https://x.com/halfin/status/1110302988",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "short social-media post",
+    "format": "html",
+    "publisher": "X (originally Twitter)",
+    "publication_date": "2009-01-11",
+    "x_post_id": 1110302988,
+    "x_author_handle": "halfin",
+    "notes": "Date is displayed in UTC on the original page; local-time screenshots may show January 10, 2009."
+  },
+  {
+    "id": "bitcointalk-finney-bitcoin-banks-2010",
+    "title": "Re: Bitcoin Bank",
+    "url": "https://bitcointalk.org/index.php?topic=2500.msg34211",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "forum post on proposed Bitcoin payment systems",
+    "format": "html",
+    "publisher": "Bitcoin Forum (Bitcointalk)",
+    "publication_date": "2010-12-30",
+    "message_id": 34211,
+    "forum_author_id": 2436
+  },
+  {
+    "id": "bitcointalk-finney-wallet-use-cases-2011",
+    "title": "Re: Wallet import/export: bitkeys format",
+    "url": "https://bitcointalk.org/index.php?topic=4448.msg65388",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "forum post on wallet design",
+    "format": "html",
+    "publisher": "Bitcoin Forum (Bitcointalk)",
+    "publication_date": "2011-03-14",
+    "message_id": 65388,
+    "forum_author_id": 2436
+  },
+  {
+    "id": "bitcointalk-finney-bitcoin-v01-2012",
+    "title": "Re: v0.1",
+    "url": "https://bitcointalk.org/index.php?topic=68121.msg804338",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "forum post on early Bitcoin source code",
+    "format": "html",
+    "publisher": "Bitcoin Forum (Bitcointalk)",
+    "publication_date": "2012-03-16",
+    "message_id": 804338,
+    "forum_author_id": 2436,
+    "notes": "The post says Finney found a copy and offered to share it; it does not by itself prove what was later shared."
+  },
+  {
+    "id": "bitcointalk-finney-bcflick-2013",
+    "title": "[ANN] bcflick - using TPM's and Trusted Computing to strengthen Bitcoin wallets",
+    "url": "https://bitcointalk.org/index.php?topic=154290.msg1635481",
+    "authors": [
+      "Hal Finney"
+    ],
+    "source_type": "forum software announcement",
+    "format": "html",
+    "publisher": "Bitcoin Forum (Bitcointalk)",
+    "publication_date": "2013-03-17",
+    "message_id": 1635481,
+    "forum_author_id": 2436,
+    "notes": "Finney describes his prototype based on Jon McCune’s Flicker technology and Mike Hearn’s earlier proposal."
+  },
+  {
+    "id": "cypherpunks-back-hashcash-1997",
+    "title": "[ANNOUNCE] hash cash postage implementation",
+    "url": "https://mailing-list-archive.cryptoanarchy.wiki/archive/1997/03/1fea96e9a08fb74d7f1fdeca362f943dcb2ca70017b092359eb8f931e11004cf/",
+    "authors": [
+      "Adam Back"
+    ],
+    "source_type": "mailing-list software announcement (archived HTML)",
+    "format": "html",
+    "publisher": "Cypherpunks Mailing List; cryptoanarchy.wiki archive",
+    "publication_date": "1997-03-28",
+    "notes": "The archive reproduces Back’s original message. Back also hosts a plain-text copy at http://www.hashcash.org/papers/announce.txt."
+  },
+  {
+    "id": "hashcash-back-paper-2002",
+    "title": "Hashcash - A Denial of Service Counter-Measure",
+    "url": "http://www.hashcash.org/papers/hashcash.pdf",
+    "authors": [
+      "Adam Back"
+    ],
+    "source_type": "technical paper (author-hosted PDF)",
+    "format": "pdf",
+    "publisher": "Adam Back / hashcash.org",
+    "publication_date": "2002-08-01",
+    "notes": "PDF page numbers count the physical pages from one. The paper acknowledges earlier proof-of-work research by Dwork and Naor."
+  },
+  {
+    "id": "cypherpunks-hughes-manifesto-1993",
+    "title": "A Cypherpunk's Manifesto",
+    "url": "https://www.activism.net/cypherpunk/manifesto.html",
+    "authors": [
+      "Eric Hughes"
+    ],
+    "source_type": "manifesto (archival HTML transcription)",
+    "format": "html",
+    "publisher": "activism.net Cypherpunks archive",
+    "publication_date": "1993-03-09",
+    "notes": "The text signs and dates itself March 9, 1993. It states the movement’s privacy goals; it is not an oral-history interview."
+  },
+  {
+    "id": "cypherpunks-may-manifesto-1992",
+    "title": "The Crypto Anarchist Manifesto (Cypherpunks mailing-list post)",
+    "url": "https://koeln.ccc.de/archiv/drt/crypto-anarchy.html",
+    "authors": [
+      "Timothy C. May"
+    ],
+    "source_type": "mailing-list post reproducing a manifesto (archival HTML)",
+    "format": "html",
+    "publisher": "Cypherpunks Mailing List; Chaos Computer Club archive",
+    "publication_date": "1992-11-22",
+    "notes": "May says he wrote the manifesto in mid-1988 and read it at the September 1992 founding meeting. This source is his November 22, 1992 mailing-list post, which reproduces it."
+  },
+  {
+    "id": "zimmermann-why-i-wrote-pgp-1991",
+    "title": "Why I Wrote PGP",
+    "url": "https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+    "authors": [
+      "Philip R. Zimmermann"
+    ],
+    "source_type": "first-person essay (author-hosted revised text)",
+    "format": "html",
+    "publisher": "Philip R. Zimmermann",
+    "publication_date": "1991-06",
+    "revision_date": "1999",
+    "notes": "The author labels this part of the original 1991 PGP User’s Guide, updated in 1999. Selected wording comes from the revised page, not an authenticated unchanged 1991 text."
+  },
+  {
+    "id": "cypherpunks-dai-b-money-1998",
+    "title": "b-money",
+    "url": "https://nakamotoinstitute.org/library/b-money/",
+    "authors": [
+      "Wei Dai"
+    ],
+    "source_type": "digital-money protocol proposal (archival HTML transcription)",
+    "format": "html",
+    "publisher": "Satoshi Nakamoto Institute archive",
+    "publication_date": "1998-11",
+    "notes": "The archive labels the text November 1998 and links the original plain-text version at weidai.com. The project currently downloads HTML sources."
+  },
+  {
+    "id": "szabo-bit-gold-2005",
+    "title": "Bit Gold",
+    "url": "https://nakamotoinstitute.org/library/bit-gold/",
+    "authors": [
+      "Nick Szabo"
+    ],
+    "source_type": "digital-money proposal (archival HTML transcription)",
+    "format": "html",
+    "publisher": "Satoshi Nakamoto Institute archive",
+    "publication_date": "2005-12-29",
+    "notes": "The archive dates this text December 29, 2005 and links Szabo’s original blog. The live blog currently displays a different date; use the archive date with this provenance caveat. The text mentions Hal Finney’s RPOW."
   }
 ]

@@ -33,10 +33,13 @@ def format_source(source):
     
     for date, note in dates:
         lines.extend([f"@Date {clean(date)}", f"@Date-Note {note}", ""])
+    location_note = f"; message ID: {source['message_id']}" if "message_id" in source else ""
+    if "x_post_id" in source:
+        location_note = f"; post ID: {source['x_post_id']}"
     lines.extend([f"@Data_Ref {clean(source['title'])}",
                   f"@Data_Ref-Type {clean(source['format'])}",
                   f"@Data_Ref-URI {clean(source['url'])}",
-                  f"@Data_Ref-Note Source ID: {source['id']}; kind: {clean(source.get('source_type', 'unspecified'))}"])
+                  f"@Data_Ref-Note Source ID: {source['id']}; kind: {clean(source.get('source_type', 'unspecified'))}{location_note}"])
     
     return "\n".join(lines)
 

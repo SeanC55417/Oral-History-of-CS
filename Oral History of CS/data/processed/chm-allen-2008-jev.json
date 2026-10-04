@@ -1,0 +1,20 @@
+{
+  "source_id": "chm-allen-2008",
+  "speaker": "Fran Allen",
+  "quote": "We built an experimental compiler; followed actually the model that Dave Kuck had of being able to have an ongoing compiling system that one could measure the effectiveness of applying all kinds of parallelization and analysis techniques to programs in order to understand the value and how they interacted with each other.",
+  "question": "Does this passage describe the speaker's own contribution to computing?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 353,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.89
+      }
+    }
+  }
+}

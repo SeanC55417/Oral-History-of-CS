@@ -1,0 +1,24 @@
+@MEDFORD Re: Wallet import/export: bitkeys format
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 2011-03-14
+@Date-Note Published
+
+@Data_Ref Re: Wallet import/export: bitkeys format
+@Data_Ref-Type html
+@Data_Ref-URI https://bitcointalk.org/index.php?topic=4448.msg65388
+@Data_Ref-Note Source ID: bitcointalk-finney-wallet-use-cases-2011; kind: forum post on wallet design; message ID: 65388
+
+@Passage P1
+@Passage-SourceID bitcointalk-finney-wallet-use-cases-2011
+@Passage-Speaker Hal Finney
+@Passage-Section Wallet key export for safe storage
+@Passage-Text 3. Export and remove selected keys from wallet, for moving to safe long-term storage in case the wallet is hacked; later, move the keys back to a wallet for spending.
+@Passage-Context Finney proposes a concrete security use case for exporting and later restoring selected wallet keys.
+@Passage-JevQuestion Does this passage describe a wallet-key security use case proposed by the author?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.94
+@Passage-JevMethod typesafe_api

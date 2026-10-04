@@ -1,0 +1,24 @@
+@MEDFORD [ANN] bcflick - using TPM's and Trusted Computing to strengthen Bitcoin wallets
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 2013-03-17
+@Date-Note Published
+
+@Data_Ref [ANN] bcflick - using TPM's and Trusted Computing to strengthen Bitcoin wallets
+@Data_Ref-Type html
+@Data_Ref-URI https://bitcointalk.org/index.php?topic=154290.msg1635481
+@Data_Ref-Note Source ID: bitcointalk-finney-bcflick-2013; kind: forum software announcement; message ID: 1635481
+
+@Passage P1
+@Passage-SourceID bitcointalk-finney-bcflick-2013
+@Passage-Speaker Hal Finney
+@Passage-Section bcflick wallet security prototype
+@Passage-Text I've made a Flicker module (they call it a PAL) called bcflick.
+@Passage-Context Finney introduces a Flicker-based module intended to protect Bitcoin wallet operations.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.92
+@Passage-JevMethod typesafe_api

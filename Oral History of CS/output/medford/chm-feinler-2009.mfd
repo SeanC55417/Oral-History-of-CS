@@ -1,0 +1,28 @@
+@MEDFORD Oral History of Elizabeth (Jake) Feinler
+@MEDFORD-Version 2.0
+
+@Contributor Elizabeth (Jake) Feinler
+@Contributor-Role Interviewee
+
+@Contributor Marc Weber
+@Contributor-Role Interviewer
+
+@Date 2009-09-10
+@Date-Note Interview conducted
+
+@Data_Ref Oral History of Elizabeth (Jake) Feinler
+@Data_Ref-Type pdf
+@Data_Ref-URI https://archive.computerhistory.org/resources/access/text/2013/05/102702199-05-01-acc.pdf
+@Data_Ref-Note Source ID: chm-feinler-2009; kind: interview transcript
+
+@Passage P1
+@Passage-SourceID chm-feinler-2009
+@Passage-Speaker Elizabeth (Jake) Feinler
+@Passage-Section Network naming authority
+@Passage-Text Every host that came on had to contact us because we were the naming authority. We automatically gave them the manuals we produced.
+@Passage-Context Feinler explains how the Network Information Center handled new network hosts and distributed manuals.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.7
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 42

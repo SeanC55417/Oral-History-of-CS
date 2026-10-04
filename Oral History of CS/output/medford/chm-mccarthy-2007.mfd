@@ -1,0 +1,28 @@
+@MEDFORD Oral History of John McCarthy
+@MEDFORD-Version 2.0
+
+@Contributor John McCarthy
+@Contributor-Role Interviewee
+
+@Contributor Nils Nilsson
+@Contributor-Role Interviewer
+
+@Date 2007-09-12
+@Date-Note Interview conducted
+
+@Data_Ref Oral History of John McCarthy
+@Data_Ref-Type pdf
+@Data_Ref-URI https://archive.computerhistory.org/resources/access/text/2012/10/102658149-05-01-acc.pdf
+@Data_Ref-Note Source ID: chm-mccarthy-2007; kind: interview transcript
+
+@Passage P1
+@Passage-SourceID chm-mccarthy-2007
+@Passage-Speaker John McCarthy
+@Passage-Section Development of Lisp
+@Passage-Text Namely, we started on Lisp in the fall of 1958.
+@Passage-Context Nilsson asks whether McCarthy's paper on symbolic expressions came before or after the development of Lisp.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.81
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 8

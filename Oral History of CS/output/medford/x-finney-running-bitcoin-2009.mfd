@@ -1,0 +1,24 @@
+@MEDFORD Running bitcoin
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 2009-01-11
+@Date-Note Published
+
+@Data_Ref Running bitcoin
+@Data_Ref-Type html
+@Data_Ref-URI https://x.com/halfin/status/1110302988
+@Data_Ref-Note Source ID: x-finney-running-bitcoin-2009; kind: short social-media post; post ID: 1110302988
+
+@Passage P1
+@Passage-SourceID x-finney-running-bitcoin-2009
+@Passage-Speaker Hal Finney
+@Passage-Section Original status post
+@Passage-Text Running bitcoin
+@Passage-Context Finney publicly reports running Bitcoin software in January 2009.
+@Passage-JevQuestion Does this post state that its author was running Bitcoin software?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.83
+@Passage-JevMethod typesafe_api

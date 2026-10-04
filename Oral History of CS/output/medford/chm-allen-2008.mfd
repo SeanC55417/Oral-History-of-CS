@@ -1,0 +1,28 @@
+@MEDFORD Oral History of Fran Allen
+@MEDFORD-Version 2.0
+
+@Contributor Fran Allen
+@Contributor-Role Interviewee
+
+@Contributor Al Kossow
+@Contributor-Role Interviewer
+
+@Date 2008-09-11
+@Date-Note Interview conducted
+
+@Data_Ref Oral History of Fran Allen
+@Data_Ref-Type pdf
+@Data_Ref-URI https://archive.computerhistory.org/resources/access/text/2020/08/102701969-05-01-acc.pdf
+@Data_Ref-Note Source ID: chm-allen-2008; kind: interview transcript
+
+@Passage P1
+@Passage-SourceID chm-allen-2008
+@Passage-Speaker Fran Allen
+@Passage-Section PTRAN parallelizing compiler research
+@Passage-Text We built an experimental compiler; followed actually the model that Dave Kuck had of being able to have an ongoing compiling system that one could measure the effectiveness of applying all kinds of parallelization and analysis techniques to programs in order to understand the value and how they interacted with each other.
+@Passage-Context Allen describes the PTRAN team's experimental compiler for studying parallelization and program analysis techniques.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.89
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 16

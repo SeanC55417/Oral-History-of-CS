@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 from oral_history.sources import load_sources
-from oral_history.retrieve import download_source, html_to_text, pdf_to_text
+from oral_history.retrieve import download_source, html_to_text, bitcointalk_post_to_text, x_post_to_text, pdf_to_text
 from oral_history.extract import evaluate_evidence, question_for
 from oral_history.medford import write_record
 from oral_history.validate import validate_record
@@ -76,7 +76,16 @@ def main(argv=None):
             # Extracts text using either the HTML or PDF reader.
             pages = []
             if source["format"] == "html":
-                text = html_to_text(raw_path.read_bytes())
+                if "message_id" in source:
+                    text = bitcointalk_post_to_text(
+                        raw_path.read_bytes(), source["message_id"], source["forum_author_id"]
+                    )
+                elif "x_post_id" in source:
+                    text = x_post_to_text(
+                        raw_path.read_bytes(), source["x_post_id"], source["x_author_handle"]
+                    )
+                else:
+                    text = html_to_text(raw_path.read_bytes())
             else:
                 text, pages = pdf_to_text(raw_path, source.get("pdf_extraction_mode", "plain"))
                 page_records = []
@@ -106,6 +115,10 @@ def main(argv=None):
             if len(matches) != 1:
                 raise ValueError("Use one evidence record per source.")
             evidence = matches[0]
+            if "message_id" in source and evidence.get("message_id") != source["message_id"]:
+                raise ValueError("Evidence needs the source's Bitcointalk message ID.")
+            if "x_post_id" in source and evidence.get("x_post_id") != source["x_post_id"]:
+                raise ValueError("Evidence needs the source's X post ID.")
 
             if not evidence.get("speaker"):
                 raise ValueError("Evidence needs a speaker or author.")

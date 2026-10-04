@@ -1,0 +1,20 @@
+{
+  "source_id": "cypherpunks-finney-remailers-1993",
+  "speaker": "Hal Finney",
+  "quote": "Cypherpunks seek to put into place structures which will allow people to preserve their privacy if they choose.",
+  "question": "Does this passage state the goal that the author wanted privacy tools to serve?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 320,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.92
+      }
+    }
+  }
+}

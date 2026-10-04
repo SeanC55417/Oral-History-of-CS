@@ -1,0 +1,20 @@
+{
+  "source_id": "bitcointalk-finney-bitcoin-and-me-2013",
+  "speaker": "Hal Finney",
+  "quote": "I had made an attempt to create my own proof of work based currency, called RPOW.",
+  "question": "Does this passage describe the speaker's own contribution to computing?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 315,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.95
+      }
+    }
+  }
+}
