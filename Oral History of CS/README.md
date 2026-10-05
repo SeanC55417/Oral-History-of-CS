@@ -27,3 +27,22 @@ to run one source. With the virtual environment already active, the same options
 work with `python main.py`.
 
 Results and percentages: `output/run-summary.json`. MEDFORD records: `output/medford/`.
+
+## Citation support checker prototype
+
+After running the pipeline, start the local checker from this folder:
+
+```bash
+.venv/bin/python citation_checker.py
+```
+
+On Windows, use `.venv\Scripts\python.exe citation_checker.py`. Open
+`http://127.0.0.1:8765` in your browser. Choose a saved source and a PDF page
+(or use the saved post/message ID), load its text, keep an exact relevant
+passage, enter a claim and your TypeSafe API key, then check support. The key is
+used for that request and is not saved by the checker. JEV also receives the
+source metadata from its MEDFORD record, excluding the saved passage and earlier
+JEV score. The page shows the original source link and the full saved MEDFORD
+record when you choose a source. The NouL score estimates
+whether the cited passage supports the claim; it does not establish historical
+truth or create a MEDFORD record.
