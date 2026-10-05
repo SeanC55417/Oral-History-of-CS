@@ -1,0 +1,24 @@
+@MEDFORD Bitcoin and me (Hal Finney)
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 2013-03-19
+@Date-Note Published
+
+@Data_Ref Bitcoin and me (Hal Finney)
+@Data_Ref-Type html
+@Data_Ref-URI https://bitcointalk.org/index.php?topic=155054.msg1643833
+@Data_Ref-Note Source ID: bitcointalk-finney-bitcoin-and-me-2013; kind: first-person forum post; message ID: 1643833
+
+@Passage P1
+@Passage-SourceID bitcointalk-finney-bitcoin-and-me-2013
+@Passage-Speaker Hal Finney
+@Passage-Section Bitcoin and me — interest in Bitcoin
+@Passage-Text I had made an attempt to create my own proof of work based currency, called RPOW.
+@Passage-Context Finney recalls his earlier RPOW project while explaining why Bitcoin interested him.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.95
+@Passage-JevMethod typesafe_api

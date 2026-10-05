@@ -1,0 +1,20 @@
+{
+  "source_id": "chm-feinler-2009",
+  "speaker": "Elizabeth (Jake) Feinler",
+  "quote": "Every host that came on had to contact us because we were the naming authority. We automatically gave them the manuals we produced.",
+  "question": "Does this passage describe the speaker's own contribution to computing?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 324,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.7
+      }
+    }
+  }
+}

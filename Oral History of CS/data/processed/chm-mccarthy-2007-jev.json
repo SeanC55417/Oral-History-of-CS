@@ -1,0 +1,20 @@
+{
+  "source_id": "chm-mccarthy-2007",
+  "speaker": "John McCarthy",
+  "quote": "Namely, we started on Lisp in the fall of 1958.",
+  "question": "Does this passage describe the speaker's own contribution to computing?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 314,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.81
+      }
+    }
+  }
+}

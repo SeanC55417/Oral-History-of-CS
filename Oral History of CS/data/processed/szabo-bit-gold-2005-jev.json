@@ -1,0 +1,20 @@
+{
+  "source_id": "szabo-bit-gold-2005",
+  "speaker": "Nick Szabo",
+  "quote": "The last-created string of bit gold provides the challenge bits for the next-created string.",
+  "question": "Does this passage describe how successive strings in the author\u2019s proposed bit-gold system are linked?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 319,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.96
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "source_id": "cypherpunks-hughes-manifesto-1993",
+  "speaker": "Eric Hughes",
+  "quote": "We the Cypherpunks are dedicated to building anonymous systems.",
+  "question": "Does this passage state a technical goal of the Cypherpunks movement?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 310,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.92
+      }
+    }
+  }
+}

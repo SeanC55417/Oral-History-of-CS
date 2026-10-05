@@ -1,0 +1,28 @@
+@MEDFORD Oral History of Adele Goldberg
+@MEDFORD-Version 2.0
+
+@Contributor Adele Goldberg
+@Contributor-Role Interviewee
+
+@Contributor John Mashey
+@Contributor-Role Interviewer
+
+@Date 2010-05-10
+@Date-Note Interview conducted
+
+@Data_Ref Oral History of Adele Goldberg
+@Data_Ref-Type pdf
+@Data_Ref-URI https://archive.computerhistory.org/resources/access/text/2013/05/102701984-05-01-acc.pdf
+@Data_Ref-Note Source ID: chm-goldberg-2010; kind: interview transcript
+
+@Passage P1
+@Passage-SourceID chm-goldberg-2010
+@Passage-Speaker Adele Goldberg
+@Passage-Section Smalltalk-80 implementation and release
+@Passage-Text And then we worked with the folks at Berkeley [Dave Patterson and David Ungar, the SPARC team], and with Eliott Moss at UMass, and Ralph Johnson in Illinois, but basically the initial release then went out and we ended up with a spec for the implementation of what was Smalltalk-80.
+@Passage-Context Goldberg discusses collaboration with university researchers on the Smalltalk-80 implementation and its initial release.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.8
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 12

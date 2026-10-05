@@ -1,0 +1,24 @@
+@MEDFORD RPOW - Reusable Proofs of Work
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 2004-08-15
+@Date-Note Published
+
+@Data_Ref RPOW - Reusable Proofs of Work
+@Data_Ref-Type html
+@Data_Ref-URI https://www.metzdowd.com/pipermail/cryptography/2004-August/007362.html
+@Data_Ref-Note Source ID: metzdowd-finney-rpow-2004; kind: forwarded mailing-list announcement
+
+@Passage P1
+@Passage-SourceID metzdowd-finney-rpow-2004
+@Passage-Speaker Hal Finney
+@Passage-Section RPOW announcement
+@Passage-Text I'd like to invite members of this list to try out my new hashcash-based server, rpow.net.
+@Passage-Context Finney announces his new reusable proof-of-work server.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.83
+@Passage-JevMethod typesafe_api

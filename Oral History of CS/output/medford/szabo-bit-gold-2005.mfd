@@ -1,0 +1,24 @@
+@MEDFORD Bit Gold
+@MEDFORD-Version 2.0
+
+@Contributor Nick Szabo
+@Contributor-Role Author
+
+@Date 2005-12-29
+@Date-Note Published
+
+@Data_Ref Bit Gold
+@Data_Ref-Type html
+@Data_Ref-URI https://nakamotoinstitute.org/library/bit-gold/
+@Data_Ref-Note Source ID: szabo-bit-gold-2005; kind: digital-money proposal (archival HTML transcription)
+
+@Passage P1
+@Passage-SourceID szabo-bit-gold-2005
+@Passage-Speaker Nick Szabo
+@Passage-Section Main steps of the proposed bit gold system
+@Passage-Text The last-created string of bit gold provides the challenge bits for the next-created string.
+@Passage-Context Szabo describes how successive bit-gold strings would be linked. Elsewhere in the same source he relates Hal Finney’s RPOW to bit gold.
+@Passage-JevQuestion Does this passage describe how successive strings in the author’s proposed bit-gold system are linked?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.96
+@Passage-JevMethod typesafe_api

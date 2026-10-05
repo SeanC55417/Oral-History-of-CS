@@ -1,0 +1,20 @@
+{
+  "source_id": "metzdowd-finney-rpow-2004",
+  "speaker": "Hal Finney",
+  "quote": "I'd like to invite members of this list to try out my new hashcash-based server, rpow.net.",
+  "question": "Does this passage describe the speaker's own contribution to computing?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 318,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.83
+      }
+    }
+  }
+}

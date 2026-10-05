@@ -1,0 +1,24 @@
+@MEDFORD b-money
+@MEDFORD-Version 2.0
+
+@Contributor Wei Dai
+@Contributor-Role Author
+
+@Date 1998-11
+@Date-Note Published
+
+@Data_Ref b-money
+@Data_Ref-Type html
+@Data_Ref-URI https://nakamotoinstitute.org/library/b-money/
+@Data_Ref-Note Source ID: cypherpunks-dai-b-money-1998; kind: digital-money protocol proposal (archival HTML transcription)
+
+@Passage P1
+@Passage-SourceID cypherpunks-dai-b-money-1998
+@Passage-Speaker Wei Dai
+@Passage-Section First protocol — creation of money
+@Passage-Text Anyone can create money by broadcasting the solution to a previously unsolved computational problem.
+@Passage-Context Dai proposes computational work as part of a pseudonymous digital-money protocol; the text is a proposal, not evidence of a deployed system.
+@Passage-JevQuestion Does this passage specify a proposed method for creating b-money?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.8
+@Passage-JevMethod typesafe_api

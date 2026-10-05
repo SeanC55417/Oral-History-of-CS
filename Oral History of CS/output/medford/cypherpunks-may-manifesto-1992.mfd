@@ -1,0 +1,24 @@
+@MEDFORD The Crypto Anarchist Manifesto (Cypherpunks mailing-list post)
+@MEDFORD-Version 2.0
+
+@Contributor Timothy C. May
+@Contributor-Role Author
+
+@Date 1992-11-22
+@Date-Note Published
+
+@Data_Ref The Crypto Anarchist Manifesto (Cypherpunks mailing-list post)
+@Data_Ref-Type html
+@Data_Ref-URI https://koeln.ccc.de/archiv/drt/crypto-anarchy.html
+@Data_Ref-Note Source ID: cypherpunks-may-manifesto-1992; kind: mailing-list post reproducing a manifesto (archival HTML)
+
+@Passage P1
+@Passage-SourceID cypherpunks-may-manifesto-1992
+@Passage-Speaker Timothy C. May
+@Passage-Section The Crypto Anarchist Manifesto
+@Passage-Text Computer technology is on the verge of providing the ability for individuals and groups to communicate and interact with each other in a totally anonymous manner.
+@Passage-Context May’s November 1992 mailing-list post reproduces the manifesto he says he wrote in 1988; this passage predicts anonymous network communication.
+@Passage-JevQuestion Does this passage describe a capability the author expected computer technology to enable?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.96
+@Passage-JevMethod typesafe_api

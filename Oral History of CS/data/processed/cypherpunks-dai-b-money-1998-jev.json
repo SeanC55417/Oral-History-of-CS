@@ -1,0 +1,20 @@
+{
+  "source_id": "cypherpunks-dai-b-money-1998",
+  "speaker": "Wei Dai",
+  "quote": "Anyone can create money by broadcasting the solution to a previously unsolved computational problem.",
+  "question": "Does this passage specify a proposed method for creating b-money?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 311,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.8
+      }
+    }
+  }
+}
