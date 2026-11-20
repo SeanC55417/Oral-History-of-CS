@@ -1,0 +1,25 @@
+@MEDFORD Hashcash - A Denial of Service Counter-Measure
+@MEDFORD-Version 2.0
+
+@Contributor Adam Back
+@Contributor-Role Author
+
+@Date 2002-08-01
+@Date-Note Published
+
+@Data_Ref Hashcash - A Denial of Service Counter-Measure
+@Data_Ref-Type pdf
+@Data_Ref-URI http://www.hashcash.org/papers/hashcash.pdf
+@Data_Ref-Note Source ID: hashcash-back-paper-2002; kind: technical paper (author-hosted PDF)
+
+@Passage P1
+@Passage-SourceID hashcash-back-paper-2002
+@Passage-Speaker Adam Back
+@Passage-Section Abstract
+@Passage-Text The hashcash CPU cost-function computes a token which can be used as a proof-of-work.
+@Passage-Context Back formally describes the token produced by Hashcash’s CPU cost-function.
+@Passage-JevQuestion Does this passage state what the Hashcash CPU cost-function produces?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.97
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 1

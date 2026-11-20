@@ -1,0 +1,20 @@
+{
+  "source_id": "metzdowd-finney-bitcoin-feedback-2008",
+  "speaker": "Hal Finney",
+  "quote": "The paper describes key concepts and some data structures, but does not clearly specify the various rules and verifications that the participants in the system would have to follow.",
+  "question": "Does this passage identify a technical concern the author raised about the Bitcoin proposal?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 331,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.89
+      }
+    }
+  }
+}

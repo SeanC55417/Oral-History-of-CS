@@ -1,0 +1,20 @@
+{
+  "source_id": "chm-goldberg-2010",
+  "speaker": "Adele Goldberg",
+  "quote": "And then we worked with the folks at Berkeley [Dave Patterson and David Ungar, the SPARC team], and with Eliott Moss at UMass, and Ralph Johnson in Illinois, but basically the initial release then went out and we ended up with a spec for the implementation of what was Smalltalk-80.",
+  "question": "Does this passage describe the speaker's own contribution to computing?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 360,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.8
+      }
+    }
+  }
+}

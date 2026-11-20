@@ -1,3 +1,4 @@
+import re
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
@@ -30,9 +31,50 @@ def html_to_text(html):
     if not content:
         content = soup.body
     if content is None:
-        raise ValueError("Could not find the page's main content.")
+        # Early HTML documents sometimes omit the body element entirely.
+        content = soup
 
     return content.get_text(separator="\n", strip=True)
+
+
+def bitcointalk_post_to_text(html, message_id, author_user_id):
+    """Extract one forum message and verify its author's account ID."""
+    soup = BeautifulSoup(html, "html.parser")
+    subject = soup.find(id=f"subject_{message_id}")
+    cell = subject.find_parent("td", class_="td_headerandpost") if subject else None
+    row = cell.find_parent("tr") if cell else None
+    author_cell = row.find("td", class_="poster_info") if row else None
+    post = cell.find("div", class_="post") if cell else None
+    if not author_cell or not post:
+        raise ValueError(f"Could not isolate Bitcointalk message {message_id}.")
+
+    author_ids = set()
+    for link in author_cell.find_all("a", href=True):
+        match = re.search(r"(?:[?;&])u=(\d+)(?:$|[&#])", link["href"])
+        if match:
+            author_ids.add(int(match.group(1)))
+    if author_ids != {author_user_id}:
+        raise ValueError(f"Bitcointalk message {message_id} is not by the expected account.")
+
+    for quoted in post.select("div.quote, div.quoteheader, blockquote"):
+        quoted.decompose()
+    return post.get_text(separator=" ", strip=True)
+
+
+def x_post_to_text(html, post_id, author_handle):
+    """Read the original post text from X's page metadata."""
+    soup = BeautifulSoup(html, "html.parser")
+    url = soup.find("meta", property="og:url")
+    title = soup.find("meta", property="og:title")
+    description = soup.find("meta", property="og:description")
+    expected = f"https://x.com/{author_handle}/status/{post_id}"
+    if not url or url.get("content") != expected:
+        raise ValueError(f"Could not verify X post {post_id} URL.")
+    if not title or f"(@{author_handle})" not in title.get("content", ""):
+        raise ValueError(f"Could not verify X post {post_id} author.")
+    if not description or not description.get("content", "").strip():
+        raise ValueError(f"Could not extract X post {post_id} text.")
+    return description["content"].strip()
 
 
 def pdf_to_text(path, extraction_mode="plain"):

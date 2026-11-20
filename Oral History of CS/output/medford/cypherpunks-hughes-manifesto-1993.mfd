@@ -1,0 +1,24 @@
+@MEDFORD A Cypherpunk's Manifesto
+@MEDFORD-Version 2.0
+
+@Contributor Eric Hughes
+@Contributor-Role Author
+
+@Date 1993-03-09
+@Date-Note Published
+
+@Data_Ref A Cypherpunk's Manifesto
+@Data_Ref-Type html
+@Data_Ref-URI https://www.activism.net/cypherpunk/manifesto.html
+@Data_Ref-Note Source ID: cypherpunks-hughes-manifesto-1993; kind: manifesto (archival HTML transcription)
+
+@Passage P1
+@Passage-SourceID cypherpunks-hughes-manifesto-1993
+@Passage-Speaker Eric Hughes
+@Passage-Section Cypherpunks’ goals and tools
+@Passage-Text We the Cypherpunks are dedicated to building anonymous systems.
+@Passage-Context Hughes describes the systems the movement set out to build for privacy.
+@Passage-JevQuestion Does this passage state a technical goal of the Cypherpunks movement?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.92
+@Passage-JevMethod typesafe_api

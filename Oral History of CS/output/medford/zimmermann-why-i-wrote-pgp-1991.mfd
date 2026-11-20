@@ -1,0 +1,24 @@
+@MEDFORD Why I Wrote PGP
+@MEDFORD-Version 2.0
+
+@Contributor Philip R. Zimmermann
+@Contributor-Role Author
+
+@Date 1991-06
+@Date-Note Published
+
+@Data_Ref Why I Wrote PGP
+@Data_Ref-Type html
+@Data_Ref-URI https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html
+@Data_Ref-Note Source ID: zimmermann-why-i-wrote-pgp-1991; kind: first-person essay (author-hosted revised text)
+
+@Passage P1
+@Passage-SourceID zimmermann-why-i-wrote-pgp-1991
+@Passage-Speaker Philip R. Zimmermann
+@Passage-Section Closing explanation of why Zimmermann wrote PGP
+@Passage-Text PGP empowers people to take their privacy into their own hands.
+@Passage-Context Zimmermann explains the privacy purpose of PGP. This wording comes from his author-hosted page, labeled as an updated 1999 version of a 1991 text.
+@Passage-JevQuestion Does this passage explain the privacy purpose the author gives for PGP?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.89
+@Passage-JevMethod typesafe_api

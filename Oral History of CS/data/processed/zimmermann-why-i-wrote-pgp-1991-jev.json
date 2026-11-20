@@ -1,0 +1,20 @@
+{
+  "source_id": "zimmermann-why-i-wrote-pgp-1991",
+  "speaker": "Philip R. Zimmermann",
+  "quote": "PGP empowers people to take their privacy into their own hands.",
+  "question": "Does this passage explain the privacy purpose the author gives for PGP?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 315,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.89
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@MEDFORD Why Remailers II
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 1993-02-24
+@Date-Note Published
+
+@Data_Ref Why Remailers II
+@Data_Ref-Type html
+@Data_Ref-URI https://nakamotoinstitute.org/library/why-remailers-ii/
+@Data_Ref-Note Source ID: cypherpunks-finney-remailers-1993; kind: cypherpunks mailing-list post (archival transcription)
+
+@Passage P1
+@Passage-SourceID cypherpunks-finney-remailers-1993
+@Passage-Speaker Hal Finney
+@Passage-Section Choice and privacy
+@Passage-Text Cypherpunks seek to put into place structures which will allow people to preserve their privacy if they choose.
+@Passage-Context Finney explains the goal of privacy-preserving communication tools.
+@Passage-JevQuestion Does this passage state the goal that the author wanted privacy tools to serve?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.92
+@Passage-JevMethod typesafe_api

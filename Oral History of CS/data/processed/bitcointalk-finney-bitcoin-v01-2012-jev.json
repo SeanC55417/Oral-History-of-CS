@@ -1,0 +1,20 @@
+{
+  "source_id": "bitcointalk-finney-bitcoin-v01-2012",
+  "speaker": "Hal Finney",
+  "quote": "I recently found the 0.1 source code on one of my computers.",
+  "question": "Does this passage state that the author found early Bitcoin source code?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 312,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.86
+      }
+    }
+  }
+}

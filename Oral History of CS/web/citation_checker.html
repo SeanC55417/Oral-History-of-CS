@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Citation support checker</title>
+  <style>
+    :root { color: #fff; background: #000; font-family: Georgia, "Times New Roman", serif; }
+    * { box-sizing: border-box; }
+    body { max-width: 790px; margin: 26px auto 45px; padding: 0 18px; }
+    .masthead { color: #fff; }
+    label, button, .hint { font-family: "Courier New", Courier, monospace; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); line-height: 1.1; margin: 0; font-weight: normal; }
+    .intro { margin: 15px 0 18px; line-height: 1.45; }
+    form, .result { color: #202017; background: #fffdf4; border: 2px solid #555d5e; padding: 18px 22px 22px; box-shadow: 5px 5px 0 #bab8a8; }
+    label { display: block; font-size: .84rem; font-weight: bold; text-transform: uppercase; letter-spacing: .025em; margin: 19px 0 6px; }
+    input, select, textarea, button { font-size: 1rem; }
+    input, select, textarea { width: 100%; padding: 9px; border: 1px solid #616a68; border-radius: 0; background: #fff; color: #171717; }
+    input:focus, select:focus, textarea:focus, button:focus-visible { outline: 2px solid #b68b3d; outline-offset: 2px; }
+    input:disabled { background: #eeece4; color: #444; }
+    textarea { min-height: 90px; resize: vertical; font-family: "Courier New", Courier, monospace; line-height: 1.35; }
+    #passage { min-height: 180px; }
+    #medford { min-height: 150px; background: #f5f3e9; }
+    button { display: inline-block; padding: 8px 13px; border: 2px solid; border-color: #fff #42484e #42484e #fff; border-radius: 0; background: #dadbd5; color: #142940; font-weight: bold; cursor: pointer; margin-top: 13px; box-shadow: 1px 1px 0 #555; }
+    button:active { border-color: #42484e #fff #fff #42484e; box-shadow: none; transform: translate(1px, 1px); }
+    button:disabled { opacity: .55; cursor: wait; }
+    #check { background: #cdd8db; }
+    .hint { color: #545e5b; font-size: .78rem; line-height: 1.45; margin: 5px 0; overflow-wrap: anywhere; }
+    .result { margin-top: 22px; }
+    .score { font-size: 1.6rem; font-weight: bold; margin: 8px 0; }
+    .error { color: #9b1c1c; font-weight: bold; }
+    .result p:last-child { line-height: 1.45; margin-bottom: 0; }
+    a { color: #073a9b; text-decoration: underline; }
+    a:visited { color: #61378a; }
+    @media (max-width: 520px) { body { margin-top: 10px; padding: 0 10px; } form, .result { padding: 14px; } }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <h1>Citation support checker</h1>
+  </header>
+  <p class="intro">Choose a saved source, enter a claim, and ask JEV how well the cited passage supports it.</p>
+  <form id="form">
+    <label for="key">TypeSafe API key</label>
+    <input id="key" type="password" autocomplete="off" required>
+    <p class="hint">Used for this request through your local checker. The key is not saved.</p>
+
+    <label for="source">Source</label>
+    <select id="source" required><option value="">Loading sources…</option></select>
+    <p id="source-detail" class="hint"></p>
+    <p id="source-link" class="hint"></p>
+
+    <label for="medford">MEDFORD record</label>
+    <textarea id="medford" readonly placeholder="Choose a source to view its saved MEDFORD record."></textarea>
+    <p class="hint">Shown in full for reference. JEV receives only the source details from this record.</p>
+
+    <label for="locator">Page or post ID</label>
+    <input id="locator" autocomplete="off">
+    <p id="locator-hint" class="hint"></p>
+
+    <button id="load" type="button">Load cited text</button>
+
+    <label for="passage">Relevant passage</label>
+    <textarea id="passage" placeholder="Load a source, then keep the relevant exact words here." required></textarea>
+    <p class="hint">You may shorten the loaded text to an exact excerpt. Keep its wording unchanged.</p>
+
+    <label for="claim">Your claim</label>
+    <textarea id="claim" maxlength="1000" placeholder="What does this citation support?" required></textarea>
+    <button id="check" type="submit">Check citation support</button>
+  </form>
+  <section id="result" class="result" role="status" aria-live="polite" hidden></section>
+  <script>
+    const $ = id => document.getElementById(id);
+    let sources = [];
+    let loadedFor = null;
+
+    function show(message, isError = false, score = null) {
+      const box = $('result');
+      box.replaceChildren();
+      const headline = document.createElement('p');
+      headline.className = isError ? 'error' : 'score';
+      headline.textContent = message;
+      box.append(headline);
+      if (score !== null) {
+        const detail = document.createElement('p');
+        detail.textContent = `JEV NouL: ${score}. Source details come from MEDFORD; the passage provides the evidence. This does not prove the claim is historically true.`;
+        box.append(detail);
+      }
+      box.hidden = false;
+    }
+
+    function currentSource() { return sources.find(item => item.id === $('source').value); }
+    function selectionKey() { return `${$('source').value}:${$('locator').value.trim()}`; }
+    async function updateSource() {
+      const item = currentSource();
+      loadedFor = null;
+      $('passage').value = '';
+      $('source-link').replaceChildren();
+      $('source-detail').textContent = '';
+      $('medford').value = '';
+      $('result').hidden = true;
+      if (!item) return;
+      $('source-detail').textContent = item.date ? `${item.date} · ${item.title}` : item.title;
+      const link = document.createElement('a');
+      link.href = item.url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = item.url;
+      $('source-link').append('Original source: ', link);
+      if (item.locator_type === 'pdf_page') {
+        $('locator').value = '';
+        $('locator').disabled = false;
+        $('locator').placeholder = 'PDF page number, starting at 1';
+        $('locator-hint').textContent = 'Use the PDF file page number, which may differ from its printed page number.';
+      } else if (item.locator) {
+        $('locator').value = item.locator;
+        $('locator').disabled = true;
+        $('locator-hint').textContent = item.locator_type === 'message_id' ? 'This source is one saved forum message.' : 'This source is one saved post.';
+      } else {
+        $('locator').value = '';
+        $('locator').disabled = true;
+        $('locator-hint').textContent = 'This source has no page or post ID.';
+      }
+      $('medford').value = 'Loading MEDFORD record…';
+      try {
+        const data = await api(`/api/medford?${new URLSearchParams({ source_id: item.id })}`);
+        if ($('source').value === item.id) $('medford').value = data.record;
+      } catch (error) {
+        if ($('source').value === item.id) $('medford').value = `MEDFORD record unavailable: ${error.message}`;
+      }
+    }
+
+    async function api(url, options) {
+      const response = await fetch(url, options);
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || 'The request failed.');
+      return data;
+    }
+
+    $('source').addEventListener('change', updateSource);
+    $('locator').addEventListener('input', () => { loadedFor = null; $('passage').value = ''; });
+    $('load').addEventListener('click', async () => {
+      if (!currentSource()) { show('Choose a source first.', true); return; }
+      $('load').disabled = true;
+      try {
+        const params = new URLSearchParams({ source_id: $('source').value, locator: $('locator').value.trim() });
+        const data = await api(`/api/passage?${params}`);
+        $('passage').value = data.passage;
+        loadedFor = selectionKey();
+        $('result').hidden = true;
+      } catch (error) { show(error.message, true); }
+      finally { $('load').disabled = false; }
+    });
+
+    $('form').addEventListener('submit', async event => {
+      event.preventDefault();
+      if (loadedFor !== selectionKey()) { show('Load the cited text for this source and location first.', true); return; }
+      $('check').disabled = true;
+      show('Checking citation…');
+      try {
+        const data = await api('/api/check', {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            api_key: $('key').value, source_id: $('source').value,
+            locator: $('locator').value.trim(), excerpt: $('passage').value,
+            claim: $('claim').value
+          })
+        });
+        show(`${data.support_percent}% passage support`, false, data.noul);
+      } catch (error) { show(error.message, true); }
+      finally { $('check').disabled = false; }
+    });
+
+    api('/api/sources').then(data => {
+      sources = data.sources;
+      $('source').replaceChildren(new Option('Choose a source…', ''));
+      for (const item of sources) $('source').add(new Option(`${item.date || 'Undated'} · ${item.title}`, item.id));
+    }).catch(error => show(error.message, true));
+  </script>
+</body>
+</html>

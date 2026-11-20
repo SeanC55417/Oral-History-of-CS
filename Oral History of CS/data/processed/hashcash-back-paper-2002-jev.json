@@ -1,0 +1,20 @@
+{
+  "source_id": "hashcash-back-paper-2002",
+  "speaker": "Adam Back",
+  "quote": "The hashcash CPU cost-function computes a token which can be used as a proof-of-work.",
+  "question": "Does this passage state what the Hashcash CPU cost-function produces?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 314,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.97
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@MEDFORD Re: Bitcoin Bank
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 2010-12-30
+@Date-Note Published
+
+@Data_Ref Re: Bitcoin Bank
+@Data_Ref-Type html
+@Data_Ref-URI https://bitcointalk.org/index.php?topic=2500.msg34211
+@Data_Ref-Note Source ID: bitcointalk-finney-bitcoin-banks-2010; kind: forum post on proposed Bitcoin payment systems; message ID: 34211
+
+@Passage P1
+@Passage-SourceID bitcointalk-finney-bitcoin-banks-2010
+@Passage-Speaker Hal Finney
+@Passage-Section Bitcoin-backed banks and scaling
+@Passage-Text There needs to be a secondary level of payment systems which is lighter weight and more efficient.
+@Passage-Context Finney proposes a second level of payment systems for Bitcoin transactions.
+@Passage-JevQuestion Does this passage present the author’s proposed approach to Bitcoin payment scaling?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.75
+@Passage-JevMethod typesafe_api

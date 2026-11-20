@@ -1,0 +1,24 @@
+@MEDFORD Re: v0.1
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 2012-03-16
+@Date-Note Published
+
+@Data_Ref Re: v0.1
+@Data_Ref-Type html
+@Data_Ref-URI https://bitcointalk.org/index.php?topic=68121.msg804338
+@Data_Ref-Note Source ID: bitcointalk-finney-bitcoin-v01-2012; kind: forum post on early Bitcoin source code; message ID: 804338
+
+@Passage P1
+@Passage-SourceID bitcointalk-finney-bitcoin-v01-2012
+@Passage-Speaker Hal Finney
+@Passage-Section Recovery of early Bitcoin source code
+@Passage-Text I recently found the 0.1 source code on one of my computers.
+@Passage-Context Finney says he found a copy of an early Bitcoin source-code release.
+@Passage-JevQuestion Does this passage state that the author found early Bitcoin source code?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.86
+@Passage-JevMethod typesafe_api

@@ -61,5 +61,194 @@
     "question": "Does this passage identify a programming abstraction that the author considers historically important?",
     "status": "complete",
     "record": "output/medford/utexas-dijkstra-humble-1972.mfd"
+  },
+  {
+    "source_id": "chm-mccarthy-2007",
+    "jev_noul": 0.81,
+    "percent_true": 81.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/chm-mccarthy-2007.mfd"
+  },
+  {
+    "source_id": "chm-kleinrock-2011",
+    "jev_noul": 0.84,
+    "percent_true": 84.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/chm-kleinrock-2011.mfd"
+  },
+  {
+    "source_id": "chm-allen-2008",
+    "jev_noul": 0.89,
+    "percent_true": 89.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/chm-allen-2008.mfd"
+  },
+  {
+    "source_id": "chm-goldberg-2010",
+    "jev_noul": 0.8,
+    "percent_true": 80.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/chm-goldberg-2010.mfd"
+  },
+  {
+    "source_id": "chm-feinler-2009",
+    "jev_noul": 0.7,
+    "percent_true": 70.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/chm-feinler-2009.mfd"
+  },
+  {
+    "source_id": "bitcointalk-finney-bitcoin-and-me-2013",
+    "jev_noul": 0.95,
+    "percent_true": 95.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/bitcointalk-finney-bitcoin-and-me-2013.mfd"
+  },
+  {
+    "source_id": "cypherpunks-finney-remailers-1993",
+    "jev_noul": 0.92,
+    "percent_true": 92.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage state the goal that the author wanted privacy tools to serve?",
+    "status": "complete",
+    "record": "output/medford/cypherpunks-finney-remailers-1993.mfd"
+  },
+  {
+    "source_id": "metzdowd-finney-rpow-2004",
+    "jev_noul": 0.83,
+    "percent_true": 83.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/metzdowd-finney-rpow-2004.mfd"
+  },
+  {
+    "source_id": "metzdowd-finney-bitcoin-feedback-2008",
+    "jev_noul": 0.89,
+    "percent_true": 89.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage identify a technical concern the author raised about the Bitcoin proposal?",
+    "status": "complete",
+    "record": "output/medford/metzdowd-finney-bitcoin-feedback-2008.mfd"
+  },
+  {
+    "source_id": "x-finney-running-bitcoin-2009",
+    "jev_noul": 0.83,
+    "percent_true": 83.0,
+    "evaluation_origin": "saved",
+    "question": "Does this post state that its author was running Bitcoin software?",
+    "status": "complete",
+    "record": "output/medford/x-finney-running-bitcoin-2009.mfd"
+  },
+  {
+    "source_id": "bitcointalk-finney-bitcoin-banks-2010",
+    "jev_noul": 0.75,
+    "percent_true": 75.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage present the author\u2019s proposed approach to Bitcoin payment scaling?",
+    "status": "complete",
+    "record": "output/medford/bitcointalk-finney-bitcoin-banks-2010.mfd"
+  },
+  {
+    "source_id": "bitcointalk-finney-wallet-use-cases-2011",
+    "jev_noul": 0.94,
+    "percent_true": 94.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe a wallet-key security use case proposed by the author?",
+    "status": "complete",
+    "record": "output/medford/bitcointalk-finney-wallet-use-cases-2011.mfd"
+  },
+  {
+    "source_id": "bitcointalk-finney-bitcoin-v01-2012",
+    "jev_noul": 0.86,
+    "percent_true": 86.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage state that the author found early Bitcoin source code?",
+    "status": "complete",
+    "record": "output/medford/bitcointalk-finney-bitcoin-v01-2012.mfd"
+  },
+  {
+    "source_id": "bitcointalk-finney-bcflick-2013",
+    "jev_noul": 0.92,
+    "percent_true": 92.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage describe the speaker's own contribution to computing?",
+    "status": "complete",
+    "record": "output/medford/bitcointalk-finney-bcflick-2013.mfd"
+  },
+  {
+    "source_id": "cypherpunks-back-hashcash-1997",
+    "jev_noul": 0.87,
+    "percent_true": 87.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage explain the computational trade-off in the author\u2019s proposed Hashcash scheme?",
+    "status": "complete",
+    "record": "output/medford/cypherpunks-back-hashcash-1997.mfd"
+  },
+  {
+    "source_id": "hashcash-back-paper-2002",
+    "jev_noul": 0.97,
+    "percent_true": 97.0,
+    "evaluation_origin": "saved",
+    "question": "Does this passage state what the Hashcash CPU cost-function produces?",
+    "status": "complete",
+    "record": "output/medford/hashcash-back-paper-2002.mfd"
+  },
+  {
+    "source_id": "cypherpunks-hughes-manifesto-1993",
+    "jev_noul": 0.92,
+    "percent_true": 92.0,
+    "evaluation_origin": "new",
+    "question": "Does this passage state a technical goal of the Cypherpunks movement?",
+    "status": "complete",
+    "record": "output/medford/cypherpunks-hughes-manifesto-1993.mfd"
+  },
+  {
+    "source_id": "cypherpunks-may-manifesto-1992",
+    "jev_noul": 0.96,
+    "percent_true": 96.0,
+    "evaluation_origin": "new",
+    "question": "Does this passage describe a capability the author expected computer technology to enable?",
+    "status": "complete",
+    "record": "output/medford/cypherpunks-may-manifesto-1992.mfd"
+  },
+  {
+    "source_id": "zimmermann-why-i-wrote-pgp-1991",
+    "jev_noul": 0.89,
+    "percent_true": 89.0,
+    "evaluation_origin": "new",
+    "question": "Does this passage explain the privacy purpose the author gives for PGP?",
+    "status": "complete",
+    "record": "output/medford/zimmermann-why-i-wrote-pgp-1991.mfd"
+  },
+  {
+    "source_id": "cypherpunks-dai-b-money-1998",
+    "jev_noul": 0.8,
+    "percent_true": 80.0,
+    "evaluation_origin": "new",
+    "question": "Does this passage specify a proposed method for creating b-money?",
+    "status": "complete",
+    "record": "output/medford/cypherpunks-dai-b-money-1998.mfd"
+  },
+  {
+    "source_id": "szabo-bit-gold-2005",
+    "jev_noul": 0.96,
+    "percent_true": 96.0,
+    "evaluation_origin": "new",
+    "question": "Does this passage describe how successive strings in the author\u2019s proposed bit-gold system are linked?",
+    "status": "complete",
+    "record": "output/medford/szabo-bit-gold-2005.mfd"
   }
 ]

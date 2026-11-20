@@ -1,0 +1,28 @@
+@MEDFORD Oral History of Leonard Kleinrock
+@MEDFORD-Version 2.0
+
+@Contributor Leonard Kleinrock
+@Contributor-Role Interviewee
+
+@Contributor Marc Weber
+@Contributor-Role Interviewer
+
+@Date 2011-09-28
+@Date-Note Interview conducted
+
+@Data_Ref Oral History of Leonard Kleinrock
+@Data_Ref-Type pdf
+@Data_Ref-URI https://archive.computerhistory.org/resources/access/text/2022/10/102745980-05-01-acc.pdf
+@Data_Ref-Note Source ID: chm-kleinrock-2011; kind: interview transcript
+
+@Passage P1
+@Passage-SourceID chm-kleinrock-2011
+@Passage-Speaker Leonard Kleinrock
+@Passage-Section Queueing model for computer networks
+@Passage-Text He had thought about that problem, so I took his model and adapted it. Wrote up a proposal saying we are going to take a case where we have nodes that store, sort, correct, route.
+@Passage-Context Kleinrock describes adapting James R. Jackson's queueing model to study how data moves through a computer network.
+@Passage-JevQuestion Does this passage describe the speaker's own contribution to computing?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.84
+@Passage-JevMethod typesafe_api
+@Passage-PdfPage 19

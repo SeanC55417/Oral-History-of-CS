@@ -1,0 +1,24 @@
+@MEDFORD [ANNOUNCE] hash cash postage implementation
+@MEDFORD-Version 2.0
+
+@Contributor Adam Back
+@Contributor-Role Author
+
+@Date 1997-03-28
+@Date-Note Published
+
+@Data_Ref [ANNOUNCE] hash cash postage implementation
+@Data_Ref-Type html
+@Data_Ref-URI https://mailing-list-archive.cryptoanarchy.wiki/archive/1997/03/1fea96e9a08fb74d7f1fdeca362f943dcb2ca70017b092359eb8f931e11004cf/
+@Data_Ref-Note Source ID: cypherpunks-back-hashcash-1997; kind: mailing-list software announcement (archived HTML)
+
+@Passage P1
+@Passage-SourceID cypherpunks-back-hashcash-1997
+@Passage-Speaker Adam Back
+@Passage-Section Partial hash collision postage scheme
+@Passage-Text The idea of using partial hashes is that they can be made arbitrarily expensive to compute (by choosing the desired number of bits of collision), and yet can be verified instantly.
+@Passage-Context Back describes the cost-to-create and ease-to-verify property of his Hashcash scheme.
+@Passage-JevQuestion Does this passage explain the computational trade-off in the author’s proposed Hashcash scheme?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.87
+@Passage-JevMethod typesafe_api

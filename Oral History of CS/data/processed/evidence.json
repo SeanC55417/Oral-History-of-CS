@@ -53,5 +53,177 @@
     "section": "Discussion of EDSAC and closed subroutines",
     "context": "Summary: Dijkstra assesses subroutines' importance; he does not claim their invention.",
     "question": "Does this passage identify a programming abstraction that the author considers historically important?"
+  },
+  {
+    "source_id": "chm-mccarthy-2007",
+    "speaker": "John McCarthy",
+    "quote": "Namely, we started on Lisp in the fall of 1958.",
+    "section": "Development of Lisp",
+    "context": "Nilsson asks whether McCarthy's paper on symbolic expressions came before or after the development of Lisp.",
+    "pdf_page": 8
+  },
+  {
+    "source_id": "chm-kleinrock-2011",
+    "speaker": "Leonard Kleinrock",
+    "quote": "He had thought about that problem, so I took his model and adapted it. Wrote up a proposal saying we are going to take a case where we have nodes that store, sort, correct, route.",
+    "section": "Queueing model for computer networks",
+    "context": "Kleinrock describes adapting James R. Jackson's queueing model to study how data moves through a computer network.",
+    "pdf_page": 19
+  },
+  {
+    "source_id": "chm-allen-2008",
+    "speaker": "Fran Allen",
+    "quote": "We built an experimental compiler; followed actually the model that Dave Kuck had of being able to have an ongoing compiling system that one could measure the effectiveness of applying all kinds of parallelization and analysis techniques to programs in order to understand the value and how they interacted with each other.",
+    "section": "PTRAN parallelizing compiler research",
+    "context": "Allen describes the PTRAN team's experimental compiler for studying parallelization and program analysis techniques.",
+    "pdf_page": 16
+  },
+  {
+    "source_id": "chm-goldberg-2010",
+    "speaker": "Adele Goldberg",
+    "quote": "And then we worked with the folks at Berkeley [Dave Patterson and David Ungar, the SPARC team], and with Eliott Moss at UMass, and Ralph Johnson in Illinois, but basically the initial release then went out and we ended up with a spec for the implementation of what was Smalltalk-80.",
+    "section": "Smalltalk-80 implementation and release",
+    "context": "Goldberg discusses collaboration with university researchers on the Smalltalk-80 implementation and its initial release.",
+    "pdf_page": 12
+  },
+  {
+    "source_id": "chm-feinler-2009",
+    "speaker": "Elizabeth (Jake) Feinler",
+    "quote": "Every host that came on had to contact us because we were the naming authority. We automatically gave them the manuals we produced.",
+    "section": "Network naming authority",
+    "context": "Feinler explains how the Network Information Center handled new network hosts and distributed manuals.",
+    "pdf_page": 42
+  },
+  {
+    "source_id": "bitcointalk-finney-bitcoin-and-me-2013",
+    "speaker": "Hal Finney",
+    "quote": "I had made an attempt to create my own proof of work based currency, called RPOW.",
+    "section": "Bitcoin and me — interest in Bitcoin",
+    "context": "Finney recalls his earlier RPOW project while explaining why Bitcoin interested him.",
+    "message_id": 1643833
+  },
+  {
+    "source_id": "cypherpunks-finney-remailers-1993",
+    "speaker": "Hal Finney",
+    "quote": "Cypherpunks seek to put into place structures which will allow people to preserve their privacy if they choose.",
+    "section": "Choice and privacy",
+    "context": "Finney explains the goal of privacy-preserving communication tools.",
+    "question": "Does this passage state the goal that the author wanted privacy tools to serve?"
+  },
+  {
+    "source_id": "metzdowd-finney-rpow-2004",
+    "speaker": "Hal Finney",
+    "quote": "I'd like to invite members of this list to try out my new hashcash-based server, rpow.net.",
+    "section": "RPOW announcement",
+    "context": "Finney announces his new reusable proof-of-work server."
+  },
+  {
+    "source_id": "metzdowd-finney-bitcoin-feedback-2008",
+    "speaker": "Hal Finney",
+    "quote": "The paper describes key concepts and some data structures, but does not clearly specify the various rules and verifications that the participants in the system would have to follow.",
+    "section": "Technical questions about the Bitcoin paper",
+    "context": "Finney identifies details he wants specified in the proposed protocol.",
+    "question": "Does this passage identify a technical concern the author raised about the Bitcoin proposal?"
+  },
+  {
+    "source_id": "x-finney-running-bitcoin-2009",
+    "speaker": "Hal Finney",
+    "quote": "Running bitcoin",
+    "section": "Original status post",
+    "context": "Finney publicly reports running Bitcoin software in January 2009.",
+    "x_post_id": 1110302988,
+    "question": "Does this post state that its author was running Bitcoin software?"
+  },
+  {
+    "source_id": "bitcointalk-finney-bitcoin-banks-2010",
+    "speaker": "Hal Finney",
+    "quote": "There needs to be a secondary level of payment systems which is lighter weight and more efficient.",
+    "section": "Bitcoin-backed banks and scaling",
+    "context": "Finney proposes a second level of payment systems for Bitcoin transactions.",
+    "message_id": 34211,
+    "question": "Does this passage present the author’s proposed approach to Bitcoin payment scaling?"
+  },
+  {
+    "source_id": "bitcointalk-finney-wallet-use-cases-2011",
+    "speaker": "Hal Finney",
+    "quote": "3. Export and remove selected keys from wallet, for moving to safe long-term storage in case the wallet is hacked; later, move the keys back to a wallet for spending.",
+    "section": "Wallet key export for safe storage",
+    "context": "Finney proposes a concrete security use case for exporting and later restoring selected wallet keys.",
+    "message_id": 65388,
+    "question": "Does this passage describe a wallet-key security use case proposed by the author?"
+  },
+  {
+    "source_id": "bitcointalk-finney-bitcoin-v01-2012",
+    "speaker": "Hal Finney",
+    "quote": "I recently found the 0.1 source code on one of my computers.",
+    "section": "Recovery of early Bitcoin source code",
+    "context": "Finney says he found a copy of an early Bitcoin source-code release.",
+    "message_id": 804338,
+    "question": "Does this passage state that the author found early Bitcoin source code?"
+  },
+  {
+    "source_id": "bitcointalk-finney-bcflick-2013",
+    "speaker": "Hal Finney",
+    "quote": "I've made a Flicker module (they call it a PAL) called bcflick.",
+    "section": "bcflick wallet security prototype",
+    "context": "Finney introduces a Flicker-based module intended to protect Bitcoin wallet operations.",
+    "message_id": 1635481
+  },
+  {
+    "source_id": "cypherpunks-back-hashcash-1997",
+    "speaker": "Adam Back",
+    "quote": "The idea of using partial hashes is that they can be made arbitrarily expensive to compute (by choosing the desired number of bits of collision), and yet can be verified instantly.",
+    "section": "Partial hash collision postage scheme",
+    "context": "Back describes the cost-to-create and ease-to-verify property of his Hashcash scheme.",
+    "question": "Does this passage explain the computational trade-off in the author’s proposed Hashcash scheme?"
+  },
+  {
+    "source_id": "hashcash-back-paper-2002",
+    "speaker": "Adam Back",
+    "quote": "The hashcash CPU cost-function computes a token which can be used as a proof-of-work.",
+    "section": "Abstract",
+    "context": "Back formally describes the token produced by Hashcash’s CPU cost-function.",
+    "pdf_page": 1,
+    "question": "Does this passage state what the Hashcash CPU cost-function produces?"
+  },
+  {
+    "source_id": "cypherpunks-hughes-manifesto-1993",
+    "speaker": "Eric Hughes",
+    "quote": "We the Cypherpunks are dedicated to building anonymous systems.",
+    "section": "Cypherpunks’ goals and tools",
+    "context": "Hughes describes the systems the movement set out to build for privacy.",
+    "question": "Does this passage state a technical goal of the Cypherpunks movement?"
+  },
+  {
+    "source_id": "cypherpunks-may-manifesto-1992",
+    "speaker": "Timothy C. May",
+    "quote": "Computer technology is on the verge of providing the ability for individuals and groups to communicate and interact with each other in a totally anonymous manner.",
+    "section": "The Crypto Anarchist Manifesto",
+    "context": "May’s November 1992 mailing-list post reproduces the manifesto he says he wrote in 1988; this passage predicts anonymous network communication.",
+    "question": "Does this passage describe a capability the author expected computer technology to enable?"
+  },
+  {
+    "source_id": "zimmermann-why-i-wrote-pgp-1991",
+    "speaker": "Philip R. Zimmermann",
+    "quote": "PGP empowers people to take their privacy into their own hands.",
+    "section": "Closing explanation of why Zimmermann wrote PGP",
+    "context": "Zimmermann explains the privacy purpose of PGP. This wording comes from his author-hosted page, labeled as an updated 1999 version of a 1991 text.",
+    "question": "Does this passage explain the privacy purpose the author gives for PGP?"
+  },
+  {
+    "source_id": "cypherpunks-dai-b-money-1998",
+    "speaker": "Wei Dai",
+    "quote": "Anyone can create money by broadcasting the solution to a previously unsolved computational problem.",
+    "section": "First protocol — creation of money",
+    "context": "Dai proposes computational work as part of a pseudonymous digital-money protocol; the text is a proposal, not evidence of a deployed system.",
+    "question": "Does this passage specify a proposed method for creating b-money?"
+  },
+  {
+    "source_id": "szabo-bit-gold-2005",
+    "speaker": "Nick Szabo",
+    "quote": "The last-created string of bit gold provides the challenge bits for the next-created string.",
+    "section": "Main steps of the proposed bit gold system",
+    "context": "Szabo describes how successive bit-gold strings would be linked. Elsewhere in the same source he relates Hal Finney’s RPOW to bit gold.",
+    "question": "Does this passage describe how successive strings in the author’s proposed bit-gold system are linked?"
   }
 ]

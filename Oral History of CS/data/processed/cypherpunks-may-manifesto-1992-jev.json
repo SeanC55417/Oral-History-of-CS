@@ -1,0 +1,20 @@
+{
+  "source_id": "cypherpunks-may-manifesto-1992",
+  "speaker": "Timothy C. May",
+  "quote": "Computer technology is on the verge of providing the ability for individuals and groups to communicate and interact with each other in a totally anonymous manner.",
+  "question": "Does this passage describe a capability the author expected computer technology to enable?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 326,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.96
+      }
+    }
+  }
+}

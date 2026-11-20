@@ -1,0 +1,1892 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Oral History of Elizabeth (Jake) Feinler 
+ 
+ 
+ 
+Interviewed by: 
+ Marc Weber 
+ 
+Recorded: September 10, 2009   
+Mountain View, California 
+ 
+ 
+ 
+ 
+Editor’s note: Material in [square brackets] has been added by Jake Feinler 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHM Reference number: X5378.2009 
+ 
+© 2009 Computer History Museum 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 2 of 49 
+  
+Marc Weber:  I’m Marc Weber from the Computer History Museum, and I’m here today, September 10th, 
+2009, with “Jake” Elizabeth Feinler, who was the director of the Network Information Systems Center at 
+SRI.  [This group provided the Network Information Center (NIC) for the Arpanet and the Defense Data 
+Network (DDN), a project for which she was the principal investigator from 1973 until 1991.  Earlier she 
+was a member of Douglas Engelbart’s Augmentation Research Center (ARC) at SRI [which [housed] the 
+second computer on the Arpanet. It was on this computer that the NIC resided initially.] Jake is also a 
+volunteer here at the museum.  [She has donated an extensive collection of early Internet papers to the 
+museum, and has been working on organizing this collection for some time.]  Thank you for joining us. 
+Elizabeth (Jake) Feinler:  My pleasure. 
+Weber:  I really just wanted to start with where did you grow up and what got you interested in technical 
+things or things related to this. 
+Feinler:  [Originally I hoped to pursue a career in advertising design, but could not afford the freshman 
+room and board away from home, so I began attending West Liberty State College (now West Liberty 
+University) close to my home. West Liberty was very small then, and the] art department [wasn’t very 
+good.  The chemistry department was much better]., so I decided to major in chemistry. [I went on to do 
+graduate work at Purdue University, and finished courses for a PhD in bio] chemistry.  [Financially I was 
+living on a shoe string, so decided to leave Purdue and work for a year or two before pursuing a thesis, 
+so joined Chemical Abstracts Service in Columbus, Ohio as an Information Chemist.  Chemical Abstracts 
+was one of the largest data collections in the world, and I] got [intrigued with] big data compilations and 
+never returned to biochemistry.  In 1960, I heard about a job in California at Stanford Research Institute 
+[(now SRI International or SRI).]  I applied for it, they hired me, and I was in charge of [the Information 
+Research Center there,] where we did [technical] literature search[ing] and all kinds of data compilations 
+for the scientists at SRI.  In those days, there were no computers that did this.  You did it by brute force 
+[using] little three-by-five [index] cards.  I was working on a very big data compilation and the three-by-five 
+cards were getting totally out of hand. I thought there ou[gh]t to be [an easier way to do this job, so went 
+looking for some compute power within the Institute].  I wandered up into Doug[las] Engelbart’s 
+[Augmentation Research Center (ARC),] and [it looked] like they were having fun up there.  They were all 
+sitting [around], looking at television sets [and running a little device called a “mouse” around on a table. 
+We all thought they were pretty weird,] and [ Doug would] say “Oh, you’re all going to be doing this 
+someday,” and we [all thought he was pretty weird too.”  I asked him to hire me, and] he hired me to work 
+on something called the Resource Handbook 
+Weber:  What year was that? 
+Feinler:  This was in 1972.  I had already been at SRI in another capacity for a while, so I started on the 
+Resource Handbook and then [in 1974,] took over as [principal investigator] (PI) [for] the NIC project.  
+That’s how I got my start in computers.  I didn’t know anything about computers.  I was essentially a user 
+of computers rather than a programmer or a developer. 
+Weber:  To step back, where did you grow up? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 3 of 49 
+  
+Feinler:  I grew up in Wheeling, West Virginia, and I was the first person in my family to go to college. So 
+it was all a brave, new world for me. 
+Weber:  The things you did earlier at SRI, what sorts of things? 
+Feinler:  I did all sorts of data compilations and literature searches.  One of the big handbooks we did 
+was a [H]andbook [ofP]sychopharmacology.  Then I did another big compilation for the [NASA] Sky Labs 
+program on the, preservation of biological materials.  Then, the one that got me thinking I needed a 
+computer was [a large project] on fire retardants for our Poulter Labs. [On that project I worked with Lynn 
+Spraggs to develop a bibliographic searching] system for computers, and it was working pretty [well], but 
+we were timesharing on a GE network then, and timesharing in those days was pretty terrible. Sometimes 
+it worked, sometimes it didn’t.   
+Weber:  Was it very slow? 
+Feinler:  It wasn’t that [it was] so slow once you got on.  The problem was getting your share of the time. 
+Weber:  Do you remember your first impressions of Doug, besides that he was doing something wild? 
+Feinler:  Actually, I was working on a data compilation, as I said, and thinking it would be easier on a 
+computer. [I was working on the bibliographic search system and h]e was [researching] all the sorts of 
+things that a NIC required because he had just gotten this big contract to do the NIC, which stands for 
+Network Information Center for those that don’t remember NICs.  So he would come down to my office 
+and sort of ask me how did this, that, and the other thing work [in information centers,] and I would ask 
+him how does this, that and the other thing work [in computers].  Finally, I told him I was bored where I 
+was and why didn’t he hire me.  He said “Well, I don’t have a job right now,” and I said okay.  So he came 
+down a little while later and said “I have a job now,” and I said “What is it?” and he said “We need a 
+resource handbook.” I said “What’s a resource handbook?” and he said “I’m not sure but we need one in 
+six weeks.” So that’s how I [became] part of Doug’s group.  They were putting together a demonstration 
+at the [International] Computer [Communication] Conference [(ICCC)].  This wasn’t the big “demo-[to-end-
+all-demos” for which Doug is famous,] but it [was a meeting] whe[re the Defense Advanced Research 
+Agency (DARPA)]  first demoed the Arpanet, or presented it to the public.   
+Weber:  In Washington? 
+Feinler:  I think this was ’72. 
+Weber:  But in Washington? 
+Feinler:  Yes, in Washington. Sorry. So that’s how I got into Doug’s group. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 4 of 49 
+  
+Weber:  Describe the group.  What were the people like? Who was in it? 
+Feinler:  I should describe myself first - back-combed hair, high-heel shoes, business suit because [I] 
+w[as] always meeting the public and clients and that sort of thing. I walked into this group with their hair 
+out to here and their beards down to here [wearing] Birkenstocks, and looking kind of like unmade beds, 
+all sitting [around, some on the floor], staring at television sets.  Sometimes I would say “What am I 
+getting myself into?” I’m sure they thought I came from some outer planet, but it was kind of fun. 
+Weber:  At that point, it was a pretty big group, wasn’t it? 
+Feinler:  Yes. It was somewhere between 30 and 40 [people.] Most of the time when I was there, it was 
+about that size.  I think the[re were]  conflicts in [in the group because] the NIC was a production [project] 
+and the rest of the system was [dedicated to research].  Those two things kind of fought each other 
+because the machines were so small, and [one machine had] to do everything—- [actually the computers 
+themselves] were huge in size.  They took up a whole room, but they were small in capacity. And to try to 
+do everything on one machine was difficult.  I think that was a major problem [for the group, but it] was 
+generally not acknowledged that that was a big problem.  [We actually] cheered when we got one meg of 
+memory.  That sounds ridiculous now. 
+Weber:  What were your steps in setting up the NIC? 
+Feinler:  I started with the Resource Handbook and what that was, was a [handbook describing] all the 
+sites that were on the network.  Originally, [the Arpanet] was supposed to be a resource sharing network, 
+so we wanted something that [told] who was at each site, who were the [site] contacts, what kinds of 
+things the [site] have to offer, [etc.]  So that’s what the Resource Handbook was all about.  We also put 
+out a directory of all the users on the network at the time. [These two documents were essentially the 
+“electronic yellow and white pages” of the Arpanet.  When I joined [ARC, I think] there were about 30 to 
+40 host [computers] on the network.  [The NIC] took over [maintaining] the host table which was just a flat 
+file in those days.  Not much was online; almost nothing was online, so we did a lot of sending out 
+documents, I think something like 70- or 80,000 documents a year, because it was also our job to keep all 
+the developers on the network informed of whatever was happening.  Steve Crocker started out with 
+something called the Request for Comments, or RFCs, which were technical notes describing the 
+research going on on the Arpanet and later the Internet.]  The NIC distributed these in hardcopy to start 
+with and then eventually, they were all online -- many things like that.  The sites sent documents to us 
+and then if anybody needed [copies], they could come to the NIC.  We were kind of the “prehistoric 
+Google.”  If you didn’t know where else to go, you came to the NIC and we tried to find out who or where 
+or what was available for you. 
+Weber:  Before the NIC was started, how did some of these functions get done? 
+Feinler:  They didn’t exist.  I’m sure that many people my age remember when you sent a letter, you had 
+a secretary and you dictated that letter to the secretary, and then the secretary typed it and used White-
+Out and carbon paper and horrible things like that.  One of the things that Doug had done, which nobody 
+had done before, at least very few [had], was have you actually interacting with the computer where you 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 5 of 49 
+  
+could do what you wanted to do on the computer, make changes.  [There was no intermediary.  Using 
+h]is system, you could do everything yourself in it.  In one system, you could program, you could text edit, 
+you could write documents, all sorts of things like that. So it was a very sophisticated system way before 
+its time and exciting to work on. 
+Weber:  When you came, the Arpanet was already three years old. For instance, who had kept the host 
+table before you came? 
+Feinler:  There was a woman at, I think, SRI who kept it [for a while]. Maybe BBN did the first couple 
+[tables] because they were in charge of the IMPs, the Interface Message Processors, that everybody 
+attached their computers to. So they knew what the number of the IMP was and then they would 
+negotiate with whoever was coming on as to what they wanted to be called.  Everybody decided that 
+letters were easier to remember than just a set of numbers [which meant that each computer on the net 
+had both a number address and a common name address, such as SRI-ARC. Addresses] could’ve been 
+just a set of numbers.  There’s another woman named Peggy [K]arp who kept the list for a while.  [Then] I 
+think there were about 20 hosts on the network.  [When I began.  I worked]  with Mike [K]udlick  and the 
+two of us set some parameters so that there were ground rules for getting a name and making sure that 
+we had a [sit]e contact.  [This contact] later became [known as] the [N]etwork [Technical L]iaison.  The 
+[Liaisons] were the technical people on the network that helped build it, so they were a very important 
+group of people, and the NIC coordinated that group. If there was a document that needed to go to the 
+network, we sent it to all the technical liaisons and we maintained distribution lists [containing all of them] 
+when email came along.  So they were a very important group and the group grew as the network gr[ew].  
+That was one of our jobs, was to coordinate that group. 
+Weber:  There could be more than one technical liaison per site, or not? 
+Feinler:  No. They changed around a lot but the[re was only one] technical liaison associated  with [each] 
+host [computer.  W]hen LANs came along, there were [often] all kinds of [computers] behind [each host 
+computer].  And then some of the sites [adopted the same procedure of having a technical contact for 
+LANs or computers behind the host computer.] As it spread out into a group of machines, the[re] would 
+[be]  technical liaison that could [be] contact[ed if needed].  Eventually, there was also a host 
+administrator because the technical liaison were mainly technical and often students without authority in 
+financial matters or administrative matters, and they didn’t want the [responsibility for decisions that were 
+administrative and not technical]l. So we set up [H]ost [A]dministrators, which was another contact at 
+each site, so that if there was anything administrative [decision] or [decision that had] to represent the 
+organization, the [host administrato] made th[ose] decisions. [The host administrators were] another 
+group [the NIC] administered. Eventually, there was [yet] another one called the node site coordinator.  
+Those were the main contacts on the net.  The NIC was the [coordinating] hub and sent things out to [one 
+or] all of those people whenever that was necessary. 
+Weber:  At the beginning, did you start alone or did you have employees? 
+Feinler:  When I moved up [to ARC], I worked under Dick Watson and then finally under Mike [K]udlick, 
+and that was for about a year. Then finally, [SRI made the decision] to spin Doug’s group off to 
+Timeshare Corporation.  That was about ’7[6] or ’7[7] when [this occurred].   I wanted to stay with the 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 6 of 49 
+  
+[internet] because the NIC [project served] the Arpanet, and by that time, [also] the Milnet  [on what was 
+fast becoming the Internet].  No, I guess the Milnet came later -  but anyway, I wanted to stay on the 
+Arpanet, so I decided I wasn’t going to go with the [others to Tymshare]. By that time, I was the PI of the 
+[NIC] project, so that project stayed at SRI and [the rest of] Doug’s group went off to Timeshare. [Oops, I 
+got off track] - What was your question? 
+Weber:  How many people were working for the NIC? 
+Feinler:  There were about 40 people in Doug’s group, but they were doing everything. It was a large 
+contract with multi-tasks.  The NIC was one of the major tasks.  So when they left to go to Timeshare, I 
+had about three or four people [left in my] group.  Ken Herrenstein was [my] programmer and I think 
+Johanna Lansbergen [and one or two other part-time people]  w[ere] there.  I can’t remember exactly 
+when they came, but we were just two or three people at the time.  Mary Stahl [joined the group] and  
+Francine Perillo  [who worked] downstairs [in another group] transferred [to the NIC], so I think that was 
+about our group then.  Then I had a subcontractor, [Glenn] Sherwood, who had been part of Doug’s 
+group [who helped us].  So we just tootled along in the background for a while [until] suddenly, the 
+network [began] expanding like crazy [and] the NIC expanded along with it. 
+Weber:  You said there was some competition between the ARC group and the NIC within it, right, for 
+resources.  How did that fit together? 
+Feinler:  Looking back on it, I think [this conflict] was a problem for Doug as much as anyone, and [for the 
+research] part of the group. The NIC had to produce things. They [needed to use the computer] to 
+produce documents [and carry out NIC business]. We had a day-to-day job to do on this network, 
+[whereas] some of the other people were doing [only] research-y things.  [T]hey wanted to be able to take 
+the machine down and bring it back up when they wanted to.  There were always fights about what was 
+going to go on the machine because, as I said, it was small [in capacity].  I think it was incredible that they 
+did as much as they did. The NLS/Augment system was a big system, and [the NIC] used [it as our tool] 
+and beat the tires a lot of times, just to see if it would do what we wanted it to do. I found [this 
+environment] was a little difficult [to try to get a job done.]  I never knew whether [the computer or 
+NLS/ARC] was going to be there or not.  The network was that way, too.  It wasn’t exactly robust in those 
+days.  So getting a job done was something else.  I think that was difficult for Doug because he was a 
+research guy. He had ideas and things [he wanted to try], and his group was slanted in that direction.  But 
+if you have a project that has deliverables on it, you deliver, if you work for the government, [and the NIC] 
+was a government project.  So I think that [conflict between production and research] was something of a 
+[problem for Doug and] the group. [W]hen [many of the group] went off to Timeshare, it was difficult for 
+[many of the] people that [only] wanted to do research because, again, they were in an environment 
+where they were actually selling [a] product. [When Doug’s group moved to Tymshare their DARPA 
+project ended and the SRI-ARC computer went away.  The NIC was by that time funded by the Defense 
+Communications Agency (DCA).  At first we worked out of a pie slice on a crowded machine.  Finally] we 
+bought [a DEC-10 lookalike machine] from Tymshare, which was known as a Foon[ly.  It’s name was a 
+real problem.] 
+Weber:  Why? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 7 of 49 
+  
+Feinler: [I had to go to Washington and convince the military that they wanted to invest in a machine 
+called a Foonly.  It was hard to keep a straight face.] 
+Weber:  Why was it called that? 
+Feinler:  That’s just what the developer, [David Poole,] decided to call it.  [There was a tendency by 
+programmers to use the words “foo” and “bar” as place holders in programming.  Dave had a sense of 
+humor and thought the name was funny.]  I think Tymshare finally decided to call it an F4 rather than a 
+Foonl[y]. It was a DEC-10 lookalike.  It was quite a nice little machine, but the name was a little difficult.  I 
+did have a lot of interchange with the Tymshare people because we had gotten the machine from them, 
+[and were still using NLS/Augment which they provided and we altered to suit our needs.  However, the 
+internet was] about to go over to [the protocols], TCP/IP, and [Tymshare wasn’t] quite [ready] yet. So 
+there was a lot of back and forth on getting [TCP/IP] running [in the TENEX operating system,] and more 
+problems with trying to [license the DEC] TOPS-20 operating system, which [Tymshare] had [promised] 
+to [provide for the] Foonly.  DEC backed out of that [agreement, which] created problems for us. So I had 
+a lot of interchange with the Tymshare people. 
+Weber:  Tell the story a little bit, sort of chronologically. You moved upstairs.  You were working right in 
+the middle of the ARC group.  Tell what happened next. 
+Feinler:  Like I said, there was this decision that [most of the group] would move to Tymshare. 
+Weber:  But that’s much later. 
+Feinler:  It was only a couple years after I started. I started in ’72 and they started to talk about this about 
+’75. Then I think it was negotiated in ’76. Tymshare didn’t have enough space for the whole group so they 
+rented space from SRI for a while. My office was right [—between] the [offices] Tymshare [was renting] 
+and the SRI offices [on the same corridor], so I said I was on the Mason-Dixon line, right in the middle.  
+Weber:  When you came, for instance, where were you sitting? 
+Feinler:  There was something we called the “bullpen.” There weren’t enough [monitors] for everybody in 
+those days. They were pretty expensive. So the bullpen had all the [monitors] set up there. And then, as 
+time went on and equipment got a little cheaper, we had a NIC room [separate from] the bullpen. 
+Weber:  The bullpen was for all of the lab? 
+Feinler:  Everybody worked in the bullpen. 
+Weber:  And that was with the bean bag chairs and the television [sets]?  
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 8 of 49 
+  
+Feinler:  Yes, except they were actually Conrac monitors. 
+Weber:  Describe what the room was like. 
+Feinler:  It was an open room. I think at one time it had been a lab but the walls [had been removed] and 
+it was [an] open [space], with some pillars. [It was in the middle of the building with access from two 
+parallel corridors]  The equipment was a Conrac  monitor, which looked like a big [clunky] television set. 
+The [monitors sat on] tables that had [a line processor and] mouse on one side and a keyset on the other.  
+If you had to work on the system, [you used the first available monitor].  That’s how you got your work 
+done.   
+Weber:  How many terminals? 
+Feinler:  I don’t know. There weren’t enough to go around, I know that. Maybe about 25. 
+Weber:  But quite a few. 
+Feinler:  [Yes,] there were quite a few, maybe 2[5].  Doug had one in his office and [eventually] various 
+people started getting them in their offices as we could afford [them].  You were always under the 
+constraints of your contract. So each year, when the contract [was re]negotiated, you [w]ould [try to] 
+expand [the hardware] a little bit [and get a few more monitors]. Then, of course, PCs and cheaper 
+terminals and whatnot came in. 
+Weber:  These were on tables on the floor? Were you sitting on the floor to use the terminals? 
+Feinler:  No. Originally, I think the group did a lot of sitting on the floor, but by the time I got there, they 
+had desk chairs.  But there was a lot of rolling around: “Come and look at this,” so the chairs were [rolling 
+around the bullpen constantly.] Somebody said we needed a rug for the area because it was kind of 
+noisy. [SRI said “No, we don’t provide rugs for the offices,]” .The [group] w[as] very good at the “midnight 
+supply,”  [s]o somebody [brought] this ratty old rug out of their garage and put it on the floor. It was awful.  
+It smelled. It was all mothy [and moldy. S]ix months later, we put in for a [requisition for a “rug] 
+replacement” and lo and behold, we got a rug for the bullpen.   
+Weber:  Did you have music? 
+Feinler:  Ye[s].  Most people had music in their offices.  The offices went all around th[e] bullpen.   
+[Everyone was] assigned an office space, and [then] went out to the bullpen to work on [the] system. 
+[E]ventually, everybody [got] equipment in their offices.  A lot had to do with the electrical, too.  There 
+were a lot of electrical[ connections] and phone [connections] that had to be changed [as well], so it took 
+a while to get all that to happen. [Meanwhile e]quipment got cheaper so eventually we all had [terminals] 
+in our offices, but to start out with, it was all out in the bullpen. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 9 of 49 
+  
+Weber:  You each had individual offices? 
+Feinler:  Yes.  Sometimes we shared an office, but mostly, we all had individual offices. In those days, 
+they didn’t do cubes, thank goodness. [We had real offices]   We even had windows. 
+Weber:  I heard the lab went 24 hours a day. 
+Feinler:  You couldn’t get anything done on the machine during the day if everybody was on it.  [A]  DEC-
+10 probably had less than 100 logins at a time, and [even if you were logged in,] you couldn’t do anything. 
+[The computer] was so slow, that often programmers couldn’t compile programs.  [The NIC was] doing 
+big database updates, and we couldn’t do that during the day.  So we often worked 24 hours and we did 
+what we called “rollovers.” That was the worst - when you had to man the helpdesk or something the next 
+day and you stayed all night.  [A]bout 4 o’clock in the morning, you were really out of it, about 5 o’clock 
+[,w]hen the sun came up, you’d start to come back [to life] again.   [We drank a lot of coffee, coke, and 
+Mountain Dew.] 
+Weber:  Was there somewhere you could sleep, in a corner or something? 
+Feinler:  The women slept in the restroom because there was a couch there. It was a law then. They had 
+to have couches for women. I don’t know why.  [T]he guys just kind of flopped over their terminals.  [A few 
+installed couches in their offices]. 
+Weber:  If you walked in at 4 in the morning, there would be plenty of people there. 
+Feinler:  Probably be someone there. 
+Weber:  How hard was it to use Doug’s system at first? You came in and you were told that you had to 
+use this very unique system. What was that like? 
+Feinler:  A lot of people said the system was very complicated. I don’t think that was true. The whole 
+system was very, very sophisticated. You could do just about anything on it.  There was a learning curve, 
+but then there’s a learning curve on anything that’s brand new like that.  I didn’t think [the editing 
+commands] were [particularly difficult. Something that was difficult for me, trying to put out documents, 
+was that the system [added] statement n[umbers to each statement]  You could track down to what they 
+called a statement, which could be a sentence or a paragraph, and the [system  added] statement names 
+or numbers [to each statement.   NLS/ARC was] a structured [or outline] system to start with [and the 
+structure was hard to change].  Sometimes, just for myself personally, that got in the way of the structure 
+I wanted on the document I was trying to produce.  [Also,] it was very difficult to produce documents from 
+computers in those days.  [Printers] were still [using] typesetting, so trying to find a printer that would take 
+camera-ready copy from a computer, which was not [of] very good [quality] in those days, [presented] a 
+lot of problems.  It was just very expensive.  There were a lot of hassles and mismatches and that kind of 
+thing, but this was very new. People weren’t doing it, so it was difficult to do sometimes.  Other than that, I 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 10 of 49 
+  
+thought the system was not that difficult to use to do text editing [(which was mostly what I did).  W]hen 
+email came in, [NLS/Augement was] very nice for [handling] email because you could take any paragraph 
+out of anything you were working on and just send it off as an email [all within NLS/Augment].  That was 
+very unusual at the time. 
+Weber:  Like select it and do a command to send it. 
+Feinler:  Ye[s.  NLS/Augment] just sent it off. 
+Weber:  This was the first computer you ever touched. 
+Feinler:  I’d done punch cards and that kind of stuff, and I’d worked with a GE [tymsharing] system. 
+Weber:  Did you know how to touch type? 
+Feinler:  Ye[s]. 
+Weber:  How about the chord? How about the keyset? 
+Feinler:  I found that was pretty easy, [and also] was very nice.  You had the keyset [on the left on] which 
+you could type any letter or character.  [On the right] was a three-mouse button [on which] you could do 
+uppercase, lower case, [and shift to] numbers, [and] characters.  What was nice about [this arrangement 
+was that,] if you were editing, which I did a lot of because we were putting out a book about three-inches 
+thick, you didn’t have to take your hands [off the mouse and keyset to]  go back to the keyboard.  You 
+could just sit there and make your edits with your hands on the keyset and the mouse.  Why that didn’t 
+carry over, I don’t know, but I thought it was very nice.  I still would like to have that setup. 
+Weber:  So if you were typing long text, you would use the keyboard? 
+Feinler:  [Yes,] if you typed a lot of text [you would use the keyboard], but often you were just editing text 
+[– a character here and a character there]. 
+Weber:  When you came back to edit, it was easier to keep your hands on the mouse and the keyset. 
+Feinler:  Right, because the mouse was the pointer, so you just found] what you wanted to change [with 
+the mouse, and typed the characters with the keyset], and you didn’t have to jump back [and forth] to the 
+keyboard.  You didn’t have to keep changing your hands from one place to the other, and I thought that 
+was very useful and very effective. But, for some reason, when everything went over to Xerox [they kept 
+the mouse but] they didn’t choose to [use] the keyset, so the keyset kind of died. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 11 of 49 
+  
+Weber:  Do you remember the first time you used the system? 
+Feinler:  I wasn’t much of a computer user. The way you used computers at that [time] was you punched 
+cards and you took them to [a computer operator] and handed them a bunch of cards.  [NLS/Augment ] 
+was hands-on, and [in addition] there was this network out there, and I was sure that there was some 
+huge plug in the sky that only I was going to trash. So it was a little scary for me personally.  Plus, the fact 
+that I was female and the first time I sat down, somebody came and yelled at me and said “Secretaries 
+aren’t supposed to be using the machines,” and I said “Well, I’m not a secretary.” Anyway, there was a 
+little of that going on. That wasn’t so much sexist as it was because of the jobs that needed to get done, 
+so secretaries were kind of at the end of the food chain. Everybody was so busy, it was hard to find 
+somebody to show you how things worked.  It was kind of catch as catch can. 
+Weber:  Did anyone teach you at the beginning? 
+Feinler:  I think somebody sat down with me for a little while and showed [me] some of the commands. 
+Then I just kept asking people.  They did have classes [but] a class didn’t come up for a while.  [W]hen a 
+class finally came up, I sat in on that. But meanwhile, I was trying to get th[e] handbook out [so I mostly 
+flew by the seat of my pants so to speak.]  People came in from the sites, too.  [They came in and helped 
+with the [site descriptions for the] handbook and helped with some of the documents we were going to 
+hand out at the [ICCC]. I remember Bob Metcalfe was one. Peter Deutsch was one.  A lot of people came 
+through [ARC] and helped get some of the information together. 
+Weber:  This was the conference where they asked each site to do a demo of some sort. 
+Feinler:  Ye[s]. That was the [ICCC one] in ’72.  That wasn’t Doug’s famous demo. It was [a] conference 
+[where] mainly, they were showing what the Arpanet was and what it could do. I worked with Jacque[s] 
+[Vallee] who was also in our group at the time. 
+Weber:  Who is he? 
+Feinler:  He has many hats.  He was a [Frenchman who was an] information scientist [as well as] a 
+meteorologist. He’s also the world’s expert on unidentified flying objects, so he was quite a guy to work 
+with, very interesting and a lot of fun.  We decided that the NLS system was [too complex] for somebody 
+who’d never [used] a computer or [who] just walked in off the street.  [W]e needed something that was 
+simpler than the commands in NLS.  So we came up with what we called NIC Query.  It was very simple.  
+You hit an “A” and you got some information; or you hit a “B.” It was [a very] straightforward [menu driven 
+system.  It turned out to be] popular because [it was so simple.  P]eople just didn’t interact with computers 
+then. They didn’t touch them, so[ it] was very interesting [to interact directly with one.]  We found it was 
+harder to get higher-ups to touch them -- because they were afraid they would look foolish -- than it was 
+to get secretaries or people that were used to typing, or didn’t care. So that was kind of interesting. 
+Weber:  How would the query work? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 12 of 49 
+  
+Feinler:  If you wanted, say, to look at what was in the Resource Handbook, you could type “A” and then 
+it would give you a little tree-structure[d menu] that you could go down.  But you didn’t have to type 
+words.  You just typed 1[s] or As or whatever. It was very simple.  Then it would give you information that 
+was under th[at letter or number].  The whole thing was tree structured and Engelbart’s system was tree 
+structured, so [it]  was simple to do.  [We simply] kept the user from having to type any kind of commands 
+because they weren’t familiar with that sort of thing. They just typed an “A” or a “1” or whatever it told 
+them to do. 
+Weber:  They were choosing from a menu basically. 
+Feinler:  Yes. It was menu-driven. 
+Weber:  The system was tree based but then there were hypertext links that could take you anywhere, 
+right? 
+Feinler:  Right. Yes. Hypertext was [a very important] part of Engelbart’s system.  You could either have 
+a hidden link -- you didn’t realize that you were being taken somewhere else; the [system] would [take the 
+link automatically] -- or [a visible] link like you see nowadays [as a] URL[ that you clicked on to] take you 
+to another place.  That’s a very powerful tool as we all know now. It’s the basis [on] which the web is built.  
+Weber:  Were you adding links when you were creating documents? 
+Feinler:  Yes. Another thing that Engelbart’s system had, which I haven’t seen [in today’s tools, was level 
+clipping].  I’ve seen [programs] try to do it but very ineffectively.  [W]ith one command, you could [view 
+only the outline of a document; then] with another command, you could expand [the outline to a full text 
+document,] and you could expand  [the outline to] one level or two levels or however many levels your 
+[outline] had.  That was very powerful because you could go back and forth between your outline and the 
+content of your document. [When writing the Resource Handbook, which was about a three-inch high 
+document, [level clipping] was very effective to use. [When] Engelbart’s group left, [the NIC] had access 
+to [Tymshare’s] NLS/Augment system for five years, [however,] it wasn’t working well under TCP/IP. [Few 
+others on the] network w[ere] using [NLS/]Augment, so very shortly after [the group left SRI, the NIC] 
+evolved out of that system. We still used some parts of it in the background for a while, but we developed 
+all of our own [programs and data base] tools, and [delivered most information to users via network 
+servers]. 
+Weber:  Under NCP, Augment worked well over the network but not TCP/IP? 
+Feinler:  No, TCP/IP was coming in and it was not working on the machines that we had Augment on at 
+the time. There were some problems there.  [NLS/Augment ran under the TENEX operating system, and 
+TENEX had not yet been converted to TCP/IP.  We were on a machine running TOP20 operating system 
+and there were incompatibilities.] 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 13 of 49 
+  
+Weber:  But they were using the older Arpanet protocols. 
+Feinler:  Yes. They were using NCP.  Plus, the fact the rest of the network was geared towards [text file] 
+- most of the things that you’d exchange [across the network] were text files.  Augment had its own file 
+system and it was not compatible with everything else that was out on the net.  So we were trying to be 
+as compatible as we could with other sites. [Also, the NIC] didn’t have [enough] programmers [to maintain 
+the NLS/Augment system on our machine.  NLS] was a big system. It took a lot of people to keep it going, 
+so we evolved [to] our own [more efficient programs].  We built our own database system.  We kept trying 
+to get the client to buy a database system, but somehow or other, they didn’t think that was a problem.  
+So we built our own. 
+Weber:  When you say “we,” you had programmers assigned to the NIC. 
+Feinler: [Yes.  Ken Harrenstein built the database system] we called Void, or some of us called Avoid, 
+depending on how much data we had to enter.  It was a very nice database system [for the time, very 
+efficient and networthy]. 
+Weber:  He was part of the NIC? 
+Feinler:  He was the chief programmer for the NIC and then finally, he was the system architect for all the 
+[NIC] software.  I had hired him [when he graduated] from MIT when I was working for Engelbart, and he 
+[stayed at SRI on] the NIC [project] when [Engelbart’s] group left to go to Tymshare. 
+Weber:  But he understood NLS?  He had also worked on NLS? 
+Feinler:  He was [a] very gifted [programmer], and he knew NLS.  [He was also very familiar with network 
+programs and protocols.  He] was [the] one that evolved us away from NLS.  [We] used [NLS/Augment] 
+when [we were] under Doug and then [in transition for] about two years. [Then] we [stopped] using it 
+anymore because we didn’t have access to all of it, [w]e couldn’t maintain it, and it wasn’t compatible with 
+what we were doing with the NIC. [I used the text editing portion for quite a while, but most others went to 
+editors such as EMACS.] 
+END OF TAPE 1 / BEGINNING OF TAPE 2 
+Weber:  So you used NLS for when you were underdog, but then after they left to go to [Tymshare], what 
+another two years, you say? One or two years? 
+Feinler:  Yes. 
+Weber:  And was there any bad feeling with the people in the ARC group? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 14 of 49 
+  
+Feinler:  Well, I think there was a fair amount of confusion. Some people didn’t want to go. They wanted 
+to stay on the [Arpanet]. They didn’t want to be part of a commercial net. The group was quite a group 
+[with lots of diverse opinions]. 
+Weber:  Oh, but sorry, were they upset that the NIC went away from using NLS? 
+Feinler:  That I don’t know, because the NLS [providers] were then at [Tymshare]. And so I really don’t 
+know how they felt about that. I think more there was a lot of turmoil when the group split up to go to 
+[Tymshare]. They definitely wanted to take the NIC [project] with them. And I didn’t want to do that. All my 
+friends were at SRI, and I wanted to be sure that I stayed on the [Arpanet], which was the beginning of 
+the Internet.  [Aslo, it was my understanding after the fact, talking to people at SRI, that SRI never 
+intended for all of the group to leave.  Rather, they expected] that a research team would stay at SRI, and 
+the rest of the people would go to [Tymshare] as a production [team. That is, Doug would have stayed at 
+SRI and provided] the research would [for NLS] to [Tymshare], and there would [have been such] an 
+agreement between the two organizations. But Doug’s group had their own ideas, and they incorporated 
+themselves[…] I believe that’s what they di[d….] I wa sn’t part of that, I was just watching it. [The group] 
+did not want to be cherry-picked. They wanted to stay together as a group. [The incorporation] created all 
+kinds of [different problems, so that the original concept [of a cooperative agreement between the two 
+organizations for research] got scrapped.  
+At first, the [ARC group] didn’t even have Doug as part of it. [Then finally, they decided without Doug they 
+wouldn’t amount to much of a group. So they decided to include Doug.  And then, as I said, [once the 
+final agreement was reached between Tymshare and SRI] part of the [now Tymshare people] stayed at 
+SRI because they didn’t have enough space at [Tymshare] to house them all, so it was very confused for 
+a while as to who was where, and who was going where. And some people really didn’t want to be a part 
+of that, so they left. Charles [Irby] left, [Jon Postel] left. There were others that left [The Tymshare 
+arrangement] just didn’t feel right to them, so they went on to other things. I was the PI of the NIC project 
+at that point, and I wanted to stay at SRI. So I told the [ARC group and SRI] right off that I didn’t want to 
+leave, even if the project went, I didn’t want to leave. So there was a lot of confusion. There was no such 
+thing in those days as “venture capital.” If there had been, they probably would have found some venture 
+capital and spun themselves off somehow. And they did try to raise some money, I believe, but that didn’t 
+work. So eventually, they all went over to [Tymshare unless they decided to leave altogether. So they did 
+keep themselves together that way. [I don’t think it would have been a bad model [to have] had 
+researchers at SRI, and a production [team] at [Tymshare], but that didn’t happen. [There was a lot of 
+confusion at that point, and people were disgruntled.  [Money] was tight [because] t]here was a mini-
+recession about that time, and so finding funding was difficult. [A]ll [of] this was going on at once [a]nd it 
+created a lot of turmoil. In the meantime, I’m trying to get a job d[one] there [at SRI] because the NIC 
+[project] never stopped, [We] had to keep going and going, no matter what. [So they were] interesting 
+times. 
+Weber:  But if the NIC had gone to [Tymshare], it would have not been connected with the A[rpanet] 
+anymore. 
+Feinler:  It could have been. [Tymshare] would have had to [become] a military contractor. [However, the 
+situation was very unclear.  Tymshare could have connected to the Arpanet or it could have sold time to 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 15 of 49 
+  
+military customers on its own network, called Tymnet.  Or it could have sold time to non-military 
+subscribers only. No one knew how it was going to go – probably including Tymshare]. 
+Weber:  So what would it have been? A commercial NIC, in a sense. 
+Feinler:  Well, BBN was a military contractor, SRI was a military [contractor, and Tymshare] could have 
+been. And I think once [the ARC group] went to [Tymshare], they [did take] some military contracts [with 
+them]. I don’t [remember]. I’m pretty sure they did. [And Tymshare did have machines on the Arpanet. 
+Weber:  I’m having trouble understanding how. The NIC seemed so tied to the Arpanet. It’s the network 
+information center for the Arpanet. So it could be administered from [Tymshare], but it would still have to 
+serve the Arpanet, right?  
+Feinler: It was just that a NIC at Tymshare would have been there to support users in an NLS/Augment 
+environment, whereas a NIC at SRI was there to support users in an Arpanet/Internet environment.  The 
+Arpanet was an ASCII text environment and NLS wasn’t.  It no longer did the things I wanted to do to 
+provide a NIC.  Eventually, I’m sure, [Tymshare] could have done [the NIC] if they had wanted to. Or they 
+could have sold time to the government on [Tymnet]. It just wasn’t clear to me what their business model 
+was going to be.] 
+Weber:  And so you felt you identified more with SRI than with the ARC group? 
+Feinler:  Yes, I had been at SRI for a while, before I joined Doug’s group. And I liked the environment 
+there. I was already a contractor [a]nd so I joined Don Nielson’s  group after Doug left. Don[‘s group] was 
+working on [Packet] Radio, which [was] also Arpanet sponsored, [so] it seemed like a pretty good match. I 
+was with Don’s group for a while. Then Don moved up to be a vice president, and I moved up to be the 
+[Network Information Systems C]enter director. 
+Weber:  So when you were working under Don, you were still running the NIC, but he was your manager. 
+Feinler:  [Yes, h]e was my supervisor. He was a center director then, and then he moved up to be the 
+vice president.  
+Weber:  But he was the director of the NIC. Or was he? 
+Feinler:  [Well yes and no.]. It was a project under his group [but I was still the PI.]. 
+Weber:  Right, yeah. And the Arpanet funding for the ARC group, that [ended] around the time they went 
+to [Tymshare], right? And that was one of the precipitating factors or not? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 16 of 49 
+  
+Feinler:  Well, it had been a rather large project. I think upwards of over a half a million dollars. It was not 
+clear, because they had a blanket contract, and they had various tasks. But the main reason they were 
+on the Arpanet was to provide the NIC. And it was a large part of the project. And then [in 1973 or 74] -- I 
+think it was-- I’m not sure of the time, we had a pretty good recession. So funding was really cut back. 
+And the NIC project was cut back to a hundred thousand [dollars]. And that’s when I took it over, and 
+[about that time Mike] Kudlick, Jacques Val[lee, Paul Rech] and Dick Watson all left the Institute, and 
+went to other places. And then the next time people left was when they actually went off to [Tymshare] in 
+’77.  But [in 73-74 there] was quite a funding hiatus. When you have a group as big as Doug had, 40 
+people, finding funding for all of them in a down time is just tough work. So that was a part of the problem. 
+But another big problem was the size of the machines. It was just very difficult to do everything on one 
+machine. The machine was provided by ARPA, so they had the final say of what went on it, or what got 
+done on it. So there [was always a struggle] of trying to get your work done with these different restraints. 
+Weber:  And [of which] center [was Don Nielson the head]? 
+Feinler:  Telecommunications Science Center. [They] had the [Packet] radio project. It was a very big 
+project [on which] SRI was the lead contractor].   They also did the Deafnet, and, there were other things 
+and other projects under Don. So the NIC was just one of the projects under Don.  
+Weber:  And what year did you switch to being under Don? 
+Feinler:  I believe that was ’77. And then I stayed under Don, he was either the center director or the vice 
+president until I left SRI. And he was very nice to work with, as many of you already know.  [He] was very 
+supportive, and allowed the NIC to grow while it was there.  [In] the early ’80s was when TCP/IP became 
+a reality, and [the network] was going to cut over to [these protocols].  That was another time that was 
+very hectic. You might say [all hell] was breaking loose on the network, because everybody had to 
+convert to these protocols. [The NIC was] coordinating and getting documents out, and RFCs were 
+coming right and left, [so] that was [a] pretty hectic time on the net. Somebody high up in the joint chiefs 
+or in the defense department put out a directive. And a directive that comes out of the military, if it goes to 
+military sites, is not something you negotiate. You just do it! I don’t know what the man thought when he 
+put it out, but he said [something like,] “Now hear this! On January 1 of 1983, you will cut over to TCP/IP.” 
+Period. A[pparently, he did] not know that most of the people who were going to do the work were 
+[college] students [or people at universities], and they were going to be on vacation. Nobody thought 
+about that at the time. [So many of these people] came back. You know, the gauntlet was down. Their 
+work was on the line[, a]nd they were going to make [TCP/IP] work or else. So people were coming in 
+from everywhere to work on this thing to get it done by January 1, 1983. And the military, I think, was 
+oblivious of the chaos they had created.  
+Weber:  So they were working 24 hours. 
+Feinler:  I panned around the network on New Year’s Eve, right before January 1, 1983, and here [were] 
+all these people working like crazy!  I never took it upon myself to speak for DCA, because they were my 
+contrac[ting agency, unless they told me to [do so]. But [that night] I took it upon myself to send out a 
+message saying, “Thanks,” to all the [L]iaison[s]. And when I saw the DCA people later, I said, “I sent out 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 17 of 49 
+  
+[a thank you] message [on your behalf],” and they said, “Oh, yeah, thanks.” You know, like [it never even 
+occurred to them].” 
+Weber:  And all of them made the deadline? 
+Feinler:  No, no, not everybody made the deadline. But enough did that it was a success. They had 
+[done] lots of work before that. What they tried to do was get implementations for each one of the 
+operating systems [in use on the network], and then make those available to anybody that had that 
+operating system. But still, you had lots of things on your machine that had to be changed, and had to be 
+programmed, and didn’t work. [During that time Jon Postel] had these things he called “bake-offs.” where 
+[anybody] that was supposed to have an implementation [ready] would report in what was happening, 
+and whether it worked or not. And that had gone on for a couple of years before they finally cut over to 
+TCP/IP for real. [I believe] SRI [did] the first implementation of TCP/IP. Jim Mathis, who worked for Don 
+Nielson, was a graduate student under Vint [Cerf], who was then [a professor] at Stanford. I believe that’s 
+true. You’d have to check that out with Don.  [So SRI was in on the TCP/IP development and 
+implementation] from the get-go for one reason or the other. And then all of our machines had to be 
+running it, too, and not everything ran under TCP/IP. It was quite a conversion. It was really [kind of a 
+technical miracle], if you will!  It was very interesting to watch it all happen, [a]nd see all the sites make it 
+finally.  
+Weber:  And when you say SRI had one of the earliest [implementations], meaning how long before? 
+Feinler:  Well, I’m not sure when Vint left Stanford, but it was in the ’70s, I think, when they were starting 
+to work on it. 
+Weber:  So you had something up and running by the end of the ’70s, probably.  
+Feinler: [Jon Postel and others  in the ARC group were working on TCP/IP before Jon left SRI, and many 
+people, such as Jim Mathis, in Don’s group were also involved   They] were testing it out as a protocol to 
+see whether it was viable or not. And I think it was Jim Mathis that did the first implementation.  
+Weber:  You were in the [Packet] Radio Group. You were in Don Nielson’s group when they were doing 
+the internetworking experiments. 
+Feinler:  [I was in Don’s group, but was not part of the Packet Radio project.  Rather I was an observer of 
+what was happening with protocols at that time,  Several groups at SRI were working on developing and 
+implementing the TCP/IP protocols including ARC before they left and Don’s group]. 
+Weber:  But were you following that very closely? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 18 of 49 
+  
+Feinler:  The [Packet] Radio project wasn’t classified, but it wasn’t something that was publicized on the 
+net, except for those people who were working on it. So I mean, I was watching it, but I wasn’t a part of it.  
+[Packet radio was another big project in Don’s group.] 
+Weber:  But you knew about it. 
+Feinler:  Oh, yeah, I knew about it. 
+Weber:  And you knew about the van going around full of Generals and stuff. 
+Feinler:  Yes, that was fun when they would have Generals in an airplane, and they had the bread truck 
+going down the freeway, and they’d all be talking back and forth. And I think they had a big [aircraft] 
+carrier [at sea] at one point, and they had a lot of military people on the carrier, and they were all talking 
+back and forth, and this was big stuff in those days. So we had a lot of fun. And a lot of it didn’t work, and 
+[they] were behind the scenes trying to get it all to work. So that was a lot of fun. And they were always 
+trying to have the perfect demo of everything, and of course, demos never worked. It seemed that always 
+some glitch would come up when you were trying to do a demo. That was a big joke. 
+ All kinds of people would call [the NIC.  Many host computers on the network’ were provided by DARPA 
+or were attached to the network because] they were doing [networking] research to begin with, or military 
+research. But [behind the host computers were] machines that belonged to the site, and they were doing 
+whatever the site was doing. So some were very well monitored, and others, anybody that came in could 
+get on the machine and do whatever they wanted to [do]. It was the most fun in town as far as computers 
+went. [We would] get a lot of kid [hackers that] would come [on to the network through these machines 
+and they’d call the NIC, because they figured that maybe they could find out something about [the 
+network] from the NIC. So we had all kinds of kid hackers calling us. And the name of the game in those 
+days was if a kid bugged a site enough, someone at the site would [hire [him] or give him] something to 
+do. Otherwise, he’d drive you nuts. So there were all kinds [of “subrosa” users]. For instance, Marvin 
+Minsky had twin[s - a girl and a boy.  T]hey were always on the net. And they had friends out at SAIL 
+(Stanford AI Lab), and they were always on the net. And [there were other kids’ on the net. [T]hey weren’t 
+obstreperous. We called them hackers, but they weren’t obstreperous. They would usually try to find 
+something that they could fix, or some little [job] they could do, so that you wouldn’t throw them off. And 
+so there were sort of this sub-rosa group of people that were on the network that probably shouldn’t have 
+been. But they were helpful. They would help you do something.  
+Weber:  And you said they would communicate with Generals, and sometimes they wouldn’t know who 
+each other was. 
+Feinler:  Well, we put out the A[rpanet D]irectory, which was essentially a phonebook for the network. 
+And one of the things you have to remember [is] that this was just after the Vietnam war era, and the 
+military was not popular with students in those days, and vice-versa probably. You had all kinds of people 
+that had political slants that weren’t compatible. So I did not want to put people’s [titles in the directory. 
+First of all, it would have been a nightmare to keep up, and the minute you got some high ranking person 
+wrong, you’d hear about it. And we were at everybody’s mercy to get their names and addresses. It 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 19 of 49 
+  
+wasn’t something that they had to do. I mean, their military superiors did not say, “You must put your 
+name in this [directory].” So we were always kind of angling to get everybody’s names and addresses 
+anyway. And I refused to put titles, because I thought that if everybody knew who they were talking to, 
+that might not work very well. So we had all kinds of people talking to each other].  A k]id hacker would be 
+talking to a Nobel Prize winner, and somebody that had been an anti-Vietnam war ‘protestor’ would be 
+talking to military guys that had just come back. And I think that had a lot to do with making the network 
+very egalitarian. Everybody talked to everybody. For the military this was practically unheard of. I mean, 
+when email came out, it really created a whole different kind of communication in the military.  [Before 
+communications went up through the ranks.]  If you were army [and wanted to talk to the Navy], you went 
+all the way up, then you sent something over to the Navy, and it went all the way down to whoever was 
+supposed to get the message [and] there were checks and balances all the way along. But finally, 
+everybody was talking to everybody. That was interesting.  
+[Another problem occurred as] the military started using [the network] as a day-to-day tool.  [The] File 
+Transfer Protocol (FTP) at the time used the default] “open.” In other words, if you created a file [in your 
+own directory, and your computer was attached to the network], anybody could FTP [the file], unless you 
+decided you didn’t want it FTP’d, it was up to you to change [the priority], so it couldn’t be FTP’d. Well, I 
+kept saying, “The default should be the other way around,” because so many people didn’t know this was 
+going on. And stuff was flying all over the net that never should have. But finally, I guess, people got onto 
+the fact that they had to put some control on a file, if they didn’t want it FTP’d all over the network.  [That 
+was another interesting phenomenon on the net.] 
+Weber:  Did that produce any conflicts, or situations? 
+Feinler:  [Yes, it did.]  I think in the early days, “security” was kind of a bad word, because people were 
+developing this [network], and they were researchers. They wanted stuff open so they could see what 
+was happening. They could trade stuff back and forth. They could test each others’ [programs and 
+implementations] against their own, that kind of thing. So it was very research-y.  [Lack of security wasn’t] 
+something that was done on purpose, I don’t think. But sort of the feelings were that, “We want it wide 
+open so we can develop the best thing we can come up with.” And of course, military can’t be wide open. 
+When they started using [tge bet] as a user tool, then [there] was a different point of view [about security]. 
+So those were little conflicts that went on and the eddy currents underneath. I know one time we had 
+somebody call from the CIA, and [he] said he wanted an account.   And he wanted [an account] name like 
+“Apple” [or] “Mango,” [something] like that. And he didn’t want [his] own name associated with the 
+account. And so I said, “Well, I don’t think you want to put those names on your account.” And the guy 
+was kind of upset. He says, “Well, why not, we want to be anonymous.” And I said, “Well, then just pick 
+an alias name.  Be “Joe Smith” or something because [the] names [you chose] will stand out like a light 
+bulb on the network.” Anyway, he finally changed the names to something else.  There were all kinds of 
+things where you were working with a different community, and they had different points of view of how 
+things should go.  
+Weber:  And when you say like he would have been talking to on the phone, you would have been talking 
+to him on the phone about this, right? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 20 of 49 
+  
+Feinler:  Ye[s.  From the beginning] the NIC provided a telephone “hotline” and answered “snail mail” 
+requests]. And then finally email. And then as time went on, [more] things were done online. But to start 
+with they were all done offline, because there wasn’t anything online in th[e early] days.  [However, even 
+when I left in 1989 the NIC maintained a “hotline” with a bank of incoming phones and trained reference 
+people answering the phones.] 
+Weber:  And the conversations between people were mostly one-on-one email, not message boards or 
+anything. 
+Feinler:  There were a lot of working groups.  [These] were [email] distribution groups. 
+Weber:  So they would be cc’ing to a group? 
+Feinler:  Yes, but that came later. Well, first it was [one-on-one] email, and then distribution groups 
+[began where you could send a message to a group name, and the message would then be distributed to 
+each member of that group. The NIC maintained [or coordinated] some of the distribution groups, like 
+TCP/IP [and] Namedroppers.  
+Weber:  Namedroppers.  
+Feinler:  That was the name of it. Jo[n Postel] was the coordinator of it, because [his group at USC-ISI 
+was] developing the domain naming system at that point.  [The NIC] maintained the records of it. We had 
+all the records of it [because we were the naming authority and were implementing a version of the 
+domain naming system.  [T]he working groups were really interesting [b]ecause they did the work of 
+getting the network going, and getting different systems going, and ideas going.  [Some working groups 
+were closed, but for most of them, if you had an idea, [it] didn’t matter who you were, you could 
+contribute. Some of them were more controlled than that, [b]ut it was pretty wide open. It was very 
+democratic in the sense of ideas. Anybody’s idea, if it was a good one, would be listened to. And I think 
+that had a lot to do with the success of first the Arpanet, and then finally the whole Internet. That was the 
+mentality of the people that were designing it. And I think that we can attribute that [way of doing 
+business] to Steve Crocker who started out saying he wanted as little red tape as possible, and as many 
+good ideas, and that kind of held. 
+Weber:  But that was before you arrived that he did this. 
+Feinler:  Well, he started the RFCs, and I think it was about the third one, he sent out some ideas that 
+said, “Let’s don’t make this very bureaucratic, let’s make it full of ideas.” And that held.  Anyway, it wasn’t 
+too far after that, that I came along.  
+Weber:  So you inherited that, in a sense.  
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 21 of 49 
+  
+Feinler:  Yes, but the network inherited that as its mode of operating, and it held them in good stead.  
+[E]verybody had the feeling that [they] were going to build this thing [right. They were] going to try it. 
+[They were] going to kick the tires. It [was] going to work. And they were very outspoken.  It was with 
+some trepidation that you would [make a suggestion to one of] these working groups, because if you 
+came up with an idea that somebody didn’t like, they’d let you know in a hurry. There was a lot of back-
+and-forth, and if anybody got really flaming, they got thrown off the working group.  I remember one 
+[instance where a young guy] just kept flaming and flaming, and the [group coordinator] kept saying, 
+“Please do not make these personal comments. If you have an idea, fine. but don’t take potshots at 
+people whose ideas you don’t like.” And [the guy] just wouldn’t stop. [Finally the coordinator got angry 
+and sent out a message that said, “All right, it’s come to this.” That was the subject line. Then the 
+message was, “Your mother wears combat boots!” This was a saying from World War II, and the [the 
+recipient was so young he] didn’t even get it. [It] was kind of funny to see. [The young flamer] says, “I 
+don’t get that. What’s it mean?” I think those that were older knew what it meant. 
+Weber:  Actually, I never did know what it meant. 
+Feinler:  Well, what it meant was in World War [II shoes were scarce in Europe, so if a soldier] gave 
+combat boots to a girl, it was for favors. So when you said, “Your mother wears combat boots,” that’s 
+about as bad [an insult as you could give.  You were essentially saying your mother is a prostitute]. But 
+the [flamer] didn’t even know he’d been insulted. So there were a lot of mismatches like that on the net 
+that were kind of ‘funny’ to watch. 
+Weber:  But did he stop after that? He got the message. 
+Feinler:  He did, because he was told if he didn’t stop flaming, he’d get thrown off. So he finally calmed 
+down. 
+Weber:  And you said email came in after you arrived. When did it arrive? 
+Feinler:  It must have been about the mid-’70s, I think. Well, there was email, and sort of email when I 
+came. In Engelbart’s system, you could send messages to machines that ran NLS. But network email, I 
+think, was about the mid-’70s. Ray Tomlinson [came up with the first program, as I recall.] 
+Weber:  Yeah, ’72, ’71/’72. But you didn’t start using it a lot until the mid-’70s.  
+Feinler:  Well, I was using it [shortly after I started on the net] in ’72. And I remember going back to [a 
+meeting at] BBN, and Bob Thomas had some ideas about coming up with ways to send messages from 
+host to host. [However], to my way of thinking, John [Vittal] came up with [the ultimate mail program] 
+called MSG. [It had just about all the features that any message [system] has today. It was very good. 
+And that [mail program] just spread like wildfire. MIT had [a similar] message system. [Email] kind of 
+happened all at once. It just spread like wildfire. That was the killer app, I think, to start with, [a]nd then 
+probably the next one was the web. But those two, I think, really made the network. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 22 of 49 
+  
+Weber:  And under NLS, the Internal email, did people use it a lot, or not? 
+Feinler:  Oh, yeah. The problem was there was only one NLS system. And that was [on one] machine. 
+Weber:  You could only talk to people who you could go down the hall and talk to anyway, right? 
+Feinler:  No, you could send messages [to people] out on the net if they had [an NLS account.]  Dick 
+Watson [at ARC] was [developing a mail pro[tocol], about] the [same] time Ray was doing the same at 
+BBN. But anyway, email was something that once the idea [that you] wanted to send [a message] from 
+one machine to [an]other [occurred], it[ just spread like wildfire. And so, SRI was in on that at a very early 
+time. And we could send messages within NLS, but you also wanted to send a message from NLS to 
+some other machine, [a]nd that had to be converted to whatever the network was accepting.  
+Weber:  But that was mostly after ’72 or so. 
+Feinler: Yes, it kind of all went on at once. Different hosts had different ideas [that finally merged into the 
+mail protocols].  
+Weber:  But within the ARC lab, did people really collaborate much by email? Were there discussion 
+groups on email within NLS? 
+Feinler:  Well, they had something that was more like texting is now. You could send somebody a 
+message, and it would come across the top of your [screen], it didn’t interrupt what you were doing. It 
+came across the top of your work, and you could then get back to that person. So I’d say that was the first 
+thing that I was aware of. NLS was big, and lots of people were working on things. I wasn’t always aware 
+of everything that was going on. There were definitely working groups in NLS, but I don’t remember 
+whether a message could be redistributed to all members of the group, or whether one had to type in all 
+the names being addressed.  
+Weber:  And so netiquette and flaming came in right at the beginning. You remember. 
+Feinler:  Well, we tried to keep people reasonable. And then the NIC, as a contractor, had to do what the 
+[contracting agent] wanted us to do. So sometimes we’d have to send out [official] directives saying that 
+you were supposed to be a military contractor, government contractor, or have some kind of [official] 
+reason to be on the network. [Some] sites paid attention, and some sites didn’t, so that created some 
+mismatches along the way.  
+Weber:  Were there any conflicts from people talking to each other so freely? 
+Feinler:  Well, it was [very odd and new at the time.]   I think people are finding that out now the way they 
+[can] us[e] the net in a very social way. This happened back then as well.  I mean, you would be talking to 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 23 of 49 
+  
+somebody and working on something with somebody, and feeling like they were “your friend,” and you 
+knew them, but you’d never laid eyes on them. And it was a strange context. I remember going to MIT 
+once. Ken Harrenstien was at MIT, and he and I had chatted back and forth on the net, because he 
+seemed to be [around] at midnight, and I seemed to be [around] at midnight, We’d take a break and chat 
+back and forth. And he was asking me what was going on at our site. And I was asking what was going 
+on at his site. At MIT, there were a lot of good programmers, and they had a lot of good stuff, and he 
+helped me find some stuff for the NIC. Anyway, we got to be kind of like friends, talking back and forth. 
+And then we’d get in a chat session with some of the other people.  [So] chat sessions – we called it 
+“linking” in those days [– were common]. Anyway, I had to put my resource handbook out, and we were 
+having a lot of problems with getting a printer to take [computer] tapes, or take camera ready copy from a 
+computer, and get it printed out.  [Stanford] had a Xerox graphics printer [XGP]., Xerox had put these 
+printers, they were laser printers, at CMU and MIT, Stanford and ISI. Anyway there [were] just a few of 
+them out there. They were experimental, and they were great, because you took the text right off your 
+machine, and it went right to the graphics printer, and printed out formatted text.  That was unheard of in 
+those days.  [All we had were] line printers.  And [the XGP] had font selection. And oh boy! That was hot 
+stuff! So Ken introduced me to a fellow at Stanford, [Brian Harvey. The two of them had been working on 
+email stuff for a long time, but they’d never met each other. And Brian Harvey roomed with Brian 
+McCune. Okay, so the two Brians were at Stanford, and Ken was at MIT[, and] Ken kept saying, “Well, 
+you [should] talk to them, because they have an XGP at Stanford, and I bet [they could help you run your 
+resource handbook off on the [Stanford] printer.” 
+Weber:  What year was this? 
+Feinler:  This was, oh, mid-’70s sometime. [T]hat sounded great, [so] I hired Brian Harvey as a sub-
+contractor on my contract to help me do this. Well, [to] make a long story short, computer music was just 
+coming out then, and [Brian Harvey] got a chance to [go to] the Pompidou Center in France and work with 
+their music guys, and he just couldn’t pass that up.  So he passes his sub-contract with me over to Brian 
+McCune, and leaves town.  I’m trying to get this resource handbook printed, which is a handbook about 
+three inches thick.  [We] had people at MIT and people at Stanford helping me get it set up and 
+everything, [and we had it all ready to print. You had to get special [permission] over at [SAIL] to run a big 
+program on their machine. So Brian had done that. He was a graduate student over there, and he had 
+gotten special [permission because the job was] going to run all night long.   [It] turned out that some 
+graduate student wanted to run his thesis off, and he was ticked because I wasn’t part of the graduate 
+program over there or anything, and so he complained to John McCarthy.  [We] were [in the middle of] 
+running [our job when] at 2:00 [a.m.] in the morning, John McCarthy comes in and screams, “Get that 
+[job] off my machine!” And I’m going, “Oh, boy! I’m dead in the water.”  My whole contract depended on 
+getting this thing printed.  Fortunately, two or three graduate students took [John] to one side, and 
+pleaded with him to let me finish [the job,] so finally, he came back, and said, “All right, you can finish it, 
+but [n]ever run anything on my machine again.” So, “Thank you, John.” That was a funny night!  When 
+the thing finally finished about 5:00 [a.m.] in the morning, we all went out and celebrated. 
+Weber:  Where would you go out at 5:00 in the morning? 
+Feinler:  Well, I don’t remember right now, but there was some pancake house or something we went to. 
+[Usually, we] went out for Chinese. Everybody went for Chinese in those days. And there were all these 
+contests [as to] who had the best Chinese food, whether it was on the East Coast or the West Coast. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 24 of 49 
+  
+[There were endless discussions as to which coast] had the best pot stickers, who had the best hot food? 
+And it went back and forth. And there was a fellow out here, Louie-- I don’t know Louie’s last name--- But 
+Louie loved to [cook and] he had a restaurant, and he loved all the hackers that came [to his restaurant.] 
+He thought that was great.  [A] lot of the people from the [Stanford] AI department [came to Louie’s]. And 
+so Louie was first for a while. Then there was another [restaurant] on the East Coast [and another one in 
+Oakland. Their merits were hotly contested. Les Earnest [ran the AI lab at Stanford which was way up on 
+a hill in Palo Alto far away from everything. They had vending machines up [there,] and everybody was 
+always [asking] Les, for change [for the vending machines]. Les rigged up a charge] system, so you could 
+[access] the vending machines [from] a computer [terminal], and then you got a bill at the end [of the 
+month. Naturally they had to have] Louie’s pot-stickers in their vending machines. 
+END OF TAPE 2 / BEGINNING OF TAPE 3 
+Weber:  So Les Ernest set up a way to have pot stickers in the vending machines? 
+Feinler:  Yes. They’d send somebody down to get pot stickers and bring them up to the vending 
+machine. Then you could play Double or Nothing on the vending machine. You would log in and say what 
+you wanted off the vending machine on the computer, and the food would drop down and then you’d get 
+billed for it.  If you wanted to [try] Double or Nothing, you could do that.  Les kept chips and all kinds of 
+stuff [on hand], for the vending machine. 
+Weber:  Wouldn’t pot stickers be cold in a vending machine? 
+Feinler:  They had a microwave so you could [heat them up.] 
+Weber:  But they were frozen or just cold? 
+Feinler:  No, they were just cold. They’d go every morning and get food for the vending machine. I don’t 
+know which Chinese restaurant ever won [the contest of which was best], but there was always [a] 
+contest between [one or] two.  Because of the back and forth between MIT and Stanford, I got to know 
+several of the [students] at MIT, although I’d never seen them.  This was the same kind of thing [people 
+experience today].  You had these “friends.” I was going to a meeting for the American Society of 
+Information Scientists, which was in Boston, and Ken set up a Chinese banquet. There were 15 people 
+there from MIT, I believe, all of whom I felt that I knew but I’d never seen.  That just about blew my mind 
+to go to something like that, and it was really a lot of fun. 
+Weber:  Were people what you imagined them to be, or not? 
+Feinler:  Some were and some weren’t. It was interesting to see the person in person that you thought 
+you knew one way or another. That was very interesting. Then, Brian Harvey and Ken had worked for a 
+long time back and forth on [an email program]. They did a lot of work on the original mail distribution 
+system and mail bagging, so that you [could] bag up the mail and deliver [it] to one host and then split it 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 25 of 49 
+  
+and distribute it [to individuals] at that host.  [To continue…they] had worked t ogether but they had never 
+met each other. So when Brian was going off to France for his Pompidou Center stint, we decided we 
+needed to have what was then called a “hack”, a kind of a special [event or surprise].  So the hack was 
+that we were going to fly Ken out without telling Brian, and Ken was just going to show up at the Chinese 
+banquet. So we all came to the banquet. Ken was standing behind me [when we] walked in and [he] just 
+stood there.  Brian looked at him and he didn’t know this person. He looked at him and looked at him and 
+all of a sudden, he [yelled] “KLH!” That was [Ken’s] handle.  Ken grinned and everybody thought that was 
+a great hack, that we flew [Ken] in from Boston for [Brian’s farewell] Chinese banquet. So there were all 
+kinds of social things like that going on.  They were a lot of fun. 
+Weber:  What were those two guys like? 
+Feinler:  Brian Harvey was a very interesting person. I think he’s over at Berkeley now. He was very 
+interested in teaching students and kids about computers, so he had a computer lab.  I think his mother 
+was a teacher, [and] he [too] went into teaching.  He ran a computer lab [for high school students] where  
+the students did absolutely everything. They ran it. They monitored it. They came up with the rules. He 
+kept a log for a long time on the class and I don’t know what happened to that. It was very interesting 
+though.  His frustrations, too because he was very idealistic about this, and it wasn’t quite that idealistic.  
+But he did a really good job of [teaching]. Ken worked with me for many years. Then he went off to…[the 
+big data base place – I’m blanking.]  
+Weber:  Oracle? Sybase? 
+Feinler:  Oracle.  He went down to Oracle and now he’s at Google.  He’s a very talented programmer.  
+He just happens to be deaf and we met on the network. Then I got to know his parents because SRI had 
+an 800 number at the NIC.  Long distance phone calls were very expensive then, so he would link to me 
+and type, and I would call his parents, and we’d have these roundabout telephone conversations. I still 
+keep in touch with his parents. 
+Weber:  How would you communicate with him one-on-one? 
+Feinler:  He was very gifted at lip reading and sign language. Unfortunately, there weren’t many signs for 
+computer things in those days. I didn’t realize how difficult it was for him but we mostly communicated 
+either one-on-one lip reading or typing at the computer. Then, after we left Engelbart’s group, he didn’t 
+have interpreters [or] anything there [to help him]. [We would hire interpreters for meetings and things, 
+and many of them were very good at data entry and data work because they were very careful 
+observers]l. They really noticed everything because of their interpreting work, and they were really good 
+at [data work]. So we had several interpreters who were actually hired to do data work, but they were 
+[also] available as interpreters. That worked out pretty well. Hal Huntley was the first [interpreter we 
+hired,] and he’s still at SRI. He maintains machines and system stuff. So that was another interesting 
+sideline of our work, that we were able to have these interpreters and have them [handle our] data entry, 
+which they were very good at. 
+Weber:  At a meeting, he would have his own interpreter basically. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 26 of 49 
+  
+Feinler:  Yes. 
+Weber:  Was Su Hong one of the restaurants you went to? 
+Feinler:  [Sometimes.  However, w]e mostly went to Louie’s. Finally we went to Su Hong. Su Hong wasn’t 
+even there then, but Louie just loved doing a Chinese restaurant and he loved having these [graduate] 
+students [gather at his restaurant]. He was married and had a little boy, and the kid hung out a lot in the 
+restaurant, and his wife wasn’t real happy about that. So she kept talking him into closing the restaurant. 
+[He would] close the restaurant and [before long he would open another one. Louie would sell the 
+restaurant: “I’m out of the restaurant business.” Then pretty soon, you’d hear that Louie started another 
+restaurant. I know of three that he started; [then] I lost track of him, but Louie just seemed to always like 
+having the AI group hang out in his restaurant. He was a very good chef. He ran the thing but he also did 
+most of the cooking. 
+Weber:  Where were his restaurants? 
+Feinler:  [One was] in Town and Country Shopping Center and one was close by Su Hong [in Menlo 
+Park], somewhere there on that street. I’d forgotten where the third one was – University Avenue in Palo 
+Alto I think - but everybody followed Louie. 
+Weber:  That’s where a lot of SRI and AI lab people would meet? 
+Feinler:  Ye[s]. The [Stanford] AI lab was way up on the hill. Where was it? I can’t think of it – Page Mill 
+Road? It was way out of the way, so mostly when they were ready to go eat, they would go to Louie’s.  
+People were up there all night. They’d go in the morning for somewhere to get food. Everybody was 
+always looking for food, mostly pizza and Chinese. I spent a lot of time up there because of this book we 
+were trying to get out. That was interesting for me because the[se] were really sharp guys and I learned a 
+lot about what was going on on the net from them. I was mainly a user of it, pretty much, until later. Then 
+we developed our own programs. We developed some of the big servers, like [WHOIS] and [NAMSER]r 
+and [BIBLIO] and [TACACS]. Some of those were services on the net that people could use. When I took 
+over [the NIC project], it was about a $100,000 project, but when I left, it was a[n[ $11 million project, so it 
+had grown quite a bit.  The group had grown to be about 40. 
+Weber:  Give dates for some of those servers. 
+Feinler:  They kind of grew along the way. [WHOIS] was probably one of our biggest servers. We 
+stopped putting out the directory, which was essentially the network phonebook, and we put all that 
+[information] under [WHOIS]. So you could say “Whois Jake Feinler,” and it would come back and give 
+you my name, address, email address, affiliation on the net, that kind of thing.” Or you could say “Who is 
+host such and such,” and it would tell you its host name, host address, who was the host administrator, 
+that kind of thing. So we tried to design servers] for what we called episodic users. Somebody might use 
+the NIC a lot or they might use it every six months. We wanted [our programs] to be something that you 
+could just walk up [to], use, and walk away.  You didn’t have to have a big learning curve. So most of our 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 27 of 49 
+  
+servers were along those lines. Then we had a server, [NAMSER that] if you wanted to refresh your host 
+table, it would do it automatically. First the host table was a flat file and then it kept getting bigger and 
+bigger and bigger. Finally the names were too big for the space they had allowed.  That’s when they went 
+into the domain naming, which was a tree structured system. So [the NIC managed name service for all 
+the years, [from 1970] until ’91, when SRI lost the contract. 
+Weber:  [WHOIS] existed in some form from very early on. When? 
+Feinler:  There was something in NLS called the identfile, which identified everybody that was using the 
+NLS system. Originally we built on that. We used that software to put out the directory, which was a 
+hardcopy publication but then all the information was online too. When we stopped doing the directory, 
+[WHOIS] was already there. There’s an RFC and I think it was very early ‘80s -- it might’ve been a little bit 
+earlier than that -- and we put out an actual RFC describing [WHOIS] and how to access it across the net, 
+what you had to do.  It described] the protocol to [connect] with [WHOIS].  Then [we worked on] the 
+[BIBLIO] server for a long time. We were just about to make it available to the net, and then the contract 
+changed and the people that were supporting [the contract] changed. So we finally just used it for an 
+information center that we kept in Washington for the client. This was [located] at [the] DCA, [Program 
+Management Office (PMO)] that ran the network.  
+Weber:  What date roughly? 
+Feinler:  That was later.  That was probably ’87, ’88. [BIBLIO] was a bibliographic system.  You could 
+search for an author. [publisher, date, etc.] If the [item] was online, like an RFC, you could send it directly 
+to your host. You could get all the hits in the bibliographic system and then see which ones were of 
+interest to you, or who had them. What we were trying to do for the net was to tie it up with Dialog.  Dialog 
+was a very big commercial bibliographic search system in those days, but it was separate. It wasn’t on 
+the Internet and you had to pay to use Dialog.  We were trying to pay them and then make [there 
+services] available to DDN users. We did all the work for that and the reach-through. We had to 
+coordinate our data elements with their data elements and so forth. We did all the work for that but we 
+never released it on the net because it looked like it was going to take up a lot of resources. So we used 
+that program between our site and the DDN-PMO, and they used it.  But we did come up with that server.  
+Then we had another one called [SAM], which [stood for] simple access to email. [This] was before the 
+[personal computers were attached to] LAN[s]. Everybody was getting PCs, their own separate PC, but 
+when they used them on the net, they were just like a dumb terminal.  So people would [use their PCs as 
+terminals to read mail on their host machines, and the host machines were totally bogged down. Trying to 
+read your mail on the host machine was hopeless. So [the NIC] came up with a little program, similar to 
+what people do today, which reached up, got your mail, downloaded it, and it looked like your email 
+system on your PC. The kinds of things you could do were forward, reply and all those kinds of things. 
+We were doing a [beta] test of SAM with the military. We wanted to use [the] Kermit [upload/download 
+protocol], which was the protocol for downloading things to personal computers. The guy that wrote 
+Kermit, made it available for free but he didn’t want us to use it for military purposes, so we were kind of 
+stuck. [Consequently, we] went with a company called Transcend, [that] had a similar protocol. The 
+problem was that people thought we were selling something on the network because we [had licensed] 
+this commercial product just to download and upload, and that got to be a problem. We just went to beta 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 28 of 49 
+  
+test with Sam and that was about ’88, ’89. Then I left the net in ’89, so Sam kind of died on the vine. But it 
+was a good idea at the time. It was the same model that everybody uses now. 
+Weber:  POP already existed, I think. 
+Feinler:  There were [several similar protocols]. This [one] happened to be commercial and we could 
+[license] it and embed it, and we had licenses to do that. We didn’t want to get something that once we 
+got the military involved in it, then they couldn’t buy it off the shelf because that’s what they wanted to do, 
+[buy COTS products.]  You’d have one person sitting here and one person sitting there [in the same 
+office], and they’d both be working on the same thing, and they didn’t even know it because in those 
+days, you couldn’t send mail around [an office or company internally from one personal computer to 
+another]. The local area networks were just coming in and [people] were just starting to be able to do that. 
+The host machines were j[totally] bogged down [with people] logging in to read their email or work online.. 
+There were too many users. So [SAM] was just an idea to help offload the systems that were bogged 
+down. 
+Weber:  When you sent an email, let’s say in the mid-‘80s, usually how long would it take to get there? 
+Feinler:  It was instantaneous. 
+Weber:  But if the servers bogged down, it could take you a while to get in. 
+Feinler: Originally, you went up to the server to read your mail, so you were hanging on the [host] 
+machine and you were sending and receiving mail on the host server, not on your PC]. Your PC could 
+handle it but the protocols weren’t there [yet] to interact with the net except as a “dumb” terminal. So if 
+you had all these people trying to do email on a host server that could only maybe hold 50 or 100 logged-
+in users, it got hopeless after a while. So that’s when they were looking for different ways to offload [the 
+logged in users]. If you just went up and grabbed your mail and took it down to your personal computer, 
+that didn’t take very long. But if you were going to be hanging on the [host] machine doing all your work 
+that took a long time. [The] local area nets really changed the network quite a bit.  Once LANs were 
+available, it was like a tsunami wave, and [led to] a totally different way to use the network. Lots of people 
+had personal computers but they were not networked, or they were networked on private [networks] like 
+DECNet, or IBM [who] had there own private networks, that kind of thing. 
+Weber:  Were there many other women involved in this? 
+Feinler:  I had quite a few women working in my group. There were a lot of women on the net but they 
+seem to have been forgotten [over time]. MIT, there were quite a few [women] there.  When I first went to 
+MIT -- Radia Perlman. was busy freeing the johns because the women had to go down a couple of 
+[floors] to go to the john and the men’s john was on the same floor [as the computers]. So she was 
+freeing the johns. I thought that was [an] interesting concept [l]iberating the johns. At ISI, there were a 
+number of women. There were a number of women at BBN, MIT. Most of the sites had some women. I’ve 
+got a list of them somewhere. As I think of them, I’m writing them down, but when you ask me, I blank on 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 29 of 49 
+  
+people’s names. There was a women, Ellen Golden, at MIT. She ran some of the information stuff at MIT 
+and they had several machines, so she was kind of the center of things there.  And there were a lot of 
+lonely graduate students out there in those days, so we kidded around [that] she got to be Abby and I got 
+to be Ann, Ann Landers and Abby [van Buren].  
+Weber:  And you would answer them? 
+Feinler:  Right. 
+Weber:  When you went out in groups to the Chinese restaurants, were there usually many other women 
+there or not? 
+Feinler:  Not usually. The time I went to MIT where I said I met 15 people.  Marvin Minsky was there. He 
+was a professor and he was the head of [the MIT-AI] Lab. He was one of the ones that didn’t want to be 
+bothered with [a lot of] security.  He wanted the host to be accessible so that students could learn. If the 
+machine went down, it was because the students didn’t know enough to run it right, so they ran 
+everything there pretty much.  [That host rarely went down.] Minsky had twins -- a daughter and a son. 
+They were there [at the Chinese banquet.  Henry] Minsky was the son. He was about 10, and he didn’t 
+have a middle initial. Everybody had three-letter handles at the time, so we put a Q in [his handle] so he’d 
+have a middle initial. [He was always known as HQM.  MIT] had gotten a huge graphics display or -- I 
+didn’t know what it was. It was a huge graphics display. It looked like [a movie screen], huge, and this 
+was very unusual and very neat and new. Henry had been playing with this display] all night, so in the 
+middle of the Chinese banquet, Henry just went plop. He fell asleep right in the middle of all the food and 
+everything. We let him sleep because he’d been up all night working on the graphics display] that had just 
+come in. So when someone slumped over their terminal from lack of sleep that was always known as an 
+HQM fold over. The twins also had an older sister. She was there. So the twins and the older sister were 
+all there. I think Ellen Golden was there, so there were a number of women. Like I said, there were a 
+number of women that had key spots on the network. I’ve got a list of them. I keep meaning to publish it 
+sometime, [if I ever get around to it.] 
+Weber:  In general, women were accepted well by the men and there were no problems in integrating? 
+Feinler:  Except now, nobody can think of any women [who were] on the net. Joyce Reynolds worked 
+with Jon Postel and our group started something called Using or User working group. I was head of an 
+IFIP working group for electronic mail.  There were two parts to it. One was the systems group and one 
+was the user group. I was the chair of the user group. We tried to parlay this effort into an Internet user 
+group, some kind of a working group for users on the internet because as the internet grew, especially 
+after we converted over to TCP/IP, there were lots of people out there that were just using the net. They 
+weren’t trying to build it. It was their day-to-day tool. So they had a different perspective and different 
+needs than the people that were building the net, and knew it from scratch. We started that group at the 
+NIC. If you were trying to send mail, there were all these different mail systems and protocols, like BitNet 
+and UUCP.  You were always trying to get mail back and forth among different nets. At first, the user 
+group was called !%@ because those were all the different symbols that were used for different  email 
+systems, and that was a joke. One of the guys from Berkeley came up with that name. Then this user 
+group evolved into a pretty big IETF working group. I turned it over to Mary Stahl who worked with me, 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 30 of 49 
+  
+and then Mary turned it over to April Marine, who also worked for me. Then I think Joyce Reynolds took it 
+over. Maybe April took over after Joyce. But anyway, that whole effort became one of the big working 
+groups, and it turned out a number of RFCs called FYIs, which stood for For Your Information. This was 
+how things worked on the net and how you did things on the net. The FYIs were well accepted, and 
+introduced a new user to the Internet and its customs.  I don’t follow the IETF anymore, but the User 
+working group was part of IETF.  So that was one of the things that we were heavily involved in. The 
+working group, the IFIP working group, was really interesting because it had people from all over the 
+world involved, like Louie Pousin, Najah Nafah and Liane Taruco. 
+Weber:  Who’s the third? 
+Feinler:  Liane was from Brazil. Najah and Louie were from France.  They were very heavily into 
+networking and email services, mostly in Europe. We were all trying to get email standardized, and trying 
+to interface whatever they had with whatever we were trying to do. So it was a very interesting group of 
+people. 
+Weber:  How about from England? Were there many people? 
+Feinler:  Yes. I don’t remember right now who-- 
+Weber:  Peter Kirstein  
+Feinler:  Donald Davies started out with the group, but I think he dropped out early on. I’m not sure who 
+all were members from the UK. —Both the user and t he systems groups tried to meet at the same place 
+every time we met, and then we would all get together for a plenary at the end to exchange ideas and 
+progress reports. I think a lot of that work eventually moved into the ISO and CCITT protocols. Much of 
+IFIP work did that. IFIP working groups did the preliminary work, and then this would move into the formal 
+protocol committees.  
+Weber:  Where were your meetings held? 
+Feinler:  They were held all over. Once we met at INRIA, in France. We met in Brazil. We met in 
+Germany, England, Canada. Those are the places I can remember. A couple times in Germany I think. 
+After I left, they had meetings in Japan, so it was very international. 
+Weber:  Those were social occasions as well? 
+Feinler:  Yes. We all got to know each other. We were all working on documents and standards 
+recommendations. Then I think a lot of that fed into ISO TC6, if I remember correctly.  Jim White, who had 
+been part of Engelbart’s group I think was the chair of the ISO group that came out with the international 
+messaging protocols.  There was lots of interaction back and forth among the groups. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 31 of 49 
+  
+Weber:  Louie Pousin was in the email group. 
+Feinler:  Yes. I can’t remember if they were in the system or the user; maybe in both. I can’t remember 
+now. Ron Uhlig was sort of chairing both sets, and we would get together, as I said, in a plenary at the 
+end of each get together. 
+Weber:  Had you traveled outside of the United States before? 
+Feinler:  Yes, I’d been to Europe, Australia and various places. I liked to travel but it was fun to travel on 
+the job, meet really fascinating people. 
+Weber:  Again, these are people you’d had emails with, so you felt you knew them. 
+Feinler:  I didn’t know many of these people until I got into the working group. They were the people that 
+signed up and said they wanted to be part of it. That’s usually the way working groups work, is somebody 
+started it and asked who wanted to join. Various people that had interest in that topic would join. IFIP 6.5 
+went on for several years. A lot of the papers are in the collection at the Computer History Museum. Over 
+the years, Engelbart had had over a thousand documents of his own when he started the NIC. That was 
+one reason he wanted to be part of it. He already had a pretty good collection of documents. Then many 
+of the sites on the network would send us their documents, so we were a repository for various site 
+documents. Things that had to do with the network usually funneled through the NIC to everybody else, 
+so we had those. When Engelbart left, he had a bank of filing cabinets, maybe 20, 25 filing cabinets in his 
+office, plus other documents that the NIC had. SRI wanted the space so when Doug moved out, the 
+janitors came and just took these filing cabinets, dumped the contents on the floor, and were just about to 
+haul all to the dump. I came in that night and saw the mess on the floor.  A lot of it I still needed for my 
+project because I was staying at SRI. So I had to call the president of SRI in the middle of the night and 
+say “Tell them to cease and desist.” Everything had literally been dumped on the floor.  What a mess!  
+We had to get all this off the floor in a hurry. So everybody that could, grabbed a box and just jammed 
+stuff in. It was apples and oranges and bananas and who knows what, just stashed into these boxes.  
+That was back in ’77 when Engelbart left, and I just put this stuff in a vault that we had. Then I had to 
+clear out the vault, so I moved everything to my garage.  I left SRI in ’89, I took my own stuff with me, but 
+the project was still going on. So when the project ended in 1991, SRI called me and said “Do you want 
+any of these things that people left behind?” I said sure. So again, it all went into boxes and the stuff I had 
+in my garage got dumped on the floor during the earthquake because the bookcases I had them on 
+weren’t nailed down, so they all fell over. So literally, it was as if you took all of this stuff, put it in a big 
+mixing bowl and stirred it up. That’s what I brought down to the Computer History Museum. For those of 
+you who remember the NIC, it still lives and it’s there at the history museum. We’ve salvaged quite a 
+number of the papers that went through the NIC over the years, so we were a good match. 
+Weber:  During these years, it sounds like you were working a tremendous amount. Was this really your 
+personal life as well? 
+Feinler:  I did. I think the thing that was the hardest for me was the excessive traveling.  I had to go to 
+Washington a lot because that’s where the client was.  A lot of times, it was drop everything and go to 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 32 of 49 
+  
+Washington. The NIC never quit. The phones were ringing, and the email-- You’d get several hundred 
+emails a day and it was like it never ended. So you’d leave a mess behind, you’d be gone for a week, 
+you’d come back and it just kept stacking up. So I felt like it was never ending and you couldn’t quite get a 
+handle on it. I also sometimes felt like I was neither here nor there because I was going back and forth a 
+lot. So I’d have friends on the East Coast and friends at home.  It did interrupt your social life a lot, but 
+then there was this little social life that went on at midnight. Everybody was there, so you were going out 
+for food and that kind of stuff. So it was a little unreal, I guess, or surreal I think is more like it. I often felt 
+like Alice in Wonderland, or Alice through the looking glass is more like it. 
+Weber:  What was a typical day like during this period for you? 
+Feinler:  It was different at different times over the space. In the early days, I was busy trying to get these 
+big documents out that we produced, and that was a real hassle. Getting the content, I had to get that 
+from all the hosts on the network from contacts on the network. There’s an old joke that goes on and on 
+about Joe Smith. Everybody knew Joe Smith. If you want to make it a shaggy dog story, the story goes 
+on and on. But finally, Joe Smith is having an audience with the Pope and somebody in the courtyard 
+looks up and says “Who is that up there?” and reply is, “I don’t know the one in the red beanie but the 
+other one is Joe Smith.” I was kind of like Joe Smith on the network because everybody knew who I was, 
+just because they were funneling stuff back and forth through me. We did finally try to make everything 
+generic so it didn’t have my name on it, but in the early days, most things had my name on them. A lot of 
+people knew me, but I didn’t know them. So that was a little weird.  In the early days, the main effort was 
+getting those documents out. That was quite a lot of work and a lot of interaction with other people, all the 
+time maintaining a hotline. The NIC always ran a reference service, people calling and email coming in. 
+Then, as time went on, the contract got bigger and we were developing programs and we were 
+administering the naming and addressing. Later we did the audit trail and billing system and the TAC user 
+registration system. We did the database part of it and BBN did the security part of it, and it was a team 
+effort. So we did a lot of back and forth with BBN. 
+Weber:  The audit trail and billing system? 
+Feinler:  Yes. Originally, the network sponsors paid for the network. DCA would come up with the total 
+cost of the network and they just divided it between the sponsors. Some sponsors used the network a lot 
+and some sponsors didn’t use it much at all. Everyone wanted a better billing system, so after the TCP/IP 
+cutover, that was about mid- to late-‘80s, we started on a true audit trail and billing system. Also, in the 
+early days, if you had a TAC phone number, you could log into a TAC. Everybody would give out these 
+phone numbers, which they weren’t supposed to do, but they did. Then you could go through a TAC. 
+Terminal Access Controller is what TAC stood for. So a terminal could go through and get on the 
+network. If you had anybody you knew on the network that would give you a directory, you could get on 
+the network. So after the TCP/IP cutover, they had formal TAC access. You had to have a TAC card and 
+you’d be registered as a formal user. We maintained all of that. The work changed over time and, of 
+course, there’s a lot more of it and more people. By the time I left, I was more of a manager than a doer, 
+but I always liked being part of something. 
+Weber:  In the early days, you had to be there early in the morning in case the phone rang, right? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 33 of 49 
+  
+Feinler:  Yeah. In those days, we ran the hotline from 8 to 5 because that’s when SRI was open. But then 
+as time went on, we ran it from-- because mostly we were dealing lots of times with the East coast, so we 
+ran it from 5am until about 7pm, I think. 
+Weber:  What time would you usually come in and go home. 
+Feinler:  All different times. It depended on what we were doing. In the early days, I spent a lot of time 
+working midnight to dawn because you couldn’t get anything done on the machines. If you had to run 
+something big or compile something big, it just wasn’t going to happen until midnight to dawn. Then as 
+things went on, we had our own computer center. We had the Foonly and we had the DEC-20. That was 
+the Network Information Center machine that had all the information that people were getting across the 
+net.  Then we had a lot of Sun workstations by the time I left. 
+END OF TAPE 3 / BEGINNING OF TAPE 4 
+Weber:  So you were saying there really was no typical day. 
+Feinler:  Not really, mostly your day was built around the machine, how accessible it was in the early 
+days.  And then as time went on a lot had to do with what was happening on the Net, whether there was 
+some big conference or event that was going on.  The NIC often showed up at conferences with the 
+books that we published and the services that we provided, if there were a lot of new users there.  One of 
+the things that I was always proud of, we tried to be, as best we could, a facilitator for both ARPA and 
+DCA.  And also explaining the network mores and, you know, MO; the method of working on a network 
+and so forth.  For instance, if somebody new came on, I remember when the NASA Science Internet was 
+looking at the Internet and they were mostly on DECNET at the time.  And I met Tony Villasenor, who 
+was pretty much managing all the NASA Science Internet at the time and he didn’t know who the ARPA 
+people were, he didn’t know who the DCA people were.  And I felt it was important for me being the hub 
+of information to make sure these people knew about each other, because it made a lot more sense if 
+everybody joined in these working groups and came up with the best possible solution for everybody, 
+than if there were all these parallel efforts going on.  And often, we would sit there and you’d just see that, 
+you know, the wheel getting reinvented again and if you could get these parallel groups together, it 
+usually worked.  And I think we did a lot of that. ARPA administered the ARPANET… you know, the 
+research that went on and so forth but after the third year I think it was, in the mid 1970s, they stopped 
+operating the network.  Instead that got turned over to the Defense Communications Agency whose 
+mandate in the Department of Defense was to run communications networks.  And some of those people, 
+I remember one fellow, had a half day notice before he was made head of the Internet. it was like, what’s 
+an ARPANET <laughs>, you know?  So new people would immediately come to the NIC, we would try to 
+get them in touch with the main people that they needed to know about and so forth.  And I remember the 
+DCA folks came out, and Jon Postel still worked for us at SRI in those days before he went to ISI and… 
+Weber:  What year would that be? 
+Feinler:  Mid ‘70s, probably ‘74 maybe somewhere around there.  And Jon, for those that don’t know him, 
+was one of the stalwarts of the network and he was a very unassuming, nice, quiet reasearchy kind of 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 34 of 49 
+  
+guy.  And he had a beard, long beard.  And he always wore flip flops, but they were Indian shoes that he 
+got at Cost Plus. 
+Weber:  Moccasins? 
+Feinler:  No, the kind with a loop for the big toe, and when he was dressed up he wore his hiking boots. 
+And so the fellows came out from DCA and they were all dressed in natty suits and were all spit and 
+polish, well, you know, polyester suits in those days and polished shoes and what not.  And they said 
+they wanted to talk to the head technical guy.  So I go and get Jon, and Jon comes and he’s got his-- it 
+was cold then so he had his lumberjack jacket on, big black and red checks, and his hiking boots, he was 
+dressed for the day.  And so they talked to Jon a little bit and one of the guys motioned me to go out in 
+the hall.  So I went out in the hall and he said, “I want to talk to the head technical guy.”  And I said, 
+“That’s him, Jon Postel” <laughs> He wouldn’t believe me.  But anyway, finally he got it through his head 
+that Jon was the head technical guy.  At the same time I had a secretary named Adrian.  Adrian was a 
+black guy and in those days afros were in, so he had an afro and he always wore bib overalls which was 
+fine for Engelbart’s group but it didn’t sit too well with DCA <laughs>.  And they asked me who is this 
+person?  And I said, he was my secretary, and they said, “Well, does he always dress like that?”  And I 
+says, “Yes.”  And I said, “I didn’t notice that how one dressed had anything to do with how much work 
+they got done.”  Adrian was really a good worker.  That ended that conversation. 
+Weber:  Did you say he had painted nails as well or something? 
+Feinler:  He had very long fingernails at the time too.  Why I don’t know, but anyway, the visitors were a 
+little taken aback by them… 
+Weber:  Style? 
+Feinler:  …by the dress and lifestyle out here in California.   
+Weber:  But you stayed fairly conservatively dressed and coiffed. 
+Feinler:  Well, partly because all of my friends were elsewhere in SRI and the rest of SRI was more 
+normal than Engelbart’s group at the time.  
+Weber:  But did you, most of the people at SAIL and in Engelbart’s group were more kind of hippy, 
+hacker types then. 
+Feinler:  Well it was the ‘70s, you know, and so everybody dressed like hippies and, that was the norm.  
+Weber:  But not in most of SRI. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 35 of 49 
+  
+Feinler:  Well they were casual, but they weren’t quite that far out at the time.  Beards weren’t quite in 
+then and so forth, that came later.  There was kind of a culture clash. Doug came up to me one day when 
+I was going out for lunch with someone to a rather fancy restaurant, so I was all decked out with the back 
+combed hair and the spiffy clothes and the high heeled shoes. Doug came up to me and he said, “You 
+don’t have to dress like that.”  And I said, “Why Doug is there a dress code?”  <Laughs> He just 
+wandered off.  He always kids me about that.  And he used to always say, “Well we did that 10 years 
+ago.”  Everything you came up with, “Well we did that 10 years ago.”  So one time we had a picnic and 
+the sun was very bright.  Somebody took a picture of Doug with the sun in his eyes. Doug was taking a 
+bite out of a sandwich and he was squinting his face, and so they put a caption under the picture that 
+said, “I ate this 10 years ago.”  <laughs>  We had a lot of fun with Doug.  Almost all the young guys in the 
+group had beards and Doug didn’t at the time.  And so they decided Doug should grow a beard.  His 
+name is Engelbart which actually means in German, “angel’s beard.”  And when he grew a beard it was 
+clear down to his chest and it was snow white, and he looked just like Father Christmas or something 
+<laughs>.  So that was fun when Doug grew a beard.  He shaved it off.  He said it was too much trouble.   
+Weber:  What was he like to work for? 
+Feinler:  He was an interesting guy to work for.  He always had in his head, a vision of where he wanted 
+to go.  There were certain people to whom he was really good at communicating his ideas, and other 
+people to whom he just couldn’t get through, he just couldn’t make them understand where he wanted to 
+go or what was in his head.  I always found him to be a very interesting guy.  Of course he was my 
+mentor. I wouldn’t have had a career without him and Don Nielson.  So they are people who are very 
+special to me.  But I found that if you went to Doug with an idea, he was pretty receptive.  If you went to 
+him with a demand, forget it, he just closed up like a turtle.  He was a research guy.  When the institute 
+was leaning on him to shape the NLS system up and sell it, that didn’t fit well with.  His whole world was 
+figuring out how people and machines interact with each other and contemplating the long term impact.  
+And that was very much his research thing. The network, the software, and what not were somewhat 
+incidental to what was happening with communities of communicators. It wasn’t easy to communicate 
+with Doug, because he was an idea guy.  He definitely saw things the rest of us didn’t at the time.   
+Weber:  And it sounds like it was a nice, there was a lot of joking around, a friendly feeling in the lab. 
+Feinler:  Oh yeah.  But of course he had to manage all of this, and he had a lot of young people that had 
+no idea how difficult it was to bring in enough funding to cover all their work.  They just, they didn’t deal 
+with that.  And so, sometimes there were people that thought Doug didn’t do much because he wasn’t out 
+there in the middle of the floor where they were.  They didn’t know how hard it was for him to find support 
+for them.  And I had some of those problems myself, you know, if you’re the one that’s going off to 
+Washington and doing all that paperwork and what not, sometimes people think you’re not doing anything 
+but it’s a lot of work.  Work had to be done exactly the way the client wanted it done.  And what you want 
+to do and what the client wants to do and what your group wants to do, it doesn’t always mesh.  So it’s 
+quite a juggling job to make that all flow together, in my opinion.  And it was a big job for Doug and a lot of 
+people were not aware of how big a job it was.  He would be in his office and he would be working on this 
+kind of thing and they weren’t aware of how difficult it was.  Some understood and some didn’t. 
+Weber:  And who were the main personalities in the lab? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 36 of 49 
+  
+Feinler:  Well, they kind of prided themselves on not being structured. 
+Weber:  Sure, but I mean who were, who stands out in your memory? 
+Feinler:  However, they were the most structured group I ever worked with.  And it was-- the lead people 
+were the programmers because they controlled everything.  NLS was a big system and there used to be-- 
+seemed to be one programmer that kind of coordinated it all. I wasn’t a programmer so I might have this 
+wrong, but it seemed like when I first came there, Bill Paxton was kind of that coordinator, then Charles 
+Irby, and Jon Postel to some extent.  But Jon was always more oriented toward protocols and the 
+network than he was towards the NLS system.  However, he was a very good NLS programmer, or 
+system person.  Then when Charles left and they went to Tymshare, it was probably Don Andrews.  So 
+there was kind of this hand off, but it took a lot of knowledge to know everything that was in his system, it 
+was very complex.  I mean it had debuggers, it had… 
+Weber:  Jeff Rulifson… 
+Feinler:  …it had a programming language, it had email, it  had document tracking it had, and everything 
+was under one umbrella and it was a very nice system to work on.  I said I started out with the best and 
+it’s been downhill ever since <laughs>. 
+Weber:  And Jeff Rulifson, though, was not in that kind of driver’s seat <inaudible>. 
+Feinler:  I don’t know exactly.   
+Weber:  Okay. 
+Feinler:  Jeff was one of the very early people and he was certainly a key player; however, he left before 
+I arrived, as did Bill English and Bill Duvall. 
+Weber:  True, he was <inaudible>. 
+Feinler:  I had left out Bill Duvall and Bill English.  Those guys were the very early guys and I don’t know 
+who might have, been the lead designer.  Elmer Shapiro also had an early role. 
+Weber:  And Bill English was a hardware guy as well. 
+Feinler:  Yeah, and Bill Duvall was very big into software as was I think Jeff Rulifson. 
+Weber:  But were… 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 37 of 49 
+  
+Feinler:  Bill Paxton. 
+Weber:  Did you interact much with these guys? 
+Feinler:  They were there-- I did but not-- I wasn’t a member of the group then.  Bill Duvall and Bill 
+English and Jeff Rulifson, had left by the time I joined the group.   
+Weber:  So it was really… 
+Feinler:  Bill Paxton was still there. 
+Weber:  Bill Paxton.  And was he-- you were asking for resource from him and stuff, right? 
+Feinler:  I would talk to him if I needed something fixed. 
+Weber:  Was he easy to work with?  Yes, very nice guy – quiet and thoughtful. 
+Feinler:  Duvall and English and later others went to Xerox Parc.  The NIC gathered information from 
+Xerox PARC for the Resource Handbook because they were on the Net.  However, access to PARC was 
+restricted as they were a commercial lab. —As for Rulifson, I don’t know where he went after he left SRI 
+but he eventually ended up at Sun.   
+Weber:  Which I did want to ask, when you were there during the period, PARC was hiring away a lot of 
+people, right? 
+Feinler:  Yeah, there was some kind of a schism which I wasn’t there for.  And it was probably one of 
+those things that somebody wanted to go this way and somebody wanted to go that way and there just 
+weren’t enough machine resources to do everything.  And so that’s when several people left to go to 
+Xerox PARC.  And also, PARC had, you know, endless money to spend on equipment and that was 
+always a problem, because we were contractors and you only had as much equipment as the contract 
+would purchase for you.  So that was an issue.  For instance, a graphics workstation cost $50,000, 
+$60,000 bucks, so we had one.  Bob Belleville worked on that when he was at SRI.  And it was very 
+difficult to do graphics on the network in those days because the network couldn’t handle graphics and 
+the machines couldn’t handle graphics.   
+Weber:  But Bob was there a-- Bob Taylor had originally funded the ARC lab, right?   
+Feinler:  Which-- who was he? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 38 of 49 
+  
+Weber:  Bob Taylor had initially. 
+Feinler:  Oh, yes. 
+Weber:  And then he went to PARC.  Was there any feeling, did that hurt the relationship? 
+Feinler:  Well I’m sure he knew all the ARC people and he probably sold them on the idea that they could 
+do what they wanted and he could provide them the resources.  But both groups always kept in really 
+close touch and I don’t know what happened at the time, I wasn’t there.   By the time I joined Engelbart’s 
+group, all those people were still friendly and interacting on things and so it was, I think it was a 
+reasonably friendly split, although I don’t know what happened at the time. 
+Weber:  And do you remember visiting PARC <inaudible>? 
+Feinler:  Well PARC was kind of proprietary, you couldn’t just go there.  But I was up at PARC several 
+times and saw the work Alan Kay and Adele Goldberg-- were doing and various people that I knew 
+moved to PARC.  And of course they had the Altos machines, which were really nice machines and 
+everybody was jealous <laughs>. 
+Weber:  And Jon Postel, what was he like to work with? 
+Feinler:  Oh he was a sweetheart.  He had the office next to me and he was very considerate and he had 
+a lot of feeling for getting the right information to people and working on keeping everybody informed.  So 
+he and I had a lot of common interests-- we used to kid around and I said why don’t you come up with a 
+protocol called the MIN protocol.  And he said, what’s that?  And I said, Make It Nice <laughs>, just so 
+everything worked, because half the stuff didn’t work when you wanted it to work.  Jon was the editor of 
+the RFCs.  So we worked really closely with him even when he went to ISI because they were developing 
+the DNS system -- the programming for it at ISI and we were doing the implementation at SRI so there 
+was a lot of, interaction.  And then Dan Lynch had run all the machines at SRI, then he went to ISI and 
+the people in his group there, were developing TCP/IP implementations for the DEC-20s and 10s. So, 
+you know, we worked back and forth a lot with other sites particularly in our case, BBN and ISI.  Those 
+were maybe the closest ones but, you know, the MIT sites, Carnegie Melon. There was lots of back and 
+forth both with designs of things, particularly when we started to go to the TCP/IP protocols and 
+everything had to get converted over.  So everybody was swapping back and forth implementations and 
+programming that they had done and little things that would help and so forth.  There was always a lot of 
+back and forth.   
+Weber:  Who were the main people you dealt with at BBN? 
+Feinler:  Well, again, that was different over time.  At first we dealt mostly with the NOC, the Network 
+Operations Center, because they were one big service and we were the other big service on the network.  
+And then as time went on we… 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 39 of 49 
+  
+Weber:  But who were the main people involved in that? 
+Feinler:  Alex McKenzie. I remember in the early days dealing with Bob Thomas and, gosh I-- there were 
+a lot of names, I’m blanking on them now.  But most of the people that ran the NOC, we were in contact 
+with them all the time.  When any host came on the network, first they had to get an IMP port from BBN 
+and then BBN would tell us that they were coming on and who the contacts were.  And we’d follow up 
+and get pertinent information from them.  This interaction is like a day-to-day thing almost.  And then as 
+we got into naming and addressing, well more in the audit trail on billing we were working really closely 
+with BBN.  And it, was it Ed Cain who ran the Protocol Standard Technical Panel at DCEC-- oh gosh, 
+anyway. 
+Weber:  That’s okay. 
+Feinler:  But there were, you know, it was different people at different times.  
+Weber:  And then was Ted Nelson, did you meet him in those years? 
+Feinler:  I knew who he was.  He ran the little, I forgot what is was, a little computer center, it was on the 
+corner of Manalto [ph?] and a lot of the people in the ARC group were helping or we were over there.  
+And so I went over there a couple of times.  But I didn’t know Ted that well.  However, I’ve met him since, 
+and gotten to know him.   
+Weber:  And Andy van Dam had came out some? 
+Feinler:  I didn’t know him at all.  Some of the other people knew him.   
+Weber:  And who were-- how did your users change over time, the users of the Net? 
+Feinler:  I’m sorry I didn’t get the question. 
+Weber:  How did your users change over time? 
+Feinler:  Well originally, the users were the developers of the system and they were not using the Net so 
+much as they were using their own host and trying things out and then they’d exchange ideas of things 
+that worked host to host.  Then-- that worked out.  Then, the idea for TCP/IP came along and that took 
+the focus off of resource sharing-- originally the network was supposed to be a resource sharing network.  
+primarily to share the big computers that were at the time, located at atomic energy sites  They had big 
+computers and people had to go there to use the computers.  The idea was that you could get access to 
+these computers across a network, I think that was sort of the original idea… plus development of 
+communications that were faster and more robust.  But once email hit, that kind of changed the whole 
+direction.  People then used the network in a different way and still later the focus changed again from 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 40 of 49 
+  
+using resources to developing the TCP/IP protocols.  I mean, the emphasis of the research was on 
+protocols and getting everything to work with everything else.  Not that protocol research hadn’t been 
+ongoing, but it became more of an emphasis.  Then once we cut over to TCP/IP, the network became an 
+operational military network called the DDN.  The DDN adopted TCP/IP, and they became a very large 
+DoD operational network made up of five subnets, one of which was the ARPANET.  The DDN was 
+“operational” which mean that everybody was using it for regular business; other government agencies 
+were using also using TCP/IP.  NASA had its NASA Science Internet-- you know, everybody was using 
+the same suite of protocols so they were all interactive.  And so then there was a lot more emphasis on 
+what the users needed versus what the underlying system was all about.  This internet was growing 
+exponentially, so that was what was driving the protocol research… whether they were robust enough 
+and there was gateway research and security issues, a lot of things that the emphasis hadn’t been on in 
+the very early days.   
+Weber:  So the people that were calling you were very different kind of person. 
+Feinler:  Yes, in the early days we just had a phone.  But by the time I left we had a bank of six phones 
+and they were ringing all the time, you know, first one  would ring and then the system would roll over to 
+the next phone, and so forth. 
+Weber:  And what would people ask? 
+Feinler:  Just about anything.  A lot of times where something was or who was the person to contact or 
+how did they come onto the Net?  How did they use certain things?  How did they get a copy of this, that, 
+or the other?  It could be anything.  And then we had a lot of liaisons between the various subnets.  
+CSNET had come on, there was BITNET.  CSNET had been superseded by NSFNET but both were still 
+there.  UUCP folks called us to find out how to get stuff from one side to the other?  It could be anybody, 
+you know.  And so the group that we had answering phones, we tried to get them to somewhat 
+specialize. if it was TAC access it went to the people that were doing that, how do we get on a TAC, how 
+do we get a TAC access card?  If it was security stuff.  We had a security expert, Peter Neuman  who 
+was working with our group, and there were other security people at SRI that we could call on.  So we 
+just never knew what we were going to get.  And that’s why I kept so much paper, because we would get 
+transferred from one machine to another machine and-- or something was old and they’d say, “Oh we 
+don’t want to carry that across or we don’t want to bother with that, it’s old.”  But that didn’t stop people 
+from asking questions about it.  And also in the early days, it was very hard to jump on a machine and get 
+to something while you were talking to somebody on the phone, the machines just didn’t work that fast, 
+so we kept a lot of paper around to be able to answer questions in a hurry.  And we had sample 
+questions and answers [now known as FAQS] for the kinds of questions we got all the time  
+Weber:  Do you still have those, yeah. 
+Feinler:  I don’t think I do anymore.  We kept them for a long time.  The Reference people used them and 
+that’s also how we would train new people that came in.  They could learn about the questions that you 
+got the most.  And then, if you got something that was more complex, we passed it on to either a local or 
+network expert. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 41 of 49 
+  
+Weber:  What was the most common that you remember? 
+Feinler:  Mostly where was something or who was the right contact?  Or how do I do X, you know, how 
+to-- when we handled the TAC cards, we got a lot of people calling to get a TAC card.  But that was fairly 
+late in the ‘80s.  Also, lots of questions about naming and naming domains. 
+Weber:  And would you try-- was there any screening?  Anybody who called, you would answer the 
+question? 
+Feinler:  We would try unless they were trying to be silly or something like that. 
+Weber:  But not trying to restrict it to legitimate users in any way. 
+Feinler:  Well, like I said, we were kind of a hub.  We didn’t always try to answer questions so much as 
+get the person to the right person that could answer the question.  I mean, we did not try to be experts on 
+everything that was going on, but just try to know who was the expert and pass that person on.  
+Especially in the working groups, I mean we were more familiar with the working groups and who were 
+the heads of them, but we wouldn’t try to answer the question on what was going on in working groups, 
+we’d just pass it on. 
+Weber:  And how many people did you have answering phones? 
+Feinler:  Probably off and on about 20.  We had a bank of six phones and we always had two or three 
+people manning those-- we had the NIC room, which was where most of the resources were … books 
+and things for quick look up.  But then as more and more stuff was online ref staff could stay in their office 
+and the phone would just transfer to their office.  If somebody was on reference desk that’s the way it 
+worked.  We always had at least two people in the NIC room because we also had walk in visitors too 
+that would come to the NIC. 
+Weber:  Oh you did, I didn’t realize. 
+Feinler: SRI would have clients or visitors, and they would walk them through the NIC, and introduce 
+them to some of the network resources and stuff. 
+Weber:  And your total staff at its peak was how many? 
+Feinler:  When I left in ‘89 it was around 40 people.   
+Weber:  Wow, so that was a combination of, what were the main roles? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 42 of 49 
+  
+Feinler:  Programmers and reference people and database people, we kept a lot of databases.  But 
+people would rotate tasks, they didn’t always do the same thing. The programmers never worked on the 
+Ref Desk, unless there was a technical question, then we’d pass it on to them.  But we used the 
+operators to answer phones so that we could come on at five in the morning because we had an 
+operation staff that started at five and went until midnight I think.  That way we could answer East Coast 
+phones at eight their time and then by the time we went off at five or six, it was 8 pm on the East Coast.  
+This gave us pretty good coverage.  
+Weber:  And as time went on, more and more requests came in by email as well, right. 
+Feinler:  Yeah, oh we’d get hundreds of email questions a day. 
+Weber:  Was that a big, like the breakdown, what percentage was phone, versus email, versus letters 
+say? 
+Feinler:  Oh toward the end no, almost no letters except they were usually from foreigners.  And I would 
+say 75 percent was email and maybe 25 percent was phone calls. 
+Weber:  And the early days mostly phone. 
+Feinler:  In the early days it was almost all sending out hard copy documents. 
+Weber:  But the requests coming in were mostly by phone in the early days? 
+Feinler:  Phone or letter, excuse me. 
+Weber:  And how did people find out that you existed? 
+Feinler:  The people on the network knew we existed.  And then we would go to meetings and send out 
+flyers and that kind of thing.  Every host that came on had to contact us because we were the naming 
+authority.  We automatically gave them the manuals we produced.  So they pretty much knew who we 
+were, and then the word would spread out, you know, somebody would just say call the NIC. 
+Weber:  But you were actively trying to get more visibility then or no? 
+Feinler:  Well we didn’t go out looking for people, but when any host came on the network they had to 
+deal with us.  And then we would give them a package that said here’s what we can do for you and here’s 
+what we have available.  And then for instance when Dan Lynch held the big Interop meetings the NIC 
+had booth there that would hand out information.  And some of the big-- we went to the COG meetings, 
+which was an engineering working groups for the Defense Communications Agency.  And we went to the 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 43 of 49 
+  
+sponsors’ meetings, and we went to the Internet Engineering Taskforce (IETF) and we went to Protocol 
+Standards Technical Panel, which was the DOD standards versus IETF which was the Internet standards 
+group, and we were always trying to keep those two in sync too.  So we ended up being observers in a lot 
+of instances where sites would call and invite us, they’d say, “We’re having a big meeting of our user 
+constituency, would you come and give a little briefing?”  So we did a lot of that. 
+Weber:  So you went to many meetings a year. 
+Feinler:  Yeah. 
+Weber:  And then you went to NASA, when was that? 
+Feinler:  I left SRI in ‘89 as I was slightly burned out on all of this. I had planned on taking a year off, is 
+what I had in mind.  And I had been invited to go down to Brazil as a visiting scholar in Prof. Leani 
+Taruco’s group.  As it turned out my stepfather died almost the day I left SRI.  I was in Washington for a 
+final briefing when he had a heart attack.  My mother was functionally blind.  She had macular 
+degeneration and couldn’t see.  So that created a lot of problems for me.  I had to move her out to 
+California and so forth.  So I didn’t do what I thought I was going to do that year.  Finally I decided I 
+needed to go back to work and had gone to an IETF meeting, and ran into some people from NASA and 
+they said, “What are you doing?”  And I said, “Nothing.”  And they said, “Why don’t you come and work 
+for us?”  So I did.  And that was interesting too because NASA -- the amounts of data that NASA handles 
+is incredible.  I mean, I don’t think I’d ever heard the word terabyte until I went to NASA.  And that was 
+like what they got daily. Their information problems were very different, and the way they did business 
+was very different.  Everything at NASA is out in the open, I mean they do their work in a fishbowl, which 
+is very different from the Department of Defense that only reveals as much out as they thought was 
+reasonable.  So they were very different communities in which to work.  And I worked with the people that 
+working on the big land based telescopes.  My job at the NASA Science Internet was to provide 
+networking for NASA scientists.  We were network requirements managers. But anyway, our job was to 
+provide networking.  And we had both people that looked at the administrative side of it and people that 
+looked at the technical side of it.  When you’re putting in networking in places like Cerra Tolola up on a 
+mountain in the middle of Chile, you couldn’t just call a phone company and have them install some lines.  
+There were lots of things that went into providing service.  The group I worked with put in networking to 
+Antarctica… the group, not myself personally.   
+And then I switched to a different group where I brought the NASA Science Internet, NIC, which was then 
+at Goddard and on DECNET, to Ames and we put it on the Internet.  And then I worked on another big 
+project called the, I think it was the Globe project.  But anyway, we worked with kids, and teachers, and 
+scientists.  The teachers would learn the program from the NASA scientists and teach the kids. The kids, 
+in turn, would gather data and they would-- it was real data and they could look online and see it and they 
+could talk directly to the scientists, and these kids were just so turned on by this project.  It was really a 
+kick.  Our job was to put together turnkey machines that had all the software on them, and they were 
+ready to go with this program and we’d ship them out.  That was a lot of fun because one time we had a 
+little kid call in and say, “I’m sorry, but I’m not going to be able to collect my data over Christmas because 
+my mom says I have to go see my grandmother.”  <laughs>  And they were just so turned on by this 
+project.  Another time we had a teacher call us and say, “I need a lot of help.”  And we said, “What’s the 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 44 of 49 
+  
+problem?  And she said, “Well all these computers arrived and I don’t know anything about computers.”  
+And she said, “The superintendant told somebody in the legislature that they should come and see a 
+demo.”  And we said, “When?”  And she said, “Next week.”  She didn’t even know how to turn the 
+computer on.  So we had a programmer online with her going, “Turn this.  Do that.  Did you see a light?  
+Did you see this?”  <laughs>   She was a grade school teacher, and she had a third or fourth grader that 
+was pretty sharp.   So we got the kid involved and we got the whole thing running.  She called us 
+afterward and said the demo was a big success.  <makes noise>.  It was a great, great project that way 
+because the kids were so excited about it and so were the teachers and it was an interesting mix of 
+people.  And then another thing we did... as I say I didn’t do it, but the group I was in did it.  We put the 
+Web into the White House.  And it was a little like Bambi meets Godzilla, you know, because I think they 
+thought they were going to knock on the door and say, “We’re here to install the Web.”  They had no idea 
+what White House security was going to be like.  But they finally-- this was in the Clinton administration… 
+got the first Web up in the Clinton administration.  One of the things I did was start a working group to 
+look at how to administer a Web because everybody was putting anything on the Web.  And, you know, it 
+looked like this was all NASA stuff.  If someone took something from somebody else they didn’t 
+necessarily acknowledge the source.  There was nobody saying, “Yes, it’s okay to put this on, no it isn’t.”  
+So we came up with a structure of how to administer a Web.  And that was kind of interesting, so those 
+are the things I did at NASA. 
+Weber:  And the White House site they faced a lot of bureaucratic obstacles? 
+Feinler:  Well you can imagine what the security was like -- there was one side that wanted the security 
+to go away, and the other side that said, “No way are you coming in the door without us approving 
+everything, you know, somebody going over everything you’re even thinking of doing.”  So it was kind of a 
+kick. 
+END OF TAPE 4 / BEGINNING OF TAPE 5 
+Weber:  So you mentioned the Web but when the Web arrived you were still at SRI at the very beginning 
+of it? 
+Feinler:  Yes. 
+Weber:  So do you remember how did people feel about it or react to it? 
+Feinler:  Well it was just getting started.  It was WAIS and Gopher and I loved the kid that came up with 
+Gopher, he said he designed it so his mom could use it.  These versions worked on the Internet, but not 
+across the whole Internet, it wasn’t until, who’s the guy at CERN… 
+Weber:  Tim Berners-Lee. 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 45 of 49 
+  
+Feinler:  Right, Tim Berners-Lee came up with the protocol that made it work internationally that it was 
+another killer app.  I mean it spread like wildfire and everybody could see what a good thing it was going 
+to be.  And I don’t think anybody imagined that the Net was going to grow the way it did.  The fact that the 
+military just didn’t want to pay for all of it anymore.  It was hard for them to know who their customers 
+were.  I mean we knew who they were, but nobody could budget for the expansion, and there were so 
+many users on that weren’t contractors or, weren’t specific users of the Internet and they were coming in 
+from hosts all over the place.  So it made sense for DoD to decided that non-government portions of the 
+Internet could become commercial, and once that happened then, just all hell broke loose.  But it was 
+very interesting to watch the Web, the change it made, and the realization of what people could do with 
+information.  There still weren’t a lot of websites, mostly they were hosts that had been on the Net for a 
+while, they weren’t commercial but then very soon there was all this commercial stuff out there, a lot of 
+which didn’t work very well and then it kinda settled into what we have today.   
+I worry about the Network… There are a couple of things  that bother me about it, and one is that it’s very 
+easy to spread the Big Lie.   information goes so fast that somebody can start a rumor as if it’s perfectly 
+factual, and before very long it’s all over the place and if there isn’t a counter balance to correct the 
+rumor,  it can get set in concrete,,, so that’s a worry about the way people use the net.  I also think a lot of 
+people are kind of addicted to it and that’ll probably wear off after a little bit… maybe, maybe not, I don’t 
+know.  But two things that I haven’t liked about the Net are porn and spam, I think they could, you know, 
+they could bring the Net down in many ways.  Spam is harder because it’s hard to know exactly what is 
+spam. I mean one person’s spam is another person’s information, and it’s just hard to know which is 
+which, but I personally find it very hard to deal with my email now because of all the stuff that’s coming in. 
+It’s not that I’m not interested in some of it, but I don’t want to read it right now, I don’t want it to be mixed 
+in with other mail.  Now and on a Mac you can deal with this, but then you’ve got more than one mail 
+program to look at, so too much email is a problem for me personally because a lot of it isn’t email that I 
+want.  I don’t know what one can do about that, but on the other hand it’s just fascinating that the whole 
+world can have information that only a few could have many years ago.  Nowadays anybody can get 
+educated if they can get access to a terminal and the Network.  Libraries can make information available 
+that they never even dreamed of before.  So it’s pretty fascinating and whoever knew. 
+Weber:  When, let’s say in 1975 if you were thinking about the future of networking what were you 
+thinking about, where did you think that would? 
+Feinler:  Well I thought it would expand through the government, I guess I wasn’t thinking of, you know, 
+just the man on the street, my mother using the Internet, I mean this is fascinating.  My little nephew who 
+is three years old can use the net, can use a computer, I mean this was unheard of.  Then a computer 
+was something that cost a fortune.  So you didn’t think of having one in your living room that was for 
+certain, even all the time that I was working in the NIC, work stations were still thousands of dollars, and it 
+wasn’t something that anybody could have in their pocket.  And also the miniaturization is fascinating… 
+everybody doing work on something this small is really fascinating. 
+Weber:  So when you’re running the NIC you were not thinking that this is something, the kind of thing 
+that might be a public service of the future? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 46 of 49 
+  
+Feinler:  Oh yes particularly email because that was already everywhere, also, all the Nets were all —
+becoming interconnected, and I thought it was fascinating that students,,, NSFnet was coming along 
+then,,, were all trying to talk to each other.  So that opened up another whole world that hadn’t been there 
+to start with, and I think that was the beginning ,,,just opening up the flood gates, so to speak. 
+Weber:  So you’ve been using email almost 40 years now. 
+Feinler:  Yes. 
+Weber:  How has the way people used it changed if at all? 
+Feinler:  Well the number of people who are using it. 
+Weber:  Sure but are the conversations similar, are they different? 
+Feinler:  Actually the parts of email are pretty much the same since John Vittal’s program 
+MSG…although many things have been added along the way.  My understanding was that when John 
+left BBN to work at ISI, he went on one condition that he never had to work on MSG again because 
+everybody always had another little feature, another little thing they wanted to have added to the email 
+program.  It’s just that there’s so many more users.   Another thing that drives me nuts on the Network, 
+it’s what I call chain letters, you know, send this to a hundred people you love. 
+Weber:  You didn’t have that in the ‘70s? 
+Feinler:  Mostly the only thing that you sent stuff like that out to were to the working groups. 
+<Crew Talk> 
+Feinler:  It would have been prohibited officially to send that kind of message out, you wouldn’t have 
+been allowed to send it out for just nonsense kinda stuff.  I mean I’m sure it happened, but it was kind of 
+frowned upon because the resources were pretty limited and people would say don’t mess up the net with 
+this kind of stuff. 
+Weber:  And you’ve always lived right around Menlo Park, Palo Alto? 
+Feinler:  Originally I was from Wheeling, West Virginia and then I want to Columbus, Ohio and Purdue for 
+a while where I went to graduate school.  Since then I’ve been out here in California.  We used to have a 
+lot of foreign visitors at SRI and particularly the Japanese visitors would come with a map and say “Would 
+you point out Silicon Valley?” and I’d say it’s a joke, it doesn’t really exist except it’s a slang term, you 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 47 of 49 
+  
+know, a kind of blanket term to describe the area. They had a hard time with that, they wanted there to be 
+a way to Silicon Valley. 
+Weber:  To see the silicon, yeah.  Anything else you would like to add? 
+Feinler:  Well I’m very pleased that the collection of papers and documents and so forth that the NIC 
+collected over all these years to which many of the sites on the network contributed, will be here at the 
+Museum.  We’ve managed to hang onto much of it, and we’re trying to get it into shape and make it 
+available to researchers at the Computer History Museum.  That’s what I’ve been doing for gosh almost 
+ten years now, very slowly with a lot of setbacks, but I think we’re finally almost there.  I hope to have a 
+finding aid up on the web, so that people can actually see what is here, and access it for research. It 
+breaks down into a number of things:   The original bunch of documents that Englebart had and many of 
+the early papers that the different sites sent to us, we called xdoc at one time, meaning that it wasn’t 
+online, it was a hardcopy collection, and is a huge collection of early documents.  We’ve got a set of 
+Englebart’s journal that was some of the first hypertext information that was in his system, <inaudible> 
+and which we saved also in hardcopy. 
+Weber:  And was that from before you went there or? 
+Feinler:  Well it was gathered until he left SRI in 1977, it journaled what everybody was doing there but 
+sometimes it was what people sent from outside, so it’s a mixture of things, but mostly how his group was 
+run and his system NLS, was designed, a lot of this detail is in the journal.  We have 40 some boxes of 
+his work. 
+Weber:  And for instance the journal is how big, how many linear feet?  When you say the journal, how 
+big is that? 
+Feinler:  Oh that was at one time a set of notebooks that was probably about I’m guessing maybe 25 feet 
+or more. 
+Weber:  And that’s downstairs? 
+Feinler:  Now we’ve got that in the collection, we also have source code from the original NLS system, 
+three sets of source code, we’ve got a lot of the user manuals, we’ve got a lot of the reports and reprints 
+from the Engelbart group over time.  In the Englebart collection alone we’ve got about 50 boxes or more 
+of his material and then the xdoc collection is probably 25 or 30 boxes of these very early papers.  
+Nowadays a lot of it would be considered cruft but if you look at the overall collection it’s just a composite 
+of what went on in computers at the time, what was important, what has since gotten lost.  Also there are 
+things such as the interaction between the early developers and DARPA so it’s a dukes mixture but 
+there’s some very interesting things in xdoc.  Then we’ve got. 
+Weber:  And what period does that cover? 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 48 of 49 
+  
+Feinler:  That would cover oh boy from well we have Doug Englebart’s copy of “As we may think” by 
+Vanamar, Bush that goes back to 1945… that was his in spiration… but mostly it’s late ‘60s through the 
+‘80s, ..something like that …and then in the early days a lot of sites sent us their technical reports, so we 
+have many, many early technical reports from the various sites which were on the Arpanet. 
+Weber:  And how big, give just an approximate idea of the size of each of these will you? 
+Feinler:  That’s probably one of the biggest collections and I don’t know of, you know, how many boxes it 
+took up. 
+Weber:  More than 40? 
+Feinler:  Yes, quite a few, well the whole collection is over 350 boxes of material, so it is a lot of material.  
+We have a bibliographic reprint collection on email in the early days; we have a large collection on that 
+we put together an information center for the Defense Communications Agency that had all of the 
+documents that they needed to monitor their contracts and manage the network, so there were many 
+items on protocols, on various cog meetings, sponsors meetings, minutes, all kinds of things that were 
+happening in the military and I think that’s an important collection because a lot of that material has been 
+lost or was not circulated very well to start with.  What else do we have…. we have quite a number of 
+things.  So it’s a very interesting collection and I hope that some of you will have a chance to come to the 
+Museum and use it at some point. 
+Weber:  If somebody were totally unfamiliar with the collection what would their starting point be to find 
+out what’s in it?  Finding aids and. 
+Feinler:  Probably depends on whether they’re technical or not. 
+Weber:  No but you showed me for instance some of the documents which are basically indices to the 
+other things or you have some documents that are like tables of contents for other documents.  You 
+showed me a couple of books that are like a guide to what’s in the other parts. 
+Feinler:  Yes. 
+Weber:  Could you explain how to use those? 
+Feinler:  We have an index to the xdoc collection, and we have an index to the DCA collection, what I call 
+the military collection, and we’ll be trying to get all of this collection into our own database over time… 
+that’s going to take a while.  But that’s the next phase of work, and then finally to scan items that are 
+scanable.  There are always a lot of copyright problems with scanning, but with the military documents 
+that shouldn’t be true because they’re government documents, so they should be in the public domain.  It 
+would be nice to get the reports scanned but again that depends on whether the issuing agency is 
+amenable to that or not.  So it’s a lot of work, it’ll take a while but I think we’ve got a good start and at 
+
+Oral History of Elizabeth (Jake) Feinler 
+ 
+CHM Ref: X5378.2009            © 2009 Computer History Museum                                 Page 49 of 49 
+  
+least I think with the finding aid and the material now boxed in useful ways to get to it, we at least have a 
+start for people to be able to use the collection. 
+Weber:  Sorry to ask again but if you walked up, what would be the first document you would look at to 
+find out what’s in the collection?  The finding aid that you’re producing. 
+Feinler:  Well the finding aid would be a start because it would tell you what types of things are in the 
+collection and hopefully why they were significant at the time.  Maybe xdoc would be interesting because 
+it’s such a duke’s mixture of what went on in the very early days of ‘60s and ‘70s and ‘80s. If one were 
+interested in more technical issues, they probably would want to start with the RFCs.  We have the first 
+1500 RFCs but those are also online other places.  If you’re interested in the social aspects of the 
+Internet, I don’t think we covered a lot of that, but we did have some information along the lines of what 
+people thought would be the impact or where they thought it was going, and that I think is a very exciting 
+area now to see, and that was one of the things Doug was very interested in.  We have his bootstrap 
+seminar documents…we have all of his bootstrap semi nars where he was trying to work with collective 
+communities of different types, mostly industrial and academic, and trying to see how you could augment 
+the way people worked with machines that was his big interest.  So we have all that, so it’s…... 
+Weber:  That’s part of the 50 boxes of his material? 
+Feinler:  Yes. 
+Weber:  Right. 
+Feinler: I think some of the things we have are probably the only ones still in existence, so that’s nice that 
+some of this has gotten preserved.  My friends always told me I never saw a piece of paper I didn’t like, 
+so I’m glad I saved it for the museum and posterity. 
+Weber:  I am too.  Good well thank you very much, really appreciate it. 
+Feinler:  Well this has been fun. 
+Weber:  Yeah it’s been a pleasure. 
+END OF INTERVIEW 

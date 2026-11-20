@@ -1,0 +1,20 @@
+{
+  "source_id": "bitcointalk-finney-bitcoin-banks-2010",
+  "speaker": "Hal Finney",
+  "quote": "There needs to be a secondary level of payment systems which is lighter weight and more efficient.",
+  "question": "Does this passage present the author\u2019s proposed approach to Bitcoin payment scaling?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 315,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.75
+      }
+    }
+  }
+}

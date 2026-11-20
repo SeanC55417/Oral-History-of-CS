@@ -1,0 +1,20 @@
+{
+  "source_id": "x-finney-running-bitcoin-2009",
+  "speaker": "Hal Finney",
+  "quote": "Running bitcoin",
+  "question": "Does this post state that its author was running Bitcoin software?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 297,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.83
+      }
+    }
+  }
+}

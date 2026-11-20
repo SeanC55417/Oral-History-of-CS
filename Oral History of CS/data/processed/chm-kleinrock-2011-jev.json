@@ -1,0 +1,20 @@
+{
+  "source_id": "chm-kleinrock-2011",
+  "speaker": "Leonard Kleinrock",
+  "quote": "He had thought about that problem, so I took his model and adapted it. Wrote up a proposal saying we are going to take a case where we have nodes that store, sort, correct, route.",
+  "question": "Does this passage describe the speaker's own contribution to computing?",
+  "method": "typesafe_api",
+  "response": {
+    "model": "jev-1.13.0",
+    "usage": {
+      "input_tokens": 339,
+      "output_tokens": 27
+    },
+    "answers": {
+      "describes_own_contribution": {
+        "type": "noul",
+        "noul": 0.84
+      }
+    }
+  }
+}

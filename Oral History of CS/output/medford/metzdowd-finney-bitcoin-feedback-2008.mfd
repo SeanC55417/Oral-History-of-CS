@@ -1,0 +1,24 @@
+@MEDFORD Bitcoin P2P e-cash paper (Hal Finney reply)
+@MEDFORD-Version 2.0
+
+@Contributor Hal Finney
+@Contributor-Role Author
+
+@Date 2008-11-07
+@Date-Note Published
+
+@Data_Ref Bitcoin P2P e-cash paper (Hal Finney reply)
+@Data_Ref-Type html
+@Data_Ref-URI https://www.metzdowd.com/pipermail/cryptography/2008-November/014827.html
+@Data_Ref-Note Source ID: metzdowd-finney-bitcoin-feedback-2008; kind: mailing-list technical feedback
+
+@Passage P1
+@Passage-SourceID metzdowd-finney-bitcoin-feedback-2008
+@Passage-Speaker Hal Finney
+@Passage-Section Technical questions about the Bitcoin paper
+@Passage-Text The paper describes key concepts and some data structures, but does not clearly specify the various rules and verifications that the participants in the system would have to follow.
+@Passage-Context Finney identifies details he wants specified in the proposed protocol.
+@Passage-JevQuestion Does this passage identify a technical concern the author raised about the Bitcoin proposal?
+@Passage-JevModel jev-1.13.0
+@Passage-JevNoul 0.89
+@Passage-JevMethod typesafe_api
